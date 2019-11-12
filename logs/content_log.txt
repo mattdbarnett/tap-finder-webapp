@@ -1,0 +1,750 @@
+
+
+[2019-09-15 15:34:41] Loaded 0 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+
+
+[2019-09-17 13:26:25] Loaded 0 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+
+
+[2019-09-20 18:47:17] Loaded 0 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+
+
+[2019-09-23 14:53:19] Loaded 0 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+
+
+[2019-09-25 23:15:34] Loaded 0 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+
+
+[2019-09-25 23:16:11] Loaded 0 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+[2019-09-25 23:18:34] AppID 252950 state changed : Update Required,
+[2019-09-25 23:18:34] AppID 228980 state changed : Update Required,Shared Only,
+[2019-09-25 23:18:34] AppID 228980 state changed : Update Required,
+[2019-09-25 23:18:34] Dependency added: parent 228980, child 252950, depot 228983
+[2019-09-25 23:18:34] Dependency added: parent 228980, child 252950, depot 228986
+[2019-09-25 23:18:34] Dependency added: parent 228980, child 252950, depot 228990
+[2019-09-25 23:18:34] Dependency added: parent 228980, child 252950, depot 229033
+[2019-09-25 23:18:34] AppID 252950 scheduler update : Priority First, legacy=no, restore="", timeSinceLastPlayed=-2, appDisableSecondsRemaining=0
+[2019-09-25 23:18:34] AppID 252950 state changed : Update Required,Update Queued,
+[2019-09-25 23:18:34] AppID 228980 scheduler update : Priority User Initiated, legacy=no, restore="", timeSinceLastPlayed=1569449914, appDisableSecondsRemaining=0
+[2019-09-25 23:18:34] AppID 228980 state changed : Update Required,Update Queued,
+[2019-09-25 23:18:34] AppID 252950 state changed : Update Required,Update Queued,Update Running,
+[2019-09-25 23:18:34] AppID 252950 update changed : Running,
+[2019-09-25 23:18:34] AppID 252950 update changed : Running,Reconfiguring,
+[2019-09-25 23:18:34] Download system icon for AppID 252950 to C:\Program Files (x86)\Steam\steam\games/3ea06e4358d60a692914fd961298de33ad4073b2.ico
+[2019-09-25 23:18:34] Got 30 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (4/0)
+[2019-09-25 23:18:34] Created download interface of type 'SteamCache' (7) to host cache5-lhr1.steamcontent.com (cache5-lhr1.steamcontent.com)
+[2019-09-25 23:18:34] Created download interface of type 'SteamCache' (7) to host cache35-lhr1.steamcontent.com (cache35-lhr1.steamcontent.com)
+[2019-09-25 23:18:34] Created download interface of type 'SteamCache' (7) to host cache20-lhr1.steamcontent.com (cache20-lhr1.steamcontent.com)
+[2019-09-25 23:18:35] HTTP (SteamCache,229) - cache5-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache5-lhr1.steamcontent.com): AuthenticateDepotID (252951) - Success!
+[2019-09-25 23:18:35] Enabling ipv6 dual-stack
+[2019-09-25 23:18:35] HTTP (SteamCache,229) - cache5-lhr1.steamcontent.com (162.254.196.34:80 / 162.254.196.34:80, host: cache5-lhr1.steamcontent.com): cache5-lhr1.steamcontent.com/depot/252951/manifest/8322259056981534096/5 - received 200 (OK) HTTP response
+[2019-09-25 23:18:35] AppID 252950 update changed : Running,
+[2019-09-25 23:18:35] AppID 252950 update changed : Running,Validating,
+[2019-09-25 23:18:35] Validating files (new target,full) ...
+[2019-09-25 23:18:35] File validation finished: 5469 files (10494500575 bytes) total, 5469 files (10494500575 bytes) mismatched (133 msec).
+[2019-09-25 23:18:35] AppID 252950 update changed : Running,
+[2019-09-25 23:18:35] AppID 252950 update changed : Running,Preallocating,
+[2019-09-25 23:18:36] Created ipv4-only http client
+[2019-09-25 23:18:36] AppID 252950 update changed : Running,
+[2019-09-25 23:18:36] AppID 252950 update started : download 0/9812162768, store 0/0, reuse 0/0, delta 0/0, stage 0/10494500575 
+[2019-09-25 23:18:36] AppID 252950 state changed : Update Required,Update Queued,Update Running,Update Started,
+[2019-09-25 23:18:36] AppID 252950 update changed : Running,Downloading,
+[2019-09-25 23:18:36] AppID 252950 update changed : Running,Downloading,Staging,
+[2019-09-25 23:18:36] Downloading 14479 chunks from depot 252951
+[2019-09-25 23:18:36] AppID 252950 scheduler update : Priority Last, legacy=no, restore="", timeSinceLastPlayed=0, appDisableSecondsRemaining=0
+[2019-09-25 23:18:36] AppID 252950 update canceled : Priority (Suspended)
+[2019-09-25 23:18:36] AppID 252950 update changed : Running,Downloading,Staging,Stopping,
+[2019-09-25 23:18:36] AppID 252950 update changed : Running,Stopping,
+[2019-09-25 23:18:36] AppID 252950 update changed : None
+[2019-09-25 23:18:36] AppID 252950 state changed : Update Required,Update Queued,Update Started, (Suspended)
+[2019-09-25 23:18:36] AppID 252950 scheduler finished : staying in schedule
+[2019-09-25 23:18:36] AppID 228980 state changed : Update Required,Update Queued,Update Running,
+[2019-09-25 23:18:36] AppID 228980 update changed : Running,
+[2019-09-25 23:18:36] AppID 228980 update changed : Running,Reconfiguring,
+[2019-09-25 23:18:37] HTTP (SteamCache,232) - cache20-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache20-lhr1.steamcontent.com): AuthenticateDepotID (228983) - Success!
+[2019-09-25 23:18:37] HTTP (SteamCache,232) - cache20-lhr1.steamcontent.com (162.254.196.44:80 / 162.254.196.44:80, host: cache20-lhr1.steamcontent.com): cache20-lhr1.steamcontent.com/depot/228983/manifest/8124929965194586177/5 - received 200 (OK) HTTP response
+[2019-09-25 23:18:37] HTTP (SteamCache,232) - cache20-lhr1.steamcontent.com (162.254.196.44:80 / 162.254.196.44:80, host: cache20-lhr1.steamcontent.com): AuthenticateDepotID (228986) - Success!
+[2019-09-25 23:18:37] HTTP (SteamCache,232) - cache20-lhr1.steamcontent.com (162.254.196.44:80 / 162.254.196.44:80, host: cache20-lhr1.steamcontent.com): cache20-lhr1.steamcontent.com/depot/228986/manifest/8782296191957114623/5 - received 200 (OK) HTTP response
+[2019-09-25 23:18:37] HTTP (SteamCache,229) - cache5-lhr1.steamcontent.com (162.254.196.34:80 / 162.254.196.34:80, host: cache5-lhr1.steamcontent.com): AuthenticateDepotID (228990) - Success!
+[2019-09-25 23:18:37] HTTP (SteamCache,229) - cache5-lhr1.steamcontent.com (162.254.196.34:80 / 162.254.196.34:80, host: cache5-lhr1.steamcontent.com): cache5-lhr1.steamcontent.com/depot/228990/manifest/379093117615901913/5 - received 200 (OK) HTTP response
+[2019-09-25 23:18:38] HTTP (SteamCache,44) - cache35-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache35-lhr1.steamcontent.com): AuthenticateDepotID (229033) - Success!
+[2019-09-25 23:18:38] HTTP (SteamCache,44) - cache35-lhr1.steamcontent.com (162.254.196.20:80 / 162.254.196.20:80, host: cache35-lhr1.steamcontent.com): cache35-lhr1.steamcontent.com/depot/229033/manifest/2059065101492814639/5 - received 200 (OK) HTTP response
+[2019-09-25 23:18:38] AppID 228980 update changed : Running,
+[2019-09-25 23:18:38] AppID 228980 update changed : Running,Validating,
+[2019-09-25 23:18:38] Validating files (new target,full) ...
+[2019-09-25 23:18:38] File validation finished: 168 files (211996882 bytes) total, 168 files (211996882 bytes) mismatched (45 msec).
+[2019-09-25 23:18:38] AppID 228980 update changed : Running,
+[2019-09-25 23:18:38] AppID 228980 update changed : Running,Preallocating,
+[2019-09-25 23:18:38] AppID 228980 update changed : Running,
+[2019-09-25 23:18:38] AppID 228980 update started : download 0/202243856, store 0/0, reuse 0/0, delta 0/0, stage 0/211996882 
+[2019-09-25 23:18:38] AppID 228980 state changed : Update Required,Update Queued,Update Running,Update Started,
+[2019-09-25 23:18:38] AppID 228980 update changed : Running,Downloading,
+[2019-09-25 23:18:38] AppID 228980 update changed : Running,Downloading,Staging,
+[2019-09-25 23:18:38] Downloading 20 chunks from depot 228983
+[2019-09-25 23:18:38] HTTP (SteamCache,44) - cache35-lhr1.steamcontent.com (162.254.196.20:80 / 162.254.196.20:80, host: cache35-lhr1.steamcontent.com): AuthenticateDepotID (228983) - Success!
+[2019-09-25 23:18:38] HTTP (SteamCache,229) - cache5-lhr1.steamcontent.com (162.254.196.34:80 / 162.254.196.34:80, host: cache5-lhr1.steamcontent.com): AuthenticateDepotID (228983) - Success!
+[2019-09-25 23:18:40] Downloading 28 chunks from depot 228986
+[2019-09-25 23:18:40] AppID 228980 update canceled : Disabled (Suspended)
+[2019-09-25 23:18:40] AppID 228980 update changed : Running,Downloading,Staging,Stopping,
+[2019-09-25 23:18:40] AppID 228980 update changed : Running,Stopping,
+[2019-09-25 23:18:40] AppID 228980 update changed : None
+[2019-09-25 23:18:40] AppID 228980 state changed : Update Required,Update Queued,Update Started, (Suspended)
+[2019-09-25 23:18:40] AppID 228980 scheduler finished : staying in schedule
+[2019-09-25 23:18:42] AppID 252950 scheduler update : Priority First, legacy=no, restore="", timeSinceLastPlayed=6, appDisableSecondsRemaining=0
+[2019-09-25 23:18:42] AppID 252950 state changed : Update Required,Update Queued,Update Running,Update Started,
+[2019-09-25 23:18:42] AppID 252950 update changed : Running,
+[2019-09-25 23:18:42] AppID 252950 update changed : Running,Reconfiguring,
+[2019-09-25 23:18:42] AppID 252950 update changed : Running,
+[2019-09-25 23:18:42] AppID 252950 update started : download 0/9812162768, store 0/0, reuse 0/0, delta 0/0, stage 0/10494500575 
+[2019-09-25 23:18:42] AppID 252950 update changed : Running,Downloading,
+[2019-09-25 23:18:42] AppID 252950 update changed : Running,Downloading,Staging,
+[2019-09-25 23:18:42] Downloading 14479 chunks from depot 252951
+[2019-09-25 23:18:42] HTTP (SteamCache,44) - cache35-lhr1.steamcontent.com (162.254.196.20:80 / 162.254.196.20:80, host: cache35-lhr1.steamcontent.com): AuthenticateDepotID (252951) - Success!
+[2019-09-25 23:18:42] HTTP (SteamCache,232) - cache20-lhr1.steamcontent.com (162.254.196.44:80 / 162.254.196.44:80, host: cache20-lhr1.steamcontent.com): AuthenticateDepotID (252951) - Success!
+[2019-09-25 23:18:47] Increasing target number of download connections to 4 (rate was 0.000, now 44.655)
+[2019-09-25 23:18:47] Created download interface of type 'SteamCache' (7) to host cache26-lhr1.steamcontent.com (cache26-lhr1.steamcontent.com)
+[2019-09-25 23:18:47] HTTP (SteamCache,238) - cache26-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache26-lhr1.steamcontent.com): AuthenticateDepotID (252951) - Success!
+[2019-09-25 23:18:59] Increasing target number of download connections to 5 (rate was 44.655, now 80.443)
+[2019-09-25 23:18:59] Created download interface of type 'SteamCache' (7) to host cache21-lhr1.steamcontent.com (cache21-lhr1.steamcontent.com)
+[2019-09-25 23:18:59] HTTP (SteamCache,233) - cache21-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache21-lhr1.steamcontent.com): AuthenticateDepotID (252951) - Success!
+[2019-09-25 23:19:48] Current download rate: 94.587 Mbps
+[2019-09-25 23:20:50] Current download rate: 92.412 Mbps
+[2019-09-25 23:21:51] Current download rate: 93.734 Mbps
+[2019-09-25 23:22:52] Current download rate: 93.677 Mbps
+[2019-09-25 23:23:53] Current download rate: 93.321 Mbps
+[2019-09-25 23:24:54] Current download rate: 92.069 Mbps
+[2019-09-25 23:25:56] Current download rate: 88.439 Mbps
+[2019-09-25 23:26:57] Current download rate: 90.835 Mbps
+[2019-09-25 23:27:58] Current download rate: 91.212 Mbps
+[2019-09-25 23:28:59] Current download rate: 94.108 Mbps
+[2019-09-25 23:30:00] Current download rate: 94.084 Mbps
+[2019-09-25 23:31:02] Current download rate: 93.686 Mbps
+[2019-09-25 23:32:03] Current download rate: 89.478 Mbps
+[2019-09-25 23:32:53] AppID 252950 update changed : Running,
+[2019-09-25 23:32:53] AppID 252950 update changed : Running,Committing,
+[2019-09-25 23:32:53] AppID 252950 file commit : 5483 updated, 0 moved, 0 deleted
+[2019-09-25 23:32:57] AppID 252950 state changed : Fully Installed,Update Queued,Update Running,
+[2019-09-25 23:32:57] AppID 252950 finished update, mounted depots (BuildID 4208619) : 252951 (8322259056981534096),
+[2019-09-25 23:32:57] AppID 252950 update changed : Running,
+[2019-09-25 23:32:57] AppID 252950 update changed : None
+[2019-09-25 23:32:57] AppID 252950 state changed : Fully Installed,Update Queued,
+[2019-09-25 23:32:57] AppID 252950 state changed : Fully Installed,
+[2019-09-25 23:32:57] AppID 252950 scheduler finished : removed from schedule
+[2019-09-25 23:32:57] AppID 228980 state changed : Update Required,Update Queued,Update Running,Update Started,
+[2019-09-25 23:32:57] AppID 228980 update changed : Running,
+[2019-09-25 23:32:57] AppID 228980 update changed : Running,Reconfiguring,
+[2019-09-25 23:32:57] AppID 228980 update changed : Running,
+[2019-09-25 23:32:57] AppID 228980 update started : download 19214528/202243856, store 0/0, reuse 0/0, delta 0/0, stage 19265607/211996882 
+[2019-09-25 23:32:57] AppID 228980 update changed : Running,Downloading,
+[2019-09-25 23:32:57] AppID 228980 update changed : Running,Downloading,Staging,
+[2019-09-25 23:32:58] Got 30 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (4/0)
+[2019-09-25 23:32:58] Downloading 28 chunks from depot 228986
+[2019-09-25 23:32:58] HTTP (SteamCache,233) - cache21-lhr1.steamcontent.com (162.254.196.13:80 / 162.254.196.13:80, host: cache21-lhr1.steamcontent.com): AuthenticateDepotID (228986) - Success!
+[2019-09-25 23:32:58] HTTP (SteamCache,238) - cache26-lhr1.steamcontent.com (162.254.196.16:80 / 162.254.196.16:80, host: cache26-lhr1.steamcontent.com): AuthenticateDepotID (228986) - Success!
+[2019-09-25 23:32:58] HTTP (SteamCache,44) - cache35-lhr1.steamcontent.com (162.254.196.20:80 / 162.254.196.20:80, host: cache35-lhr1.steamcontent.com): AuthenticateDepotID (228986) - Success!
+[2019-09-25 23:32:58] HTTP (SteamCache,229) - cache5-lhr1.steamcontent.com (162.254.196.34:80 / 162.254.196.34:80, host: cache5-lhr1.steamcontent.com): AuthenticateDepotID (228986) - Success!
+[2019-09-25 23:33:00] Downloading 203 chunks from depot 228990
+[2019-09-25 23:33:00] HTTP (SteamCache,44) - cache35-lhr1.steamcontent.com (162.254.196.20:80 / 162.254.196.20:80, host: cache35-lhr1.steamcontent.com): AuthenticateDepotID (228990) - Success!
+[2019-09-25 23:33:00] HTTP (SteamCache,238) - cache26-lhr1.steamcontent.com (162.254.196.16:80 / 162.254.196.16:80, host: cache26-lhr1.steamcontent.com): AuthenticateDepotID (228990) - Success!
+[2019-09-25 23:33:00] HTTP (SteamCache,232) - cache20-lhr1.steamcontent.com (162.254.196.44:80 / 162.254.196.44:80, host: cache20-lhr1.steamcontent.com): AuthenticateDepotID (228990) - Success!
+[2019-09-25 23:33:00] HTTP (SteamCache,233) - cache21-lhr1.steamcontent.com (162.254.196.13:80 / 162.254.196.13:80, host: cache21-lhr1.steamcontent.com): AuthenticateDepotID (228990) - Success!
+[2019-09-25 23:33:04] Current download rate: 43.744 Mbps
+[2019-09-25 23:33:09] Downloading 59 chunks from depot 229033
+[2019-09-25 23:33:09] HTTP (SteamCache,233) - cache21-lhr1.steamcontent.com (162.254.196.13:80 / 162.254.196.13:80, host: cache21-lhr1.steamcontent.com): AuthenticateDepotID (229033) - Success!
+[2019-09-25 23:33:09] HTTP (SteamCache,238) - cache26-lhr1.steamcontent.com (162.254.196.16:80 / 162.254.196.16:80, host: cache26-lhr1.steamcontent.com): AuthenticateDepotID (229033) - Success!
+[2019-09-25 23:33:09] HTTP (SteamCache,232) - cache20-lhr1.steamcontent.com (162.254.196.44:80 / 162.254.196.44:80, host: cache20-lhr1.steamcontent.com): AuthenticateDepotID (229033) - Success!
+[2019-09-25 23:33:09] HTTP (SteamCache,229) - cache5-lhr1.steamcontent.com (162.254.196.34:80 / 162.254.196.34:80, host: cache5-lhr1.steamcontent.com): AuthenticateDepotID (229033) - Success!
+[2019-09-25 23:33:14] AppID 228980 update changed : Running,
+[2019-09-25 23:33:14] AppID 228980 update changed : Running,Committing,
+[2019-09-25 23:33:14] AppID 228980 file commit : 171 updated, 0 moved, 0 deleted
+[2019-09-25 23:33:14] AppID 228980 state changed : Fully Installed,Update Queued,Update Running,
+[2019-09-25 23:33:14] AppID 228980 finished update, mounted depots (BuildID 3884457) : 228983 (8124929965194586177),228986 (8782296191957114623),228990 (379093117615901913),229033 (2059065101492814639),
+[2019-09-25 23:33:14] AppID 228980 update changed : Running,
+[2019-09-25 23:33:14] AppID 228980 update changed : None
+[2019-09-25 23:33:14] AppID 228980 state changed : Fully Installed,Update Queued,
+[2019-09-25 23:33:14] AppID 228980 state changed : Fully Installed,
+[2019-09-25 23:33:14] AppID 228980 scheduler finished : removed from schedule
+[2019-09-25 23:33:43] AppID 252950 state changed : Fully Installed,App Running,
+[2019-09-25 23:34:05] Current download rate: 0.000 Mbps
+[2019-09-25 23:34:14] HTTP (SteamCache,44) - cache35-lhr1.steamcontent.com (162.254.196.20:80 / 162.254.196.20:80, host: cache35-lhr1.steamcontent.com): Closing connection
+[2019-09-25 23:34:14] HTTP (SteamCache,232) - cache20-lhr1.steamcontent.com (162.254.196.44:80 / 162.254.196.44:80, host: cache20-lhr1.steamcontent.com): Closing connection
+[2019-09-25 23:34:14] HTTP (SteamCache,238) - cache26-lhr1.steamcontent.com (162.254.196.16:80 / 162.254.196.16:80, host: cache26-lhr1.steamcontent.com): Closing connection
+[2019-09-25 23:34:14] HTTP (SteamCache,233) - cache21-lhr1.steamcontent.com (162.254.196.13:80 / 162.254.196.13:80, host: cache21-lhr1.steamcontent.com): Closing connection
+[2019-09-25 23:34:14] HTTP (SteamCache,229) - cache5-lhr1.steamcontent.com (162.254.196.34:80 / 162.254.196.34:80, host: cache5-lhr1.steamcontent.com): Closing connection
+[2019-09-25 23:35:54] AppID 252950 state changed : Fully Installed,
+[2019-09-25 23:37:23] AppID 252950 state changed : Fully Installed,App Running,
+[2019-09-25 23:40:07] AppID 252950 state changed : Fully Installed,
+[2019-09-25 23:40:13] AppID 252950 scheduler update : Priority Paused, legacy=no, restore="", timeSinceLastPlayed=3, appDisableSecondsRemaining=0
+[2019-09-25 23:40:13] AppID 252950 state changed : Fully Installed,Update Paused,
+[2019-09-25 23:40:13] AppID 252950 scheduler update : Priority Paused, legacy=no, restore="", timeSinceLastPlayed=3, appDisableSecondsRemaining=0
+[2019-09-25 23:40:13] AppID 252950 state changed : Update Required,Fully Installed,Files Missing,Uninstalling,
+[2019-09-25 23:40:14] Dependency removed: parent 228980, child 252950, depot 228983
+[2019-09-25 23:40:14] AppID 228980 state changed : Update Required,Fully Installed,
+[2019-09-25 23:40:14] Dependency removed: parent 228980, child 252950, depot 228986
+[2019-09-25 23:40:14] Dependency removed: parent 228980, child 252950, depot 228990
+[2019-09-25 23:40:14] Dependency removed: parent 228980, child 252950, depot 229033
+[2019-09-25 23:40:14] AppID 252950 state changed : Uninstalled,
+[2019-09-25 23:40:14] AppID 252950 finished uninstall (No Error)
+[2019-09-25 23:40:17] AppID 228980 scheduler update : Priority Last, legacy=no, restore="", timeSinceLastPlayed=1569451217, appDisableSecondsRemaining=0
+[2019-09-25 23:40:17] AppID 228980 state changed : Update Required,Fully Installed,Update Queued,
+[2019-09-25 23:40:17] AppID 228980 state changed : Update Required,Fully Installed,Update Queued,Update Running,
+[2019-09-25 23:40:17] AppID 228980 update changed : Running,
+[2019-09-25 23:40:17] AppID 228980 update changed : Running,Reconfiguring,
+[2019-09-25 23:40:17] AppID 228980 update changed : Running,
+[2019-09-25 23:40:17] AppID 228980 update changed : Running,Validating,
+[2019-09-25 23:40:17] Validating files (new target,full) ...
+[2019-09-25 23:40:17] File validation finished: 0 files (0 bytes) total, 0 files (0 bytes) mismatched (43 msec).
+[2019-09-25 23:40:17] AppID 228980 update changed : Running,
+[2019-09-25 23:40:17] AppID 228980 update started : download 0/0, store 0/0, reuse 0/0, delta 0/0, stage 0/0 
+[2019-09-25 23:40:17] AppID 228980 has no changes, active: 228983 (8124929965194586177),228986 (8782296191957114623),228990 (379093117615901913),229033 (2059065101492814639), target: 
+[2019-09-25 23:40:17] AppID 228980 state changed : Update Required,Fully Installed,Update Queued,Update Running,Update Started,
+[2019-09-25 23:40:17] AppID 228980 update changed : Running,Committing,
+[2019-09-25 23:40:17] AppID 228980 file commit : 0 updated, 0 moved, 171 deleted
+[2019-09-25 23:40:17] AppID 228980 state changed : Fully Installed,Update Queued,Update Running,
+[2019-09-25 23:40:17] AppID 228980 finished update, mounted depots (BuildID 3884457) : 
+[2019-09-25 23:40:17] AppID 228980 update changed : Running,
+[2019-09-25 23:40:17] AppID 228980 update changed : None
+[2019-09-25 23:40:17] AppID 228980 state changed : Fully Installed,Update Queued,
+[2019-09-25 23:40:17] AppID 228980 state changed : Fully Installed,
+[2019-09-25 23:40:17] AppID 228980 scheduler finished : removed from schedule
+
+
+[2019-10-01 19:57:13] Loaded 1 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+
+
+[2019-10-03 20:02:30] Loaded 1 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+[2019-10-03 20:02:45] AppID 730 state changed : Update Required,
+[2019-10-03 20:02:45] AppID 730 scheduler update : Priority First, legacy=no, restore="", timeSinceLastPlayed=-3600, appDisableSecondsRemaining=0
+[2019-10-03 20:02:45] AppID 730 state changed : Update Required,Update Queued,
+[2019-10-03 20:02:45] AppID 730 state changed : Update Required,Update Queued,Update Running,
+[2019-10-03 20:02:45] AppID 730 update changed : Running,
+[2019-10-03 20:02:45] AppID 730 update changed : Running,Reconfiguring,
+[2019-10-03 20:02:45] Download system icon for AppID 730 to C:\Program Files (x86)\Steam\steam\games/d1159d1a4d0e18da4d74f85dbb4934d7a92ace2b.ico
+[2019-10-03 20:02:46] Got 30 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (4/0)
+[2019-10-03 20:02:46] Created download interface of type 'SteamCache' (7) to host cache33-lhr1.steamcontent.com (cache33-lhr1.steamcontent.com)
+[2019-10-03 20:02:46] Created download interface of type 'SteamCache' (7) to host cache5-lhr1.steamcontent.com (cache5-lhr1.steamcontent.com)
+[2019-10-03 20:02:46] Created download interface of type 'SteamCache' (7) to host cache8-lhr1.steamcontent.com (cache8-lhr1.steamcontent.com)
+[2019-10-03 20:02:46] Enabling ipv6 dual-stack
+[2019-10-03 20:02:46] HTTP (SteamCache,229) - cache5-lhr1.steamcontent.com (162.254.196.34:80 / 162.254.196.34:80, host: cache5-lhr1.steamcontent.com): CDepotHTTPDownloadInterface::BYldTestConnection - Server response 'OK' (200)
+[2019-10-03 20:02:47] HTTP (SteamCache,42) - cache33-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache33-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-10-03 20:02:47] Created ipv4-only http client
+[2019-10-03 20:02:47] HTTP (SteamCache,42) - cache33-lhr1.steamcontent.com (162.254.196.19:80 / 162.254.196.19:80, host: cache33-lhr1.steamcontent.com): cache33-lhr1.steamcontent.com/depot/732/manifest/8439585939127683487/5 - received 200 (OK) HTTP response
+[2019-10-03 20:02:47] HTTP (SteamCache,42) - cache33-lhr1.steamcontent.com (162.254.196.19:80 / 162.254.196.19:80, host: cache33-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-03 20:02:48] HTTP (SteamCache,42) - cache33-lhr1.steamcontent.com (162.254.196.19:80 / 162.254.196.19:80, host: cache33-lhr1.steamcontent.com): AuthenticateDepotID (735) - Success!
+[2019-10-03 20:02:48] HTTP (SteamCache,42) - cache33-lhr1.steamcontent.com (162.254.196.19:80 / 162.254.196.19:80, host: cache33-lhr1.steamcontent.com): cache33-lhr1.steamcontent.com/depot/735/manifest/3867231304834558645/5 - received 200 (OK) HTTP response
+[2019-10-03 20:03:03] HTTP (SteamCache,42) - cache33-lhr1.steamcontent.com (162.254.196.19:80 / 162.254.196.19:80, host: cache33-lhr1.steamcontent.com): cache33-lhr1.steamcontent.com/depot/731/manifest/9183945625496634704/5 - received 200 (OK) HTTP response
+[2019-10-03 20:03:04] AppID 730 update changed : Running,
+[2019-10-03 20:03:04] AppID 730 update changed : Running,Validating,
+[2019-10-03 20:03:04] Validating files (new target,full) ...
+[2019-10-03 20:03:04] File validation finished: 2865 files (19825729906 bytes) total, 2865 files (19825729906 bytes) mismatched (82 msec).
+[2019-10-03 20:03:04] AppID 730 update changed : Running,
+[2019-10-03 20:03:04] AppID 730 update changed : Running,Preallocating,
+[2019-10-03 20:03:04] AppID 730 update changed : Running,
+[2019-10-03 20:03:04] AppID 730 update started : download 0/9088072800, store 0/0, reuse 0/0, delta 0/0, stage 0/19825729906 
+[2019-10-03 20:03:04] AppID 730 state changed : Update Required,Update Queued,Update Running,Update Started,
+[2019-10-03 20:03:04] AppID 730 update changed : Running,Downloading,
+[2019-10-03 20:03:04] AppID 730 update changed : Running,Downloading,Staging,
+[2019-10-03 20:03:04] Downloading 511 chunks from depot 732
+[2019-10-03 20:03:04] HTTP (SteamCache,142) - cache8-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache8-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-10-03 20:03:04] HTTP (SteamCache,229) - cache5-lhr1.steamcontent.com (162.254.196.34:80 / 162.254.196.34:80, host: cache5-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-10-03 20:03:04] AppID 730 scheduler update : Priority Last, legacy=no, restore="", timeSinceLastPlayed=-3581, appDisableSecondsRemaining=0
+[2019-10-03 20:03:07] Increasing target number of download connections to 4 (rate was 0.000, now 3.298)
+[2019-10-03 20:03:07] Created download interface of type 'SteamCache' (7) to host cache27-lhr1.steamcontent.com (cache27-lhr1.steamcontent.com)
+[2019-10-03 20:03:07] HTTP (SteamCache,239) - cache27-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache27-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-10-03 20:03:19] Increasing target number of download connections to 5 (rate was 3.298, now 10.877)
+[2019-10-03 20:03:19] Created download interface of type 'SteamCache' (7) to host cache14-lhr1.steamcontent.com (cache14-lhr1.steamcontent.com)
+[2019-10-03 20:03:19] HTTP (SteamCache,147) - cache14-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache14-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-10-03 20:03:31] Increasing target number of download connections to 6 (rate was 10.877, now 22.749)
+[2019-10-03 20:03:31] Created download interface of type 'SteamCache' (7) to host cache26-lhr1.steamcontent.com (cache26-lhr1.steamcontent.com)
+[2019-10-03 20:03:31] HTTP (SteamCache,238) - cache26-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache26-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-10-03 20:04:00] Current download rate: 15.479 Mbps
+[2019-10-03 20:04:30] Increasing target number of download connections to 7 (rate was 22.749, now 27.788)
+[2019-10-03 20:04:30] Created download interface of type 'SteamCache' (7) to host cache12-lhr1.steamcontent.com (cache12-lhr1.steamcontent.com)
+[2019-10-03 20:04:30] HTTP (SteamCache,145) - cache12-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache12-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-10-03 20:04:48] Downloading 21183 chunks from depot 731
+[2019-10-03 20:04:48] HTTP (SteamCache,229) - cache5-lhr1.steamcontent.com (162.254.196.34:80 / 162.254.196.34:80, host: cache5-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-03 20:04:48] HTTP (SteamCache,239) - cache27-lhr1.steamcontent.com (162.254.196.47:80 / 162.254.196.47:80, host: cache27-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-03 20:04:48] HTTP (SteamCache,147) - cache14-lhr1.steamcontent.com (162.254.196.41:80 / 162.254.196.41:80, host: cache14-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-03 20:04:48] HTTP (SteamCache,238) - cache26-lhr1.steamcontent.com (162.254.196.16:80 / 162.254.196.16:80, host: cache26-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-03 20:04:48] HTTP (SteamCache,145) - cache12-lhr1.steamcontent.com (162.254.196.40:80 / 162.254.196.40:80, host: cache12-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-03 20:04:48] HTTP (SteamCache,142) - cache8-lhr1.steamcontent.com (162.254.196.38:80 / 162.254.196.38:80, host: cache8-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-03 20:05:01] Current download rate: 23.014 Mbps
+[2019-10-03 20:05:48] Increasing target number of download connections to 8 (rate was 27.788, now 33.600)
+[2019-10-03 20:05:48] Created download interface of type 'SteamCache' (7) to host cache19-lhr1.steamcontent.com (cache19-lhr1.steamcontent.com)
+[2019-10-03 20:05:48] HTTP (SteamCache,231) - cache19-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache19-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-03 20:06:02] Current download rate: 32.064 Mbps
+[2019-10-03 20:07:03] Current download rate: 26.815 Mbps
+[2019-10-03 20:08:04] Current download rate: 16.158 Mbps
+[2019-10-03 20:09:05] Current download rate: 22.291 Mbps
+[2019-10-03 20:10:06] Current download rate: 13.685 Mbps
+[2019-10-03 20:11:07] Current download rate: 23.494 Mbps
+[2019-10-03 20:12:08] Current download rate: 23.215 Mbps
+[2019-10-03 20:13:09] Current download rate: 15.429 Mbps
+[2019-10-03 20:14:10] Current download rate: 26.241 Mbps
+[2019-10-03 20:15:11] Current download rate: 21.350 Mbps
+[2019-10-03 20:16:12] Current download rate: 14.176 Mbps
+[2019-10-03 20:17:13] Current download rate: 9.776 Mbps
+[2019-10-03 20:18:14] Current download rate: 14.283 Mbps
+[2019-10-03 20:19:15] Current download rate: 14.009 Mbps
+[2019-10-03 20:20:16] Current download rate: 24.137 Mbps
+[2019-10-03 20:21:18] Current download rate: 24.599 Mbps
+[2019-10-03 20:22:19] Current download rate: 19.145 Mbps
+[2019-10-03 20:23:20] Current download rate: 9.841 Mbps
+[2019-10-03 20:24:21] Current download rate: 14.982 Mbps
+[2019-10-03 20:25:22] Current download rate: 5.950 Mbps
+[2019-10-03 20:26:23] Current download rate: 18.304 Mbps
+[2019-10-03 20:27:24] Current download rate: 22.900 Mbps
+[2019-10-03 20:28:25] Current download rate: 16.512 Mbps
+[2019-10-03 20:29:25] Current download rate: 11.291 Mbps
+[2019-10-03 20:30:26] Current download rate: 10.747 Mbps
+[2019-10-03 20:31:27] Current download rate: 9.034 Mbps
+[2019-10-03 20:32:28] Current download rate: 11.820 Mbps
+[2019-10-03 20:33:29] Current download rate: 12.154 Mbps
+[2019-10-03 20:34:30] Current download rate: 14.415 Mbps
+[2019-10-03 20:35:05] AppID 730 update canceled : Disabled (Suspended)
+[2019-10-03 20:35:05] AppID 730 update changed : Running,Downloading,Staging,Stopping,
+[2019-10-03 20:35:05] AppID 730 update changed : Running,Stopping,
+[2019-10-03 20:35:05] AppID 730 update changed : None
+[2019-10-03 20:35:05] AppID 730 state changed : Update Required,Update Queued,Update Started, (Suspended)
+[2019-10-03 20:35:05] AppID 730 scheduler finished : staying in schedule
+
+
+[2019-10-03 22:11:16] Loaded 2 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+[2019-10-03 22:17:48] AppID 730 scheduler update : Priority Last, legacy=no, restore="", timeSinceLastPlayed=4503, appDisableSecondsRemaining=0
+[2019-10-03 22:17:48] AppID 730 state changed : Update Required,Update Queued,Update Started,
+[2019-10-03 22:17:49] AppID 730 state changed : Update Required,Update Queued,Update Running,Update Started,
+[2019-10-03 22:17:49] AppID 730 update changed : Running,
+[2019-10-03 22:17:49] AppID 730 update changed : Running,Reconfiguring,
+[2019-10-03 22:17:50] Got 30 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (4/0)
+[2019-10-03 22:17:50] Created download interface of type 'SteamCache' (7) to host cache23-lhr1.steamcontent.com (cache23-lhr1.steamcontent.com)
+[2019-10-03 22:17:50] Created download interface of type 'SteamCache' (7) to host cache31-lhr1.steamcontent.com (cache31-lhr1.steamcontent.com)
+[2019-10-03 22:17:50] Created download interface of type 'SteamCache' (7) to host cache3-lhr1.steamcontent.com (cache3-lhr1.steamcontent.com)
+[2019-10-03 22:17:50] HTTP (SteamCache,235) - cache23-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache23-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-03 22:17:50] Enabling ipv6 dual-stack
+[2019-10-03 22:17:50] HTTP (SteamCache,228) - cache3-lhr1.steamcontent.com (162.254.196.2:80 / 162.254.196.2:80, host: cache3-lhr1.steamcontent.com): CDepotHTTPDownloadInterface::BYldTestConnection - Server response 'OK' (200)
+[2019-10-03 22:17:51] Created ipv4-only http client
+[2019-10-03 22:17:51] HTTP (SteamCache,235) - cache23-lhr1.steamcontent.com (162.254.196.14:80 / 162.254.196.14:80, host: cache23-lhr1.steamcontent.com): cache23-lhr1.steamcontent.com/depot/731/manifest/2007345656905079346/5 - received 200 (OK) HTTP response
+[2019-10-03 22:17:51] AppID 730 update changed : Running,
+[2019-10-03 22:17:51] Error loading C:\Program Files (x86)\Steam\steamapps\downloading\state_730_731.patch: manifest mismatch
+[2019-10-03 22:17:51] AppID 730 update changed : Running,Preallocating,
+[2019-10-03 22:17:52] AppID 730 update changed : Running,
+[2019-10-03 22:17:52] AppID 730 update started : download 253798544/9088078016, store 0/0, reuse 0/0, delta 0/0, stage 360538331/19825830010 
+[2019-10-03 22:17:52] AppID 730 update changed : Running,Downloading,
+[2019-10-03 22:17:52] AppID 730 update changed : Running,Downloading,Staging,
+[2019-10-03 22:17:52] Downloading 21182 chunks from depot 731
+[2019-10-03 22:17:52] HTTP (SteamCache,39) - cache31-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache31-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-03 22:17:52] HTTP (SteamCache,228) - cache3-lhr1.steamcontent.com (162.254.196.2:80 / 162.254.196.2:80, host: cache3-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-03 22:18:02] Increasing target number of download connections to 4 (rate was 0.000, now 2.996)
+[2019-10-03 22:18:02] Created download interface of type 'SteamCache' (7) to host cache28-lhr1.steamcontent.com (cache28-lhr1.steamcontent.com)
+[2019-10-03 22:18:02] HTTP (SteamCache,240) - cache28-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache28-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-03 22:18:15] Increasing target number of download connections to 5 (rate was 2.996, now 11.737)
+[2019-10-03 22:18:15] Created download interface of type 'SteamCache' (7) to host cache6-lhr1.steamcontent.com (cache6-lhr1.steamcontent.com)
+[2019-10-03 22:18:15] HTTP (SteamCache,140) - cache6-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache6-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-03 22:18:27] Increasing target number of download connections to 6 (rate was 11.737, now 28.740)
+[2019-10-03 22:18:27] Created download interface of type 'SteamCache' (7) to host cache13-lhr1.steamcontent.com (cache13-lhr1.steamcontent.com)
+[2019-10-03 22:18:27] HTTP (SteamCache,146) - cache13-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache13-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-03 22:19:04] Current download rate: 5.298 Mbps
+[2019-10-03 22:20:05] Current download rate: 11.843 Mbps
+[2019-10-03 22:20:29] Increasing target number of download connections to 7 (rate was 28.740, now 34.871)
+[2019-10-03 22:20:29] Created download interface of type 'SteamCache' (7) to host cache22-lhr1.steamcontent.com (cache22-lhr1.steamcontent.com)
+[2019-10-03 22:20:29] HTTP (SteamCache,234) - cache22-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache22-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-03 22:20:41] Increasing target number of download connections to 8 (rate was 34.871, now 46.283)
+[2019-10-03 22:20:41] Created download interface of type 'SteamCache' (7) to host cache27-lhr1.steamcontent.com (cache27-lhr1.steamcontent.com)
+[2019-10-03 22:20:41] HTTP (SteamCache,239) - cache27-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache27-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-03 22:21:06] Current download rate: 41.475 Mbps
+[2019-10-03 22:22:07] Current download rate: 37.979 Mbps
+[2019-10-03 22:23:08] Current download rate: 36.300 Mbps
+[2019-10-03 22:24:09] Current download rate: 15.289 Mbps
+[2019-10-03 22:25:10] Current download rate: 7.337 Mbps
+[2019-10-03 22:26:11] Current download rate: 22.649 Mbps
+[2019-10-03 22:27:12] Current download rate: 30.852 Mbps
+[2019-10-03 22:28:13] Current download rate: 24.568 Mbps
+[2019-10-03 22:29:14] Current download rate: 48.838 Mbps
+[2019-10-03 22:30:15] Current download rate: 44.928 Mbps
+[2019-10-03 22:31:16] Current download rate: 54.286 Mbps
+[2019-10-03 22:31:39] Increasing target number of download connections to 9 (rate was 46.283, now 55.599)
+[2019-10-03 22:31:39] Got 30 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (4/0)
+[2019-10-03 22:31:39] Created download interface of type 'SteamCache' (7) to host cache20-lhr1.steamcontent.com (cache20-lhr1.steamcontent.com)
+[2019-10-03 22:31:39] HTTP (SteamCache,232) - cache20-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache20-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-03 22:32:18] Current download rate: 44.421 Mbps
+[2019-10-03 22:33:19] Current download rate: 48.622 Mbps
+[2019-10-03 22:34:20] Current download rate: 44.862 Mbps
+[2019-10-03 22:35:22] Current download rate: 34.866 Mbps
+[2019-10-03 22:36:23] Current download rate: 48.520 Mbps
+[2019-10-03 22:37:24] Current download rate: 42.402 Mbps
+[2019-10-03 22:38:25] Current download rate: 20.742 Mbps
+[2019-10-03 22:39:26] Current download rate: 37.334 Mbps
+[2019-10-03 22:40:27] Current download rate: 33.683 Mbps
+[2019-10-03 22:41:28] Current download rate: 46.217 Mbps
+[2019-10-03 22:42:30] Current download rate: 45.726 Mbps
+[2019-10-03 22:43:31] Current download rate: 48.501 Mbps
+[2019-10-03 22:44:32] Current download rate: 45.691 Mbps
+[2019-10-03 22:45:33] Current download rate: 47.254 Mbps
+[2019-10-03 22:46:35] Current download rate: 48.668 Mbps
+[2019-10-03 22:47:36] Current download rate: 47.198 Mbps
+[2019-10-03 22:48:37] Current download rate: 51.110 Mbps
+[2019-10-03 22:49:23] AppID 730 update changed : Running,
+[2019-10-03 22:49:23] AppID 730 update changed : Running,Verifying,
+[2019-10-03 22:49:38] Current download rate: 0.000 Mbps
+[2019-10-03 22:50:22] HTTP (SteamCache,39) - cache31-lhr1.steamcontent.com (162.254.196.18:80 / 162.254.196.18:80, host: cache31-lhr1.steamcontent.com): Closing connection
+[2019-10-03 22:50:23] HTTP (SteamCache,228) - cache3-lhr1.steamcontent.com (162.254.196.2:80 / 162.254.196.2:80, host: cache3-lhr1.steamcontent.com): Closing connection
+[2019-10-03 22:50:23] HTTP (SteamCache,140) - cache6-lhr1.steamcontent.com (162.254.196.37:80 / 162.254.196.37:80, host: cache6-lhr1.steamcontent.com): Closing connection
+[2019-10-03 22:50:23] HTTP (SteamCache,232) - cache20-lhr1.steamcontent.com (162.254.196.44:80 / 162.254.196.44:80, host: cache20-lhr1.steamcontent.com): Closing connection
+[2019-10-03 22:50:23] HTTP (SteamCache,239) - cache27-lhr1.steamcontent.com (162.254.196.47:80 / 162.254.196.47:80, host: cache27-lhr1.steamcontent.com): Closing connection
+[2019-10-03 22:50:23] HTTP (SteamCache,240) - cache28-lhr1.steamcontent.com (162.254.196.48:80 / 162.254.196.48:80, host: cache28-lhr1.steamcontent.com): Closing connection
+[2019-10-03 22:50:23] HTTP (SteamCache,146) - cache13-lhr1.steamcontent.com (162.254.196.9:80 / 162.254.196.9:80, host: cache13-lhr1.steamcontent.com): Closing connection
+[2019-10-03 22:50:23] HTTP (SteamCache,235) - cache23-lhr1.steamcontent.com (162.254.196.14:80 / 162.254.196.14:80, host: cache23-lhr1.steamcontent.com): Closing connection
+[2019-10-03 22:50:23] HTTP (SteamCache,234) - cache22-lhr1.steamcontent.com (162.254.196.45:80 / 162.254.196.45:80, host: cache22-lhr1.steamcontent.com): Closing connection
+[2019-10-03 22:50:31] AppID 730 update changed : Running,
+[2019-10-03 22:50:31] AppID 730 update changed : Running,Committing,
+[2019-10-03 22:50:31] AppID 730 file commit : 2866 updated, 0 moved, 0 deleted
+[2019-10-03 22:50:34] AppID 730 state changed : Fully Installed,Update Queued,Update Running,
+[2019-10-03 22:50:34] AppID 730 finished update, mounted depots (BuildID 4255296) : 732 (8439585939127683487),731 (2007345656905079346),735 (3867231304834558645),
+[2019-10-03 22:50:34] AppID 730 update changed : Running,
+[2019-10-03 22:50:34] AppID 730 update changed : None
+[2019-10-03 22:50:34] AppID 730 state changed : Fully Installed,Update Queued,
+[2019-10-03 22:50:34] AppID 730 state changed : Fully Installed,
+[2019-10-03 22:50:34] AppID 730 scheduler finished : removed from schedule
+[2019-10-04 01:02:49] AppID 730 state changed : Update Required,Fully Installed, (Update delayed for 15598 secs)
+
+
+[2019-10-06 19:34:11] Loaded 2 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+[2019-10-06 19:34:23] AppID 730 scheduler update : Priority Last, legacy=no, restore="", timeSinceLastPlayed=4057605, appDisableSecondsRemaining=0
+[2019-10-06 19:34:23] AppID 730 state changed : Update Required,Fully Installed,Update Queued,
+[2019-10-06 19:34:24] AppID 730 state changed : Update Required,Fully Installed,Update Queued,Update Running,
+[2019-10-06 19:34:24] AppID 730 update changed : Running,
+[2019-10-06 19:34:24] AppID 730 update changed : Running,Reconfiguring,
+[2019-10-06 19:34:24] Got 30 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (4/0)
+[2019-10-06 19:34:24] Created download interface of type 'SteamCache' (7) to host cache22-lhr1.steamcontent.com (cache22-lhr1.steamcontent.com)
+[2019-10-06 19:34:24] Created download interface of type 'SteamCache' (7) to host cache13-lhr1.steamcontent.com (cache13-lhr1.steamcontent.com)
+[2019-10-06 19:34:24] Created download interface of type 'SteamCache' (7) to host cache16-lhr1.steamcontent.com (cache16-lhr1.steamcontent.com)
+[2019-10-06 19:34:24] Enabling ipv6 dual-stack
+[2019-10-06 19:34:24] HTTP (SteamCache,234) - cache22-lhr1.steamcontent.com (162.254.196.45:80 / 162.254.196.45:80, host: cache22-lhr1.steamcontent.com): CDepotHTTPDownloadInterface::BYldTestConnection - Server response 'OK' (200)
+[2019-10-06 19:34:24] HTTP (SteamCache,234) - cache22-lhr1.steamcontent.com (162.254.196.45:80 / 162.254.196.45:80, host: cache22-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-10-06 19:34:24] HTTP (SteamCache,234) - cache22-lhr1.steamcontent.com (162.254.196.45:80 / 162.254.196.45:80, host: cache22-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-06 19:34:24] HTTP (SteamCache,146) - cache13-lhr1.steamcontent.com (162.254.196.9:80 / 162.254.196.9:80, host: cache13-lhr1.steamcontent.com): CDepotHTTPDownloadInterface::BYldTestConnection - Server response 'OK' (200)
+[2019-10-06 19:34:24] HTTP (SteamCache,230) - cache16-lhr1.steamcontent.com (162.254.196.42:80 / 162.254.196.42:80, host: cache16-lhr1.steamcontent.com): CDepotHTTPDownloadInterface::BYldTestConnection - Server response 'OK' (200)
+[2019-10-06 19:34:24] HTTP (SteamCache,234) - cache22-lhr1.steamcontent.com (162.254.196.45:80 / 162.254.196.45:80, host: cache22-lhr1.steamcontent.com): cache22-lhr1.steamcontent.com/depot/732/manifest/1751964745933570602/5 - received 200 (OK) HTTP response
+[2019-10-06 19:34:24] HTTP (SteamCache,234) - cache22-lhr1.steamcontent.com (162.254.196.45:80 / 162.254.196.45:80, host: cache22-lhr1.steamcontent.com): cache22-lhr1.steamcontent.com/depot/731/manifest/6259792527942560459/5 - received 500 (Internal Server Error) HTTP response
+[2019-10-06 19:34:24] HTTP (SteamCache,234) - cache22-lhr1.steamcontent.com (162.254.196.45:80 / 162.254.196.45:80, host: cache22-lhr1.steamcontent.com): Received 500 (Internal Server Error) HTTP response for depot 731
+[2019-10-06 19:34:24] HTTP (SteamCache,234) - cache22-lhr1.steamcontent.com (162.254.196.45:80 / 162.254.196.45:80, host: cache22-lhr1.steamcontent.com): Closing connection
+[2019-10-06 19:34:24] Created download interface of type 'SteamCache' (7) to host cache18-ams1.steamcontent.com (cache18-ams1.steamcontent.com)
+[2019-10-06 19:34:24] HTTP (SteamCache,230) - cache16-lhr1.steamcontent.com (162.254.196.42:80 / 162.254.196.42:80, host: cache16-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-06 19:34:24] HTTP (SteamCache,84) - cache18-ams1.steamcontent.com (155.133.248.29:80 / 155.133.248.29:80, host: cache18-ams1.steamcontent.com): CDepotHTTPDownloadInterface::BYldTestConnection - Server response 'OK' (200)
+[2019-10-06 19:34:24] Created ipv4-only http client
+[2019-10-06 19:34:26] HTTP (SteamCache,230) - cache16-lhr1.steamcontent.com (162.254.196.42:80 / 162.254.196.42:80, host: cache16-lhr1.steamcontent.com): cache16-lhr1.steamcontent.com/depot/731/manifest/6259792527942560459/5 - received 200 (OK) HTTP response
+[2019-10-06 19:34:26] AppID 730 update changed : Running,
+[2019-10-06 19:34:26] AppID 730 update changed : Running,Validating,
+[2019-10-06 19:34:26] Validating files (new target,full) ...
+[2019-10-06 19:34:26] File validation finished: 0 files (0 bytes) total, 0 files (0 bytes) mismatched (7 msec).
+[2019-10-06 19:34:26] AppID 730 update changed : Running,
+[2019-10-06 19:34:26] AppID 730 update changed : Running,Preallocating,
+[2019-10-06 19:34:26] AppID 730 update changed : Running,
+[2019-10-06 19:34:26] AppID 730 update started : download 0/4842272, store 0/0, reuse 0/3703126, delta 0/0, stage 0/23130277 
+[2019-10-06 19:34:26] AppID 730 state changed : Update Required,Fully Installed,Update Queued,Update Running,Update Started,
+[2019-10-06 19:34:26] AppID 730 update changed : Running,Downloading,
+[2019-10-06 19:34:26] AppID 730 update changed : Running,Downloading,Staging,
+[2019-10-06 19:34:26] Downloading 16 chunks from depot 732
+[2019-10-06 19:34:26] HTTP (SteamCache,230) - cache16-lhr1.steamcontent.com (162.254.196.42:80 / 162.254.196.42:80, host: cache16-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-10-06 19:34:26] HTTP (SteamCache,146) - cache13-lhr1.steamcontent.com (162.254.196.9:80 / 162.254.196.9:80, host: cache13-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-10-06 19:34:26] HTTP (SteamCache,84) - cache18-ams1.steamcontent.com (155.133.248.29:80 / 155.133.248.29:80, host: cache18-ams1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-10-06 19:34:28] Downloading 6 chunks from depot 731
+[2019-10-06 19:34:28] HTTP (SteamCache,146) - cache13-lhr1.steamcontent.com (162.254.196.9:80 / 162.254.196.9:80, host: cache13-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-06 19:34:28] HTTP (SteamCache,84) - cache18-ams1.steamcontent.com (155.133.248.29:80 / 155.133.248.29:80, host: cache18-ams1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-06 19:34:28] AppID 730 update changed : Running,
+[2019-10-06 19:34:28] AppID 730 update changed : Running,Verifying,
+[2019-10-06 19:34:28] AppID 730 update changed : Running,
+[2019-10-06 19:34:28] AppID 730 update changed : Running,Committing,
+[2019-10-06 19:34:28] AppID 730 file commit : 5 updated, 0 moved, 0 deleted
+[2019-10-06 19:34:28] AppID 730 state changed : Fully Installed,Update Queued,Update Running,
+[2019-10-06 19:34:28] AppID 730 finished update, mounted depots (BuildID 4255706) : 732 (1751964745933570602),731 (6259792527942560459),735 (3867231304834558645),
+[2019-10-06 19:34:28] AppID 730 update changed : Running,
+[2019-10-06 19:34:28] AppID 730 update changed : None
+[2019-10-06 19:34:28] AppID 730 state changed : Fully Installed,Update Queued,
+[2019-10-06 19:34:28] AppID 730 state changed : Fully Installed,
+[2019-10-06 19:34:28] AppID 730 scheduler finished : removed from schedule
+[2019-10-06 19:35:28] HTTP (SteamCache,146) - cache13-lhr1.steamcontent.com (162.254.196.9:80 / 162.254.196.9:80, host: cache13-lhr1.steamcontent.com): Closing connection
+[2019-10-06 19:35:28] HTTP (SteamCache,230) - cache16-lhr1.steamcontent.com (162.254.196.42:80 / 162.254.196.42:80, host: cache16-lhr1.steamcontent.com): Closing connection
+[2019-10-06 19:35:28] HTTP (SteamCache,84) - cache18-ams1.steamcontent.com (155.133.248.29:80 / 155.133.248.29:80, host: cache18-ams1.steamcontent.com): Closing connection
+
+
+[2019-10-07 11:40:38] Loaded 2 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+[2019-10-07 11:40:51] AppID 730 state changed : Fully Installed,App Running,
+[2019-10-07 11:46:03] AppID 730 state changed : Fully Installed,
+[2019-10-07 12:53:27] AppID 730 state changed : Fully Installed,App Running,
+[2019-10-07 13:15:38] AppID 730 state changed : Fully Installed,
+
+
+[2019-10-07 18:10:15] Loaded 2 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+
+
+[2019-10-09 18:39:33] Loaded 2 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+[2019-10-09 18:39:45] AppID 730 state changed : Update Required,Fully Installed,
+[2019-10-09 18:39:50] AppID 730 scheduler update : Priority Last, legacy=no, restore="", timeSinceLastPlayed=192241, appDisableSecondsRemaining=0
+[2019-10-09 18:39:50] AppID 730 state changed : Update Required,Fully Installed,Update Queued,
+[2019-10-09 18:39:50] AppID 730 state changed : Update Required,Fully Installed,Update Queued,Update Running,
+[2019-10-09 18:39:50] AppID 730 update changed : Running,
+[2019-10-09 18:39:50] AppID 730 update changed : Running,Reconfiguring,
+[2019-10-09 18:39:50] Got 30 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (4/0)
+[2019-10-09 18:39:50] Created download interface of type 'SteamCache' (7) to host cache5-lhr1.steamcontent.com (cache5-lhr1.steamcontent.com)
+[2019-10-09 18:39:50] Created download interface of type 'SteamCache' (7) to host cache27-lhr1.steamcontent.com (cache27-lhr1.steamcontent.com)
+[2019-10-09 18:39:50] Created download interface of type 'SteamCache' (7) to host cache32-lhr1.steamcontent.com (cache32-lhr1.steamcontent.com)
+[2019-10-09 18:39:50] HTTP (SteamCache,229) - cache5-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache5-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-10-09 18:39:50] Enabling ipv6 dual-stack
+[2019-10-09 18:39:50] HTTP (SteamCache,229) - cache5-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache5-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-09 18:39:50] HTTP (SteamCache,40) - cache32-lhr1.steamcontent.com (162.254.196.50:80 / 162.254.196.50:80, host: cache32-lhr1.steamcontent.com): CDepotHTTPDownloadInterface::BYldTestConnection - Server response 'OK' (200)
+[2019-10-09 18:39:51] HTTP (SteamCache,229) - cache5-lhr1.steamcontent.com (162.254.196.34:80 / 162.254.196.34:80, host: cache5-lhr1.steamcontent.com): cache5-lhr1.steamcontent.com/depot/732/manifest/1312119628470885876/5 - received 200 (OK) HTTP response
+[2019-10-09 18:39:51] Created ipv4-only http client
+[2019-10-09 18:39:53] HTTP (SteamCache,229) - cache5-lhr1.steamcontent.com (162.254.196.34:80 / 162.254.196.34:80, host: cache5-lhr1.steamcontent.com): cache5-lhr1.steamcontent.com/depot/731/manifest/180929318750134183/5 - received 200 (OK) HTTP response
+[2019-10-09 18:39:53] AppID 730 update changed : Running,
+[2019-10-09 18:39:53] AppID 730 update changed : Running,Validating,
+[2019-10-09 18:39:53] Validating files (new target,full) ...
+[2019-10-09 18:39:53] File validation finished: 0 files (0 bytes) total, 0 files (0 bytes) mismatched (43 msec).
+[2019-10-09 18:39:53] AppID 730 update changed : Running,
+[2019-10-09 18:39:53] AppID 730 update changed : Running,Preallocating,
+[2019-10-09 18:39:53] AppID 730 update changed : Running,
+[2019-10-09 18:39:53] AppID 730 update started : download 0/14394368, store 0/0, reuse 0/314211009, delta 0/0, stage 0/403641334 
+[2019-10-09 18:39:53] AppID 730 state changed : Update Required,Fully Installed,Update Queued,Update Running,Update Started,
+[2019-10-09 18:39:53] AppID 730 update changed : Running,Downloading,
+[2019-10-09 18:39:53] AppID 730 update changed : Running,Downloading,Staging,
+[2019-10-09 18:39:53] Downloading 27 chunks from depot 732
+[2019-10-09 18:39:53] HTTP (SteamCache,239) - cache27-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache27-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-10-09 18:39:53] HTTP (SteamCache,40) - cache32-lhr1.steamcontent.com (162.254.196.50:80 / 162.254.196.50:80, host: cache32-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-10-09 18:40:03] Increasing target number of download connections to 4 (rate was 0.000, now 4.454)
+[2019-10-09 18:40:03] Created download interface of type 'SteamCache' (7) to host cache23-lhr1.steamcontent.com (cache23-lhr1.steamcontent.com)
+[2019-10-09 18:40:03] HTTP (SteamCache,235) - cache23-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache23-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-10-09 18:40:03] HTTP (SteamCache,235) - cache23-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache23-lhr1.steamcontent.com): Received 0 (Invalid) HTTP response for depot 732
+[2019-10-09 18:40:03] HTTP (SteamCache,235) - cache23-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache23-lhr1.steamcontent.com): Disabling dual-stack for this connection
+[2019-10-09 18:40:06] HTTP (SteamCache,235) - cache23-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache23-lhr1.steamcontent.com): Closing connection
+[2019-10-09 18:40:06] Created download interface of type 'SteamCache' (7) to host cache3-ams1.steamcontent.com (cache3-ams1.steamcontent.com)
+[2019-10-09 18:40:07] Downloading 88 chunks from depot 731
+[2019-10-09 18:40:07] HTTP (SteamCache,40) - cache32-lhr1.steamcontent.com (162.254.196.50:80 / 162.254.196.50:80, host: cache32-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-09 18:40:07] HTTP (SteamCache,186) - cache3-ams1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache3-ams1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-09 18:40:07] HTTP (SteamCache,239) - cache27-lhr1.steamcontent.com (162.254.196.47:80 / 162.254.196.47:80, host: cache27-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-09 18:40:12] AppID 730 update changed : Running,
+[2019-10-09 18:40:12] AppID 730 update changed : Running,Verifying,
+[2019-10-09 18:40:13] AppID 730 update changed : Running,
+[2019-10-09 18:40:13] AppID 730 update changed : Running,Committing,
+[2019-10-09 18:40:13] AppID 730 file commit : 36 updated, 0 moved, 0 deleted
+[2019-10-09 18:40:13] AppID 730 state changed : Fully Installed,Update Queued,Update Running,
+[2019-10-09 18:40:13] AppID 730 finished update, mounted depots (BuildID 4268169) : 732 (1312119628470885876),731 (180929318750134183),735 (3867231304834558645),
+[2019-10-09 18:40:13] AppID 730 update changed : Running,
+[2019-10-09 18:40:13] AppID 730 update changed : None
+[2019-10-09 18:40:13] AppID 730 state changed : Fully Installed,Update Queued,
+[2019-10-09 18:40:13] AppID 730 state changed : Fully Installed,
+[2019-10-09 18:40:13] AppID 730 scheduler finished : removed from schedule
+[2019-10-09 18:41:04] Current download rate: 0.000 Mbps
+[2019-10-09 18:41:10] HTTP (SteamCache,186) - cache3-ams1.steamcontent.com (155.133.248.14:80 / 155.133.248.14:80, host: cache3-ams1.steamcontent.com): Closing connection
+[2019-10-09 18:41:11] HTTP (SteamCache,239) - cache27-lhr1.steamcontent.com (162.254.196.47:80 / 162.254.196.47:80, host: cache27-lhr1.steamcontent.com): Closing connection
+[2019-10-09 18:41:11] HTTP (SteamCache,40) - cache32-lhr1.steamcontent.com (162.254.196.50:80 / 162.254.196.50:80, host: cache32-lhr1.steamcontent.com): Closing connection
+[2019-10-09 18:41:11] HTTP (SteamCache,229) - cache5-lhr1.steamcontent.com (162.254.196.34:80 / 162.254.196.34:80, host: cache5-lhr1.steamcontent.com): Closing connection
+
+
+[2019-10-11 17:59:37] Loaded 2 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+[2019-10-11 18:00:03] AppID 730 state changed : Update Required,Fully Installed,
+[2019-10-11 18:00:03] AppID 730 scheduler update : Priority Last, legacy=no, restore="", timeSinceLastPlayed=362654, appDisableSecondsRemaining=0
+[2019-10-11 18:00:03] AppID 730 state changed : Update Required,Fully Installed,Update Queued,
+[2019-10-11 18:00:03] AppID 730 state changed : Update Required,Fully Installed,Update Queued,Update Running,
+[2019-10-11 18:00:03] AppID 730 update changed : Running,
+[2019-10-11 18:00:03] AppID 730 update changed : Running,Reconfiguring,
+[2019-10-11 18:00:03] Got 30 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (4/0)
+[2019-10-11 18:00:03] Created download interface of type 'SteamCache' (7) to host cache11-lhr1.steamcontent.com (cache11-lhr1.steamcontent.com)
+[2019-10-11 18:00:03] Created download interface of type 'SteamCache' (7) to host cache8-lhr1.steamcontent.com (cache8-lhr1.steamcontent.com)
+[2019-10-11 18:00:03] Created download interface of type 'SteamCache' (7) to host cache32-lhr1.steamcontent.com (cache32-lhr1.steamcontent.com)
+[2019-10-11 18:00:03] Enabling ipv6 dual-stack
+[2019-10-11 18:00:03] HTTP (SteamCache,144) - cache11-lhr1.steamcontent.com (162.254.196.8:80 / 162.254.196.8:80, host: cache11-lhr1.steamcontent.com): CDepotHTTPDownloadInterface::BYldTestConnection - Server response 'OK' (200)
+[2019-10-11 18:00:03] HTTP (SteamCache,142) - cache8-lhr1.steamcontent.com (162.254.196.38:80 / 162.254.196.38:80, host: cache8-lhr1.steamcontent.com): CDepotHTTPDownloadInterface::BYldTestConnection - Server response 'OK' (200)
+[2019-10-11 18:00:03] HTTP (SteamCache,40) - cache32-lhr1.steamcontent.com (162.254.196.50:80 / 162.254.196.50:80, host: cache32-lhr1.steamcontent.com): CDepotHTTPDownloadInterface::BYldTestConnection - Server response 'OK' (200)
+[2019-10-11 18:00:04] HTTP (SteamCache,144) - cache11-lhr1.steamcontent.com (162.254.196.8:80 / 162.254.196.8:80, host: cache11-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-10-11 18:00:04] HTTP (SteamCache,142) - cache8-lhr1.steamcontent.com (162.254.196.38:80 / 162.254.196.38:80, host: cache8-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-11 18:00:04] Created ipv4-only http client
+[2019-10-11 18:00:05] HTTP (SteamCache,144) - cache11-lhr1.steamcontent.com (162.254.196.8:80 / 162.254.196.8:80, host: cache11-lhr1.steamcontent.com): cache11-lhr1.steamcontent.com/depot/732/manifest/3066219334496238035/5 - received 200 (OK) HTTP response
+[2019-10-11 18:00:05] HTTP (SteamCache,142) - cache8-lhr1.steamcontent.com (162.254.196.38:80 / 162.254.196.38:80, host: cache8-lhr1.steamcontent.com): cache8-lhr1.steamcontent.com/depot/731/manifest/8472803367147551147/5 - received 200 (OK) HTTP response
+[2019-10-11 18:00:05] AppID 730 update changed : Running,
+[2019-10-11 18:00:05] AppID 730 update changed : Running,Validating,
+[2019-10-11 18:00:05] Validating files (new target,full) ...
+[2019-10-11 18:00:05] File validation finished: 0 files (0 bytes) total, 0 files (0 bytes) mismatched (24 msec).
+[2019-10-11 18:00:05] AppID 730 update changed : Running,
+[2019-10-11 18:00:05] AppID 730 update changed : Running,Preallocating,
+[2019-10-11 18:00:05] AppID 730 update changed : Running,
+[2019-10-11 18:00:05] AppID 730 update started : download 0/70261392, store 0/0, reuse 0/581829993, delta 0/0, stage 0/876735223 
+[2019-10-11 18:00:05] AppID 730 state changed : Update Required,Fully Installed,Update Queued,Update Running,Update Started,
+[2019-10-11 18:00:05] AppID 730 update changed : Running,Downloading,
+[2019-10-11 18:00:05] AppID 730 update changed : Running,Downloading,Staging,
+[2019-10-11 18:00:05] Downloading 35 chunks from depot 732
+[2019-10-11 18:00:05] HTTP (SteamCache,142) - cache8-lhr1.steamcontent.com (162.254.196.38:80 / 162.254.196.38:80, host: cache8-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-10-11 18:00:05] HTTP (SteamCache,40) - cache32-lhr1.steamcontent.com (162.254.196.50:80 / 162.254.196.50:80, host: cache32-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-10-11 18:00:08] Downloading 264 chunks from depot 731
+[2019-10-11 18:00:08] HTTP (SteamCache,40) - cache32-lhr1.steamcontent.com (162.254.196.50:80 / 162.254.196.50:80, host: cache32-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-11 18:00:08] HTTP (SteamCache,144) - cache11-lhr1.steamcontent.com (162.254.196.8:80 / 162.254.196.8:80, host: cache11-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-11 18:00:16] Increasing target number of download connections to 4 (rate was 0.000, now 29.624)
+[2019-10-11 18:00:16] Created download interface of type 'SteamCache' (7) to host cache13-lhr1.steamcontent.com (cache13-lhr1.steamcontent.com)
+[2019-10-11 18:00:16] HTTP (SteamCache,146) - cache13-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache13-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-11 18:00:21] AppID 730 update changed : Running,
+[2019-10-11 18:00:21] AppID 730 update changed : Running,Verifying,
+[2019-10-11 18:00:25] AppID 730 update changed : Running,
+[2019-10-11 18:00:25] AppID 730 update changed : Running,Committing,
+[2019-10-11 18:00:25] AppID 730 file commit : 28 updated, 0 moved, 0 deleted
+[2019-10-11 18:00:25] AppID 730 state changed : Fully Installed,Update Queued,Update Running,
+[2019-10-11 18:00:25] AppID 730 finished update, mounted depots (BuildID 4272756) : 732 (3066219334496238035),731 (8472803367147551147),735 (3867231304834558645),
+[2019-10-11 18:00:25] AppID 730 update changed : Running,
+[2019-10-11 18:00:25] AppID 730 update changed : None
+[2019-10-11 18:00:25] AppID 730 state changed : Fully Installed,Update Queued,
+[2019-10-11 18:00:25] AppID 730 state changed : Fully Installed,
+[2019-10-11 18:00:25] AppID 730 scheduler finished : removed from schedule
+[2019-10-11 18:01:17] Current download rate: 0.000 Mbps
+[2019-10-11 18:01:20] HTTP (SteamCache,142) - cache8-lhr1.steamcontent.com (162.254.196.38:80 / 162.254.196.38:80, host: cache8-lhr1.steamcontent.com): Closing connection
+[2019-10-11 18:01:20] HTTP (SteamCache,40) - cache32-lhr1.steamcontent.com (162.254.196.50:80 / 162.254.196.50:80, host: cache32-lhr1.steamcontent.com): Closing connection
+[2019-10-11 18:01:20] HTTP (SteamCache,144) - cache11-lhr1.steamcontent.com (162.254.196.8:80 / 162.254.196.8:80, host: cache11-lhr1.steamcontent.com): Closing connection
+[2019-10-11 18:01:21] HTTP (SteamCache,146) - cache13-lhr1.steamcontent.com (162.254.196.9:80 / 162.254.196.9:80, host: cache13-lhr1.steamcontent.com): Closing connection
+
+
+[2019-10-12 15:25:29] Loaded 2 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+
+
+[2019-10-13 17:04:51] Loaded 2 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+
+
+[2019-10-30 00:03:37] Loaded 2 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+[2019-10-30 00:03:43] AppID 730 state changed : Update Required,Fully Installed, (Update delayed for 11157 secs)
+[2019-10-30 03:09:44] AppID 730 scheduler update : Priority Last, legacy=no, restore="", timeSinceLastPlayed=1954435, appDisableSecondsRemaining=0
+[2019-10-30 03:09:44] AppID 730 state changed : Update Required,Fully Installed,Update Queued,
+[2019-10-30 03:09:44] AppID 730 state changed : Update Required,Fully Installed,Update Queued,Update Running,
+[2019-10-30 03:09:44] AppID 730 update changed : Running,
+[2019-10-30 03:09:44] AppID 730 update changed : Running,Reconfiguring,
+[2019-10-30 03:09:45] Got 30 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (4/0)
+[2019-10-30 03:09:45] Created download interface of type 'SteamCache' (7) to host cache13-lhr1.steamcontent.com (cache13-lhr1.steamcontent.com)
+[2019-10-30 03:09:45] Created download interface of type 'SteamCache' (7) to host cache23-lhr1.steamcontent.com (cache23-lhr1.steamcontent.com)
+[2019-10-30 03:09:45] Created download interface of type 'SteamCache' (7) to host cache28-lhr1.steamcontent.com (cache28-lhr1.steamcontent.com)
+[2019-10-30 03:09:45] HTTP (SteamCache,146) - cache13-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache13-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-10-30 03:09:45] Enabling ipv6 dual-stack
+[2019-10-30 03:09:45] HTTP (SteamCache,235) - cache23-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache23-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-30 03:09:45] HTTP (SteamCache,146) - cache13-lhr1.steamcontent.com (162.254.196.9:80 / 162.254.196.9:80, host: cache13-lhr1.steamcontent.com): cache13-lhr1.steamcontent.com/depot/732/manifest/6745287990005621199/5 - received 200 (OK) HTTP response
+[2019-10-30 03:09:45] HTTP (SteamCache,235) - cache23-lhr1.steamcontent.com (162.254.196.14:80 / 162.254.196.14:80, host: cache23-lhr1.steamcontent.com): cache23-lhr1.steamcontent.com/depot/731/manifest/5849410853669018904/5 - received 200 (OK) HTTP response
+[2019-10-30 03:09:45] AppID 730 update changed : Running,
+[2019-10-30 03:09:45] AppID 730 update changed : Running,Validating,
+[2019-10-30 03:09:45] Validating files (new target,full) ...
+[2019-10-30 03:09:45] File validation finished: 4 files (433026384 bytes) total, 4 files (433026384 bytes) mismatched (5 msec).
+[2019-10-30 03:09:45] AppID 730 update changed : Running,
+[2019-10-30 03:09:45] AppID 730 update changed : Running,Preallocating,
+[2019-10-30 03:09:45] AppID 730 update changed : Running,
+[2019-10-30 03:09:45] AppID 730 update started : download 0/310841904, store 0/0, reuse 0/3124132323, delta 0/0, stage 0/4045877871 
+[2019-10-30 03:09:45] AppID 730 state changed : Update Required,Fully Installed,Update Queued,Update Running,Update Started,
+[2019-10-30 03:09:45] AppID 730 update changed : Running,Downloading,
+[2019-10-30 03:09:45] AppID 730 update changed : Running,Downloading,Staging,
+[2019-10-30 03:09:45] Downloading 36 chunks from depot 732
+[2019-10-30 03:09:45] HTTP (SteamCache,240) - cache28-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache28-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-10-30 03:09:45] HTTP (SteamCache,235) - cache23-lhr1.steamcontent.com (162.254.196.14:80 / 162.254.196.14:80, host: cache23-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-10-30 03:09:46] Created ipv4-only http client
+[2019-10-30 03:09:47] Downloading 909 chunks from depot 731
+[2019-10-30 03:09:47] HTTP (SteamCache,240) - cache28-lhr1.steamcontent.com (162.254.196.48:80 / 162.254.196.48:80, host: cache28-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-30 03:09:47] HTTP (SteamCache,146) - cache13-lhr1.steamcontent.com (162.254.196.9:80 / 162.254.196.9:80, host: cache13-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-30 03:09:57] Increasing target number of download connections to 4 (rate was 0.000, now 80.204)
+[2019-10-30 03:09:57] Created download interface of type 'SteamCache' (7) to host cache12-lhr1.steamcontent.com (cache12-lhr1.steamcontent.com)
+[2019-10-30 03:09:57] HTTP (SteamCache,145) - cache12-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache12-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-10-30 03:10:14] AppID 730 update changed : Running,
+[2019-10-30 03:10:14] AppID 730 update changed : Running,Verifying,
+[2019-10-30 03:10:28] AppID 730 update changed : Running,
+[2019-10-30 03:10:28] AppID 730 update changed : Running,Committing,
+[2019-10-30 03:10:28] AppID 730 file commit : 71 updated, 0 moved, 0 deleted
+[2019-10-30 03:10:28] AppID 730 state changed : Fully Installed,Update Queued,Update Running,
+[2019-10-30 03:10:28] AppID 730 finished update, mounted depots (BuildID 4333705) : 732 (6745287990005621199),731 (5849410853669018904),735 (3867231304834558645),
+[2019-10-30 03:10:28] AppID 730 update changed : Running,
+[2019-10-30 03:10:28] AppID 730 update changed : None
+[2019-10-30 03:10:28] AppID 730 state changed : Fully Installed,Update Queued,
+[2019-10-30 03:10:28] AppID 730 state changed : Fully Installed,
+[2019-10-30 03:10:28] AppID 730 scheduler finished : removed from schedule
+[2019-10-30 03:10:58] Current download rate: 0.000 Mbps
+[2019-10-30 03:11:12] HTTP (SteamCache,240) - cache28-lhr1.steamcontent.com (162.254.196.48:80 / 162.254.196.48:80, host: cache28-lhr1.steamcontent.com): Closing connection
+[2019-10-30 03:11:12] HTTP (SteamCache,235) - cache23-lhr1.steamcontent.com (162.254.196.14:80 / 162.254.196.14:80, host: cache23-lhr1.steamcontent.com): Closing connection
+[2019-10-30 03:11:13] HTTP (SteamCache,146) - cache13-lhr1.steamcontent.com (162.254.196.9:80 / 162.254.196.9:80, host: cache13-lhr1.steamcontent.com): Closing connection
+[2019-10-30 03:11:14] HTTP (SteamCache,145) - cache12-lhr1.steamcontent.com (162.254.196.40:80 / 162.254.196.40:80, host: cache12-lhr1.steamcontent.com): Closing connection
+
+
+[2019-10-30 14:21:07] Loaded 2 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+
+
+[2019-11-03 17:33:01] Loaded 2 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+
+
+[2019-11-06 17:12:06] Loaded 2 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+[2019-11-06 17:12:12] AppID 730 state changed : Update Required,Fully Installed, (Update delayed for 48817 secs)
+
+
+[2019-11-06 23:38:32] Loaded 2 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+
+
+[2019-11-09 18:26:30] Loaded 2 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+[2019-11-09 18:26:44] AppID 730 scheduler update : Priority Last, legacy=no, restore="", timeSinceLastPlayed=2873455, appDisableSecondsRemaining=0
+[2019-11-09 18:26:44] AppID 730 state changed : Update Required,Fully Installed,Update Queued,
+[2019-11-09 18:26:44] AppID 730 state changed : Update Required,Fully Installed,Update Queued,Update Running,
+[2019-11-09 18:26:44] AppID 730 update changed : Running,
+[2019-11-09 18:26:44] AppID 730 update changed : Running,Reconfiguring,
+[2019-11-09 18:26:44] Got 30 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (4/0)
+[2019-11-09 18:26:44] Created download interface of type 'SteamCache' (7) to host cache31-lhr1.steamcontent.com (cache31-lhr1.steamcontent.com)
+[2019-11-09 18:26:44] Created download interface of type 'SteamCache' (7) to host cache35-lhr1.steamcontent.com (cache35-lhr1.steamcontent.com)
+[2019-11-09 18:26:44] Created download interface of type 'SteamCache' (7) to host cache15-lhr1.steamcontent.com (cache15-lhr1.steamcontent.com)
+[2019-11-09 18:26:44] Created ipv4-only http client
+[2019-11-09 18:26:44] HTTP (SteamCache,148) - cache15-lhr1.steamcontent.com (162.254.196.10:80 / 162.254.196.10:80, host: cache15-lhr1.steamcontent.com): CDepotHTTPDownloadInterface::BYldTestConnection - Server response 'OK' (200)
+[2019-11-09 18:26:44] HTTP (SteamCache,44) - cache35-lhr1.steamcontent.com (162.254.196.20:80 / 162.254.196.20:80, host: cache35-lhr1.steamcontent.com): CDepotHTTPDownloadInterface::BYldTestConnection - Server response 'OK' (200)
+[2019-11-09 18:26:44] HTTP (SteamCache,39) - cache31-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache31-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-11-09 18:26:44] HTTP (SteamCache,148) - cache15-lhr1.steamcontent.com (162.254.196.10:80 / 162.254.196.10:80, host: cache15-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-11-09 18:26:44] HTTP (SteamCache,39) - cache31-lhr1.steamcontent.com (162.254.196.18:80 / 162.254.196.18:80, host: cache31-lhr1.steamcontent.com): cache31-lhr1.steamcontent.com/depot/732/manifest/9167003162765558275/5 - received 200 (OK) HTTP response
+[2019-11-09 18:26:45] HTTP (SteamCache,148) - cache15-lhr1.steamcontent.com (162.254.196.10:80 / 162.254.196.10:80, host: cache15-lhr1.steamcontent.com): cache15-lhr1.steamcontent.com/depot/731/manifest/4179641089153549015/5 - received 200 (OK) HTTP response
+[2019-11-09 18:26:45] AppID 730 update changed : Running,
+[2019-11-09 18:26:45] AppID 730 update changed : Running,Validating,
+[2019-11-09 18:26:45] Validating files (new target,full) ...
+[2019-11-09 18:26:45] File validation finished: 0 files (0 bytes) total, 0 files (0 bytes) mismatched (53 msec).
+[2019-11-09 18:26:45] AppID 730 update changed : Running,
+[2019-11-09 18:26:45] AppID 730 update changed : Running,Preallocating,
+[2019-11-09 18:26:45] AppID 730 update changed : Running,
+[2019-11-09 18:26:45] AppID 730 update started : download 0/234240016, store 0/0, reuse 0/1293311827, delta 0/0, stage 0/1977643839 
+[2019-11-09 18:26:45] AppID 730 state changed : Update Required,Fully Installed,Update Queued,Update Running,Update Started,
+[2019-11-09 18:26:45] AppID 730 update changed : Running,Downloading,
+[2019-11-09 18:26:45] AppID 730 update changed : Running,Downloading,Staging,
+[2019-11-09 18:26:45] Downloading 27 chunks from depot 732
+[2019-11-09 18:26:45] HTTP (SteamCache,148) - cache15-lhr1.steamcontent.com (162.254.196.10:80 / 162.254.196.10:80, host: cache15-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-11-09 18:26:45] HTTP (SteamCache,44) - cache35-lhr1.steamcontent.com (162.254.196.20:80 / 162.254.196.20:80, host: cache35-lhr1.steamcontent.com): AuthenticateDepotID (732) - Success!
+[2019-11-09 18:26:47] Downloading 707 chunks from depot 731
+[2019-11-09 18:26:47] HTTP (SteamCache,39) - cache31-lhr1.steamcontent.com (162.254.196.18:80 / 162.254.196.18:80, host: cache31-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-11-09 18:26:47] HTTP (SteamCache,44) - cache35-lhr1.steamcontent.com (162.254.196.20:80 / 162.254.196.20:80, host: cache35-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-11-09 18:26:57] Increasing target number of download connections to 4 (rate was 0.000, now 70.140)
+[2019-11-09 18:26:57] Created download interface of type 'SteamCache' (7) to host cache14-lhr1.steamcontent.com (cache14-lhr1.steamcontent.com)
+[2019-11-09 18:26:57] HTTP (SteamCache,147) - cache14-lhr1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache14-lhr1.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2019-11-09 18:27:07] AppID 730 update changed : Running,
+[2019-11-09 18:27:07] AppID 730 update changed : Running,Verifying,
+[2019-11-09 18:27:14] AppID 730 update changed : Running,
+[2019-11-09 18:27:14] AppID 730 update changed : Running,Committing,
+[2019-11-09 18:27:14] AppID 730 file commit : 40 updated, 0 moved, 1 deleted
+[2019-11-09 18:27:15] AppID 730 state changed : Fully Installed,Update Queued,Update Running,
+[2019-11-09 18:27:15] AppID 730 finished update, mounted depots (BuildID 4356353) : 732 (9167003162765558275),731 (4179641089153549015),735 (3867231304834558645),
+[2019-11-09 18:27:15] AppID 730 update changed : Running,
+[2019-11-09 18:27:15] AppID 730 update changed : None
+[2019-11-09 18:27:15] AppID 730 state changed : Fully Installed,Update Queued,
+[2019-11-09 18:27:15] AppID 730 state changed : Fully Installed,
+[2019-11-09 18:27:15] AppID 730 scheduler finished : removed from schedule
+[2019-11-09 18:27:58] Current download rate: 0.000 Mbps
+[2019-11-09 18:28:07] HTTP (SteamCache,147) - cache14-lhr1.steamcontent.com (162.254.196.41:80 / 162.254.196.41:80, host: cache14-lhr1.steamcontent.com): Closing connection
+[2019-11-09 18:28:07] HTTP (SteamCache,39) - cache31-lhr1.steamcontent.com (162.254.196.18:80 / 162.254.196.18:80, host: cache31-lhr1.steamcontent.com): Closing connection
+[2019-11-09 18:28:07] HTTP (SteamCache,44) - cache35-lhr1.steamcontent.com (162.254.196.20:80 / 162.254.196.20:80, host: cache35-lhr1.steamcontent.com): Closing connection
+[2019-11-09 18:28:08] HTTP (SteamCache,148) - cache15-lhr1.steamcontent.com (162.254.196.10:80 / 162.254.196.10:80, host: cache15-lhr1.steamcontent.com): Closing connection
+
+
+[2019-11-09 18:36:24] Loaded 2 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+
+
+[2019-11-10 16:49:00] Loaded 2 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+
+
+[2019-11-11 17:27:37] Loaded 2 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+
+
+[2019-11-12 13:24:05] Loaded 2 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+[2019-11-12 13:25:18] AppID 730 state changed : Fully Installed,App Running,
+[2019-11-12 13:31:32] AppID 730 state changed : Fully Installed,
+
+
+[2019-11-12 13:35:15] Loaded 2 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".
+
+
+[2019-11-12 13:42:27] Loaded 2 apps from install folder "C:\Program Files (x86)\Steam\steamapps\appmanifest_*.acf".

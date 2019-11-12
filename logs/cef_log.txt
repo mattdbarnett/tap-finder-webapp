@@ -1,0 +1,124 @@
+[0915/153439.731:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: browser
+[0915/153454.964:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: gpu-process
+[0917/132623.644:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: browser
+[0917/132638.888:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: gpu-process
+[0917/134650.556:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: utility
+[0917/143030.393:WARNING:audio_sync_reader.cc(187)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[0920/184715.350:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: browser
+[0920/184730.613:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: gpu-process
+[0923/145317.062:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: browser
+[0923/145332.409:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: gpu-process
+[0923/150645.008:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0923/150650.016:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0923/150655.024:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0923/150700.030:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0925/231532.553:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: browser
+[0925/231547.851:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: gpu-process
+[0925/231601.833:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 183
+[0925/231601.841:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 187
+[0925/231601.849:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 135
+[0925/231601.854:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 133
+[0925/231601.856:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 151
+[0925/231601.880:WARNING:spdy_session.cc(3178)] Received HEADERS for invalid stream 139
+[0925/231609.444:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: browser
+[0925/231624.531:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: gpu-process
+[1001/195711.719:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: browser
+[1001/195726.968:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: gpu-process
+[1003/200228.401:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: browser
+[1003/200243.629:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: gpu-process
+[1003/221114.257:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: browser
+[1003/221129.598:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: gpu-process
+[1003/230810.263:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1003/230810.275:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1003/230810.352:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1003/230810.371:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1003/230815.492:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1006/193409.444:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: browser
+[1006/193424.791:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: gpu-process
+[1006/193620.111:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: utility
+[1006/193638.889:WARNING:audio_sync_reader.cc(187)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1006/201831.309:WARNING:audio_sync_reader.cc(187)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1006/222422.765:WARNING:audio_sync_reader.cc(187)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1007/114036.183:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: browser
+[1007/114051.427:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: gpu-process
+[1007/153017.768:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: utility
+[1007/181013.516:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: browser
+[1007/181028.844:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: gpu-process
+[1007/181041.262:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: utility
+[1009/183931.469:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: browser
+[1009/183946.793:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: gpu-process
+[1009/193846.537:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: utility
+[1011/175935.271:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: browser
+[1011/175950.712:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: gpu-process
+[1011/180028.032:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: utility
+[1012/152527.401:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: browser
+[1012/152541.065:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: utility
+[1012/152542.720:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: gpu-process
+[1013/170449.902:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: browser
+[1013/170505.296:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: gpu-process
+[1013/170551.297:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: utility
+[1030/000335.149:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: browser
+[1030/000350.422:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: gpu-process
+[1030/002433.857:WARNING:audio_sync_reader.cc(187)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1030/031034.495:WARNING:audio_sync_reader.cc(187)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1030/142105.935:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: browser
+[1030/142121.228:INFO:crash_reporting.cc(242)] Crash reporting enabled for process: gpu-process
+[1103/173259.540:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: browser
+[1103/173300.114:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: utility
+[1103/173314.744:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: gpu-process
+[1103/173530.405:WARNING:sync_reader.cc(170)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1103/173539.689:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: utility
+[1106/171203.178:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: browser
+[1106/171203.628:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: utility
+[1106/171218.472:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: gpu-process
+[1106/172813.083:WARNING:sync_reader.cc(170)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1106/225337.479:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: utility
+[1106/225829.716:WARNING:sync_reader.cc(170)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1106/230537.638:WARNING:sync_reader.cc(170)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1106/233829.221:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: browser
+[1106/233829.716:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: utility
+[1106/233844.371:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: gpu-process
+[1107/001341.580:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1107/001341.593:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1107/003728.467:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: utility
+[1109/182628.473:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: browser
+[1109/182628.938:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: utility
+[1109/182643.748:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: gpu-process
+[1109/183623.798:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: browser
+[1109/183624.147:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: utility
+[1109/183639.009:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: gpu-process
+[1109/201742.193:WARNING:sync_reader.cc(170)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1109/203512.349:WARNING:sync_reader.cc(170)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1109/203749.996:WARNING:sync_reader.cc(170)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1109/204300.536:WARNING:sync_reader.cc(170)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1109/204655.583:WARNING:sync_reader.cc(170)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1109/204821.114:WARNING:sync_reader.cc(170)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1109/205651.845:WARNING:sync_reader.cc(170)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1109/210327.555:WARNING:sync_reader.cc(170)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1109/223207.624:WARNING:sync_reader.cc(170)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1110/164859.369:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: browser
+[1110/164859.739:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: utility
+[1110/164914.633:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: gpu-process
+[1110/165748.456:WARNING:sync_reader.cc(170)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1110/190603.016:WARNING:sync_reader.cc(170)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1110/191847.065:WARNING:sync_reader.cc(170)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1110/192431.679:WARNING:sync_reader.cc(170)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1110/193219.613:WARNING:sync_reader.cc(170)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1110/194607.795:WARNING:sync_reader.cc(170)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1110/195114.334:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: utility
+[1110/234122.781:WARNING:sync_reader.cc(170)] ASR: No room in socket buffer.: The pipe is being closed. (0xE8)
+[1111/172736.150:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: browser
+[1111/172736.657:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: utility
+[1111/172751.459:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: gpu-process
+[1111/172957.518:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: utility
+[1112/132404.013:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: browser
+[1112/132404.356:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: utility
+[1112/132419.208:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: gpu-process
+[1112/132718.289:ERROR:ssl_client_socket_impl.cc(941)] handshake failed; returned -1, SSL error code 1, net_error -101
+[1112/133247.593:WARNING:spdy_session.cc(3304)] Received HEADERS for invalid stream 55
+[1112/133247.614:WARNING:spdy_session.cc(3304)] Received HEADERS for invalid stream 57
+[1112/133514.849:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: browser
+[1112/133515.028:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: utility
+[1112/133529.935:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: gpu-process
+[1112/134224.859:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: browser
+[1112/134225.187:INFO:crash_reporting.cc(247)] Crash reporting enabled for process: utility

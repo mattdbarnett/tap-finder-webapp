@@ -1,0 +1,864 @@
+"UserLocalConfigStore"
+{
+	"streaming_v2"
+	{
+		"EnableStreaming"		"1"
+	}
+	"Broadcast"
+	{
+		"Permissions"		"1"
+	}
+	"friends"
+	{
+		"PersonaName"		"Ronan"
+		"communitypreferences"		"0801100118b7e9ace6052001"
+		"135933"
+		{
+			"name"		"Ronan"
+			"NameHistory"
+			{
+				"0"		"Ronan"
+			}
+			"avatar"		"90fe17b65ee9c829b89635fd2bfaf44ad0ed8951"
+		}
+		"392339828"
+		{
+			"name"		"Ben"
+			"NameHistory"
+			{
+				"0"		"Ben"
+			}
+			"avatar"		"1bb35261c281b6c22375a977fc62b3d9f70fdc78"
+		}
+		"113916093"
+		{
+			"name"		"Van"
+			"NameHistory"
+			{
+				"0"		"Van"
+			}
+			"avatar"		"12c088d222fd7b1c4f1c47c92eccd559d9d20756"
+		}
+		"443187776"
+		{
+			"name"		"Your lord & saviour Jesus Christ"
+			"NameHistory"
+			{
+				"0"		"Your lord & saviour Jesus Christ"
+			}
+			"avatar"		"840c5881f4088f287fbcc02bfa224df88da5b8e3"
+		}
+		"865641128"
+		{
+			"name"		"Selber Schwanz"
+			"NameHistory"
+			{
+				"0"		"Selber Schwanz"
+			}
+			"avatar"		"100928006f5117ec5f5997fb614f68ca590f08d0"
+		}
+		"133662580"
+		{
+			"name"		"$inister"
+			"NameHistory"
+			{
+				"0"		"$inister"
+				"1"		"jo9ker"
+			}
+			"avatar"		"1287f723d14de9d483911bfdb12a0e7618383864"
+		}
+		"79942612"
+		{
+			"name"		"slug"
+			"NameHistory"
+			{
+				"0"		"slug"
+			}
+			"avatar"		"43dd3a1cd9c605ad2498ef20e00fbbff72c663d9"
+		}
+		"103582791429533863"
+		{
+			"name"		"Girl Gamers"
+			"tag"		"GG"
+			"avatar"		"f3515cbf3f0f74e3db1bab5c6276290f135271c6"
+		}
+		"201178289"
+		{
+			"name"		"..."
+			"NameHistory"
+			{
+				"0"		"..."
+			}
+			"avatar"		"254a9f300f526976f44a65bb262150e508f90da3"
+		}
+		"873856700"
+		{
+			"name"		"Waifu"
+			"NameHistory"
+			{
+				"0"		"Waifu"
+			}
+			"avatar"		"0217b7ccc8a0ed94156672d70d30defe6bea4b3a"
+		}
+		"379227206"
+		{
+			"name"		"Reeeeeeeee"
+			"NameHistory"
+			{
+				"0"		"Reeeeeeeee"
+			}
+			"avatar"		"daf048d9de4055338e15b6bfd7afb6fcbb4f12d5"
+		}
+		"95479475"
+		{
+			"name"		"Doofus"
+			"NameHistory"
+			{
+				"0"		"Doofus"
+			}
+			"avatar"		"f3406a41b74f2b9da67254d80a7bf402dbbcbb21"
+		}
+		"155351836"
+		{
+			"name"		"mazirka♥B"
+			"NameHistory"
+			{
+				"0"		"mazirka♥B"
+			}
+			"avatar"		"2846cd2c3e78f141a78f4feff67b5fbf2f3ecd9e"
+		}
+		"194778234"
+		{
+			"name"		"sure"
+			"NameHistory"
+			{
+				"0"		"sure"
+			}
+			"avatar"		"ceeeef706436600f88912087fbca06860c98bfed"
+		}
+		"882414522"
+		{
+			"name"		"Mishel"
+			"NameHistory"
+			{
+				"0"		"Mishel"
+			}
+			"avatar"		"4899072967e04a811c3af3b63fef178de2f8b131"
+		}
+		"192010737"
+		{
+			"name"		"Bruh Moment"
+			"NameHistory"
+			{
+				"0"		"Bruh Moment"
+			}
+			"avatar"		"3c004370825a62e6ae9a94856caf9129caddc4d0"
+		}
+		"248815960"
+		{
+			"name"		"K1L@1"
+			"NameHistory"
+			{
+				"0"		"K1L@1"
+			}
+			"avatar"		"85c8e11f3a3b1152df6a605ea4e5d351a8ef1336"
+		}
+		"81679089"
+		{
+			"name"		"Potassium Elemental"
+			"NameHistory"
+			{
+				"0"		"Potassium Elemental"
+			}
+			"avatar"		"2f90669bbd6c389e30db014b9a413fbaea174c9e"
+		}
+		"103582791435312628"
+		{
+			"name"		"Pompa Team JP"
+			"tag"		".Pompa.Team."
+			"avatar"		"fd0a709ccd1e9f4d3e5a842ca47e96f0a3182038"
+		}
+		"140949376"
+		{
+			"name"		"markulbarkul"
+			"NameHistory"
+			{
+				"0"		"markulbarkul"
+			}
+			"avatar"		"54299f3394aafada39916015c9f57d2c9a3a1ef0"
+		}
+		"870849147"
+		{
+			"name"		"$INISTER"
+			"NameHistory"
+			{
+				"0"		"$INISTER"
+				"1"		"Stillborn.Anderson1988"
+				"2"		"squidward son"
+				"3"		"Racks Rackington Skinbay.com"
+				"4"		"Racks Rackington"
+				"5"		"Joe"
+				"6"		"PrisonerBall2005"
+				"7"		"CornBall2005"
+			}
+			"avatar"		"81fa34b5f113834ea2c7fae427e62f9060415c29"
+		}
+		"121043056"
+		{
+			"name"		"jollybeans"
+			"NameHistory"
+			{
+				"0"		"jollybeans"
+				"1"		"wiseguy87"
+			}
+			"avatar"		"93ae07703f5b1893ba6f96308362dc440d19863a"
+		}
+		"284174422"
+		{
+			"name"		"Coke"
+			"NameHistory"
+			{
+				"0"		"Coke"
+			}
+			"avatar"		"36e6dc3064f53ddb9add2a53d0bb4430bc12aa86"
+		}
+		"299518358"
+		{
+			"name"		"WhyAlwaysMe?"
+			"NameHistory"
+			{
+				"0"		"WhyAlwaysMe?"
+			}
+			"avatar"		"ee1ce58f6548b8a9da1310e7eebb02d0a278ee73"
+		}
+		"3148424"
+		{
+			"name"		"princess v2"
+			"NameHistory"
+			{
+				"0"		"princess v2"
+			}
+			"avatar"		"0a6abca659872936cb1e78a1985fd461e97437d0"
+		}
+		"317960531"
+		{
+			"name"		"Robin"
+			"NameHistory"
+			{
+				"0"		"Robin"
+			}
+			"avatar"		"eee5a276e73c151c8778b2e88429d16c7064defb"
+		}
+		"95599859"
+		{
+			"name"		"Raf Simons"
+			"NameHistory"
+			{
+				"0"		"Raf Simons"
+			}
+			"avatar"		"2568de6be1f76b4e7414d5ec9401621ad07b12e3"
+		}
+		"254672403"
+		{
+			"name"		"yahtzee"
+			"NameHistory"
+			{
+				"0"		"yahtzee"
+			}
+			"avatar"		"9e9ce9ec67095311bf015d9f53bd8700a36335a0"
+		}
+		"83370185"
+		{
+			"name"		"Twincest"
+			"NameHistory"
+			{
+				"0"		"Twincest"
+			}
+			"avatar"		"f1dea5701b83f3fa8f64d266f15b9d72aa56d0a6"
+		}
+		"103582791463284144"
+		{
+			"name"		"Thumbtack Fanclub"
+			"tag"		"thumbtack"
+			"avatar"		"dfb0bfb92bd9e12863d2647859d794e35ce9b6bf"
+		}
+		"424196832"
+		{
+			"name"		"Madoka"
+			"NameHistory"
+			{
+				"0"		"Madoka"
+			}
+			"avatar"		"bcb6349e48d1844dbe55bfc271ea513b58fd8433"
+		}
+		"238025727"
+		{
+			"name"		"abooda19874"
+			"NameHistory"
+			{
+				"0"		"abooda19874"
+			}
+		}
+		"103582791429527670"
+		{
+			"name"		"Furry Pride"
+			"tag"		"FP"
+			"avatar"		"f2e89e50c02bc63c8364e91b5a330c210fcd611e"
+		}
+		"103582791452829930"
+		{
+			"name"		"niSe clan"
+			"tag"		"niSe-"
+			"avatar"		"0000000000000000000000000000000000000000"
+		}
+		"168947611"
+		{
+			"name"		"monky"
+			"NameHistory"
+			{
+				"0"		"monky"
+				"1"		"Miscarriage.Michael1976"
+				"2"		"Miscarrige.Michael1976"
+				"3"		"Miscarridge.Michael1976"
+				"4"		"Michael.Mike1976"
+				"5"		"Jahseh Dwayne Ricardo Onfroy"
+			}
+			"avatar"		"63fccd4b1da9c8c8bfaae866fd305297b3b230d5"
+		}
+		"270168036"
+		{
+			"name"		"SHABA VAC"
+			"NameHistory"
+			{
+				"0"		"SHABA VAC"
+			}
+			"avatar"		"68ad23e9262965c8157c1a9a22f8cccef602e514"
+		}
+		"103582791453552146"
+		{
+			"name"		"loli terrorists"
+			"tag"		"LoliTerro"
+			"avatar"		"c44eadd6af5114576462a9f670f09b9a51c4ef9a"
+		}
+		"253320609"
+		{
+			"name"		"NiGHT"
+			"NameHistory"
+			{
+				"0"		"NiGHT"
+			}
+			"avatar"		"d089bbaa0e9abade161b08a9520aaacc59d566b6"
+		}
+		"392456808"
+		{
+			"name"		"wheathan"
+			"NameHistory"
+			{
+				"0"		"wheathan"
+			}
+			"avatar"		"ed35cfdc81732f4abb758ffa57713378370c454a"
+		}
+		"280648068"
+		{
+			"name"		"Joe Baseball"
+			"NameHistory"
+			{
+				"0"		"Joe Baseball"
+			}
+			"avatar"		"d705a39e85308e67ced45cbbd35a73682e0216f8"
+		}
+		"168852454"
+		{
+			"name"		"JOSHTHELAD"
+			"NameHistory"
+			{
+				"0"		"JOSHTHELAD"
+			}
+			"avatar"		"7f2ac21d9f594012db8358a95f171b8484955938"
+		}
+		"15274448"
+		{
+			"name"		"yahtzee"
+			"NameHistory"
+			{
+				"0"		"yahtzee"
+			}
+			"avatar"		"7372ced0537f18aad3a4a149c5ff69ba0947ea51"
+		}
+		"407449637"
+		{
+			"name"		"Rich || Yung Zu 60hz bois"
+			"NameHistory"
+			{
+				"0"		"Rich || Yung Zu 60hz bois"
+				"1"		"Rich || Yung Zu"
+			}
+			"avatar"		"402186791ade4c8393db4aefee47dffd514ec368"
+		}
+		"32522196"
+		{
+			"name"		"Madlib"
+			"NameHistory"
+			{
+				"0"		"Madlib"
+			}
+			"avatar"		"8679d7b979af881e64d2ce7fbbb0395defb686f8"
+		}
+		"201555444"
+		{
+			"name"		"424"
+			"NameHistory"
+			{
+				"0"		"424"
+			}
+			"avatar"		"33b54462c75229234af7c0a23d7a37af042a924f"
+		}
+		"425641840"
+		{
+			"name"		"6716"
+			"NameHistory"
+			{
+				"0"		"6716"
+			}
+			"avatar"		"f3cfa59e592e15df165758ee3e30c56108a87c60"
+		}
+		"113141778"
+		{
+			"name"		"緩緩"
+			"NameHistory"
+			{
+				"0"		"緩緩"
+			}
+			"avatar"		"18c19cf93f770d1615976e0508581b71a3adf77b"
+		}
+		"313039422"
+		{
+			"name"		"Bulibasa"
+			"NameHistory"
+			{
+				"0"		"Bulibasa"
+			}
+			"avatar"		"d5e9409beff63299bba567d9090267c898a1892c"
+		}
+		"370673757"
+		{
+			"name"		"Cradditz †"
+			"NameHistory"
+			{
+				"0"		"Cradditz †"
+			}
+			"avatar"		"23aacad26692b7feca23d148213d0433b9114954"
+		}
+		"97481846"
+		{
+			"name"		"Enraged Chucklenuts"
+			"NameHistory"
+			{
+				"0"		"Enraged Chucklenuts"
+				"1"		"Enraged Woahfuckdude"
+			}
+			"avatar"		"80b4a9c993636bc42fbe611c4e96dd01f60e9f71"
+		}
+		"851905363"
+		{
+			"name"		"Alan"
+			"NameHistory"
+			{
+				"0"		"Alan"
+			}
+			"avatar"		"35af59a0e9d4085fed515f39e129307b383c891f"
+		}
+		"307555386"
+		{
+			"name"		"jewishboy691"
+			"NameHistory"
+			{
+				"0"		"jewishboy691"
+			}
+		}
+		"136985"
+		{
+			"name"		"prince"
+			"NameHistory"
+			{
+				"0"		"prince"
+			}
+			"avatar"		"99fee5571107482f2d4853eebbeab9c95560074d"
+		}
+		"970741708"
+		{
+			"name"		"Ultra Instinct Shaggy"
+			"NameHistory"
+			{
+				"0"		"Ultra Instinct Shaggy"
+				"1"		"JH"
+				"2"		"Peppa The Punisher"
+			}
+			"avatar"		"38f51328b56012bff34097136b53f20efeb4f345"
+		}
+		"238768051"
+		{
+			"name"		"◢◤ JG"
+			"NameHistory"
+			{
+				"0"		"◢◤ JG"
+			}
+			"avatar"		"d88dd827e88422e0f7d29f2df87d68b122a7f336"
+		}
+		"327703394"
+		{
+			"name"		"Resigner"
+			"NameHistory"
+			{
+				"0"		"Resigner"
+				"1"		"Genesis Resiigner"
+			}
+			"avatar"		"24836f2a046c27c468372e5b24d6eaaf19d47ed1"
+		}
+		"340863191"
+		{
+			"name"		"Bianca Devins Forever | trade.tf"
+			"NameHistory"
+			{
+				"0"		"Bianca Devins Forever | trade.tf"
+				"1"		"Bianca Devins Forever"
+				"2"		"anthony"
+				"3"		"FROYO tr4nny"
+				"4"		"Teh Festive Engineer | trade.tf"
+				"5"		"macbook_michael"
+			}
+			"avatar"		"caf0b77b7ec04fc0fe8923fdd6e7c76e34a943a0"
+		}
+		"114369984"
+		{
+			"name"		"Mr. Cockroach"
+			"NameHistory"
+			{
+				"0"		"Mr. Cockroach"
+			}
+			"avatar"		"a6b840b605bcf6da4347b66219defdd4af985234"
+		}
+		"433299588"
+		{
+			"name"		"INV3RTRAGE"
+			"NameHistory"
+			{
+				"0"		"INV3RTRAGE"
+				"1"		"GrassFedFatFucks"
+			}
+			"avatar"		"2a8a29a250f96730eb77d512ec262461ce04dfe3"
+		}
+		"83527821"
+		{
+			"name"		"Moneyboy"
+			"NameHistory"
+			{
+				"0"		"Moneyboy"
+			}
+			"avatar"		"f554636186eabf69a15416a71f51b9b245ebf220"
+		}
+		"452986314"
+		{
+			"name"		"ur dad"
+			"NameHistory"
+			{
+				"0"		"ur dad"
+			}
+			"avatar"		"ffe35a073066c6df030aef974a8afb15bdd047f3"
+		}
+		"296401132"
+		{
+			"name"		"bean"
+			"NameHistory"
+			{
+				"0"		"bean"
+			}
+			"avatar"		"a64277c26f85473d1a44bad5511f744fafa8389d"
+		}
+		"216691566"
+		{
+			"name"		"OldGoldie"
+			"NameHistory"
+			{
+				"0"		"OldGoldie"
+			}
+			"avatar"		"2ecde40d20f2b03b90f6e1e814f1c30510e7544c"
+		}
+		"408671183"
+		{
+			"name"		"ASilentVoice"
+			"NameHistory"
+			{
+				"0"		"ASilentVoice"
+			}
+			"avatar"		"688f2a85fcd95048bdec4218fb544011b0427f22"
+		}
+		"130571100"
+		{
+			"name"		"Project - V. Deployed"
+			"NameHistory"
+			{
+				"0"		"Project - V. Deployed"
+				"1"		"Juan Carlos Da Silva"
+			}
+			"avatar"		"eb952a98eebc5d869b0fe7dcacbf3b2660d99000"
+		}
+		"131620724"
+		{
+			"name"		"nigerian black prince ﷽"
+			"NameHistory"
+			{
+				"0"		"nigerian black prince ﷽"
+			}
+			"avatar"		"6f9ddfca4d2016bdbc2ea497044037f17a80813e"
+		}
+		"103582791439710204"
+		{
+			"name"		"CSGOLotto.com"
+			"tag"		"CSGOLottocom"
+			"avatar"		"5b1f18a602ab18b3302762aa7c299f50870d3302"
+		}
+	}
+	"Licenses"
+	{
+		"0"		"01000000d6f90bd46133185cfaa4bc30ec9cd0adc21f45ee6b9963d8c4ea8c4d7a68637a14e804369835c9287c13679fc2612647983116fa044be84fff5bde22c5a6ac4890a2743d67da1a47964407ef6b8ea4a7fe0ff725219a4f1295ae5f7e4cddd2ae6f4b4ab4ce5844ab7ac7e143c03c1765ffd92fab7f7a4401bb0ce7c452a8fda64295b19d76ab2dc18db237d711154527f56d883e1e2dea99b0c51da501c742f4dad8b428dbc94a5f5f7a2b418c9fadc95c4f5ff97dc35e218b9d258b34ebc878e6808d4f0bd78981a0e53e2b4a425541ac9a44ff854ced48b84081114fe77a3ebbff216ebc3e8fb644e566aec16930c73dfbc6281e6a7a71de15668b04cd6062c1b6e18d0280cde1b6c3c991446657c6ff6b54d13fac1311715ba3a50888b2cd6a"
+		"1"		"01000000d6f90bd46133185cfaa4bc30ec9cd0adc21f45ee6b9963d8c4ea8d4d7a68637a14e804369835c9287c136720eebe4247983116fa044be84fff5bde22c5a6ac4890a2743d67da1a47964407ef6b8ea4a7fe0ff725219a4f1295ae5f7e4cddd2ae6f4b4ab4ce5844ab7ac7e143c03c1765ffd92fab7f7a4001bb0ce7c452a8fda64295b19d76ab2dc18db237d711154527f56d883e1e2d6a99b0c51da501c742f4dad8b428dbc94a5f5f7a2b418c9fadc95c4f5ff97dc35e218b9d258b34ebc878e6808d4f0bd78981a0e53e2b4a425541ac9a44ff854ced48b84081114fe77a3ebbff216ebc3e8fb644e566aec16930c73dfbc6281e6a7a71de15668b04cd6062c1b6e18d0280cde1b6c3c991446657c6ff6b54d13fac1311715ba3a508e41f6e1d"
+		"21194"		"01000000d6f90bd46133185cfaa4bc30ec9cd0adc21f45ee6b9963d8c4ea461f7a68637a14e804369835c9287c1367f699a02147983116fa044be84fff5bde22c5a6ac4890a2743d67da1a47964407ef6b8ea4a7fe0ff725219a4f1295ae5f7e4cddd2ae6f4b4ab4ce5844ab7ac7e143c03c1765ffd92fab7f7a4401bb0ce7c452a8fda64295b19d76ab2dc18db237d71115026793038f350c4a999bb0c71ff166e155efdcdeb23eeadf6d553b1f2b418c9de1a2734352ef76e4420597ed418b35ebca3793a19f5327e1c038b21a2c2b032e755bac8f41ce8c6ee155b52fe5114fe77877d7df3b6ea93bbab37de95ea5fd7359b33dfbc62a4c0d4671c7117dba0def6c7fccd9858d0280cfb3d1ffc988407d62c3c6676cda03b67a65715ba3ad000808e9466dc3"
+		"21311"		"01000000d6f90bd46133185cfaa4bc30ec9cd0adc21f45ee6b9963d8c4eab31e7a68637a14e804369835c9287c13671f24612547983116fa044be84fff5bde22c5a6ac4890a2743d67da1a47964407ef6b8ea4a7fe0ff725219a4f1295ae5f7e4cddd2ae6f4b4ab4ce5844ab7ac7e143c03c1765ffd92fab7f7a4401bb0ce7c452a8fda64295b19d76ab2dc18db237d71115026793038f350c4a999bb0c71ff166e155efdcdeb23eeadf6d553b1f2b418c9de1a2734352ef76e4420597ed418b35ebca3793a19f5327e1c038b21a2c2b032e755bac8f41ce8c6ee155b52fe5114fe77877d7df3b6ea93bbab37de95ea5fd7359b33dfbc62a4c0d4671c7117dba0def6c7fccd9858d0280cfb3d1ffc988407d62c3c6676cda03b67a65715ba3ad00080866049ee9"
+		"21353"		"01000000d6f90bd46133185cfaa4bc30ec9cd0adc21f45ee6b9963d8c4eae51e7a68637a14e804369835c9287c1367cc9aa92147983116fa044be84fff5bde22c5a6ac4890a2743d67da1a47964407ef6b8ea4a7fe0ff725219a4f1295ae5f7e4cddd2ae6f4b4ab4ce5844ab7ac7e143c03c1765ffd92fab7f7a4401bb0ce7c452a8fda64295b19d76ab2dc18db237d71115026793038f350c4a999bb0c71ff166e155efdcdeb23eeadf6d553b1f2b418c9de1a2734352ef76e4420597ed418b35ebca3793a19f5327e1c038b21a2c2b032e755bac8f41ce8c6ee155b52fe5114fe77877d7df3b6ea93bbab37de95ea5fd7359b33dfbc62a4c0d4671c7117dba0def6c7fccd9858d0280cfb3d1ffc988407d62c3c6676cda03b67a65715ba3ad000808e47fccb8"
+		"46564"		"01000000d6f90bd46133185cfaa4bc30ec9cd0adc21f45ee6b9963d8c4ea68f87a68637a14e804369835c9287c1367e0beb52047983116fa044be84fff5bde22c5a6ac4890a2743d67da1a47964407ef6b8ea4a7fe0ff725219a4f1295ae5f7e4cddd2ae6f4b4ab4ce5844ab7ac7e143c03c1765ffd92fab7f7b4001bb0ce7c452a8fda64295b19d76ab2dc18db237d71115026793038f350c4a999bb0c51ff166e155efdcdeb23eeadf6d553b1f2b898a9de1a2734352ef76e4420597ed418b35ebca3793a19f5327e1c038b21a2c2b032e755bac8f41ce8c6ee155b52fe5114fe77877d7df3b6ea93bbab37de95ea5fd7359b33dfbc62a4c0d4671c7117dba0def6c7fccd9858d0280cfb3d1ffc988407d62c3c6676cda03b67a65715ba3ad000808d26a44e2"
+		"54029"		"01000000d6f90bd46133185cfaa4bc30ec9cd0adc21f45ee6b9963d8c4ea819e7a68637a14e804369835c9287c1367721ecf2a47983116fa044be84fff5bde22c5a6ac4890a2743d67da1a47964407ef6b8ea4a7fe0ff725219a4f1295ae5f7e4cddd2ae6f4b4ab4ce5844ab7ac7e143c03c1765ffd92fab7f724001bb0ce7c452a8fda64295b19d76ab2dc18db237d71115067f93038f350c4a999bb0c71ff166e155efdcdeb23eeadf6d553b1f2b418c9de1a2734352ef76e4420597ed418b35ebca3793a19f5327e1c038b21a2c2b032e755bac8f41ce8c6ee155b52fe5114fe77877d7df3b6ea93bbab37de95ea5fd7359b33dfbc62a4c0d4671c7117dba0def6c7fccd9858d0280cfb3d1ffc988407d62c3c6676cda03b67a65715ba3ad00080868a65ae7"
+		"68912"		"01000000d6f90bd46133185cfaa4bc30ec9cd0adc21f45ee6b9963d8c4eabc407b68637a14e804369835c9287c1367998db72b47983116fa044be84fff5bde22c5a6ac4890a2743d67da1a47964407ef6b8ea4a7fe0ff725219a4f1295ae5f7e4cddd2ae6f4b4ab4ce5844ab7ac7e143c03c1765ffd92fab7f7a4401bb0ce7c452a8fda64295b19d76ab2dc18db237d71115026793038f350c4a999bb0c71ff166e155efdcdeb23eeadf6d553b1f2b418c9de1a2734352ef76e4420597ed418b35ebca3793a19f5327e1c038b21a2c2b032e755bac8f41ce8c6ee155b52fe5114fe77877d7df3b6ea93bbab37de95ea5fd7359b33dfbc62a4c0d4671c7117dba0def6c7fccd9858d0280cfb3d1ffc988407d62c3c6676cda03b67a65715ba3ad000808fc698d29"
+		"94404"		"01000000d6f90bd46133185cfaa4bc30ec9cd0adc21f45ee6b9963d8c4ea483d7b68637a14e804369835c9287c1367b6b1632547983116fa044be84fff5bde22c5a6ac4890a2743d67da1a47964407ef6b8ea4a7fe0ff725219a4f1295ae5f7e4cddd2ae6f4b4ab4ce5844ab7ac7e143c03c1765ffd92fab7f7a4401bb0ce7c452a8fda64295b19d76ab2dc18db237d71115026793038f350c4a999bb0c71ff166e155efdcdeb23eeadf6d553b1f2b418c9de1a2734352ef76e4420597ed418b35ebca3793a19f5327e1c038b21a2c2b032e755bac8f41ce8c6ee155b52fe5114fe77877d7df3b6ea93bbab37de95ea5fd7359b33dfbc62a4c0d4671c7117dba0def6c7fccd9858d0280cfb3d1ffc988407d62c3c6676cda03b67a65715ba3ad000808d0051ba5"
+		"137368"		"01000000d6f90bd46133185cfaa4bc30ec9cd0adc21f45ee6b9963d8c4ea14557868637a14e804369835c9287c1367dda5a92147983116fa044be84fff5bde22c5a6ac4890a2743d67da1a47964407ef6b8ea4a7fe0ff725219a4f1295ae5f7e4cddd2ae6f4b4ab4ce5844ab7ac7e143c03c1765ffd92fab7f7a4401bb0ce7c452a8fda64295b19d76ab2dc18db237d71115026793038f350c4a999bb0c71ff166e155efdcdeb23eeadf6d553b1f2b418c9de1a2734352ef76e4420597ed418b35ebca3793a19f5327e1c038b21a2c2b032e755bac8f41ce8c6ee155b52fe5114fe77877d7df3b6ea93bbab37de95ea5fd7359b33dfbc62a4c0d4671c7117dba0def6c7fccd9858d0280cfb3d1ffc988407d62c3c6676cda03b67a65715ba3ad000808eb7f3392"
+		"183411"		"01000000d6f90bd46133185cfaa4bc30ec9cd0adc21f45ee6b9963d8c4eaff817868637a14e804369835c9287c136716cde12447983116fa044be84fff5bde22c5a6ac4890a2743d67da1a47964407ef6b8ea4a7fe0ff725219a4f1295ae5f7e4cddd2ae6f4b4ab4ce5844ab7ac7e143c03c1765ffd92fab7f7a4401bb0ce7c452a8fda64295b19d76ab2dc18db237d71115026793038f350c4a999bb0c71ff166e155efdcdeb23eeadf6d553b1f2b418c9de1a2734352ef76e4420597ed418b35ebca3793a19f5327e1c038b21a2c2b032e755bac8f41ce8c6ee155b52fe5114fe77877d7df3b6ea93bbab37de95ea5fd7359b33dfbc62a4c0d4671c7117dba0def6c7fccd9858d0280cfb3d1ffc988407d62c3c6676cda03b67a65715ba3ad000808c387ca79"
+		"208502"		"01000000d6f90bd46133185cfaa4bc30ec9cd0adc21f45ee6b9963d8c4eafa637968637a14e804369835c9287c13670202282747983116fa044be84fff5bde22c5a6ac4890a2743d67da1a47964407ef6b8ea4a7fe0ff725219a4f1295ae5f7e4cddd2ae6f4b4ab4ce5844ab7ac7e143c03c1765ffd92fab7f7a4401bb0ce7c452a8fda64295b19d76ab2dc18db237d71115026793038f350c4a999bb0c71ff166e155efdcdeb23eeadf6d553b1f2b418c9de1a2734352ef76e4420597ed418b35ebca3793a19f5327e1c038b21a2c2b032e755bac8f41ce8c6ee155b52fe5114fe77877d7df3b6ea93bbab37de95ea5fd7359b33dfbc62a4c0d4671c7117dba0def6c7fccd9858d0280cfb3d1ffc988407d62c3c6676cda03b67a65715ba3ad00080801ffd7d3"
+		"272228"		"01000000d6f90bd46133185cfaa4bc30ec9cd0adc21f45ee6b9963d8c4eae86a7e68637a14e804369835c9287c1367466b2b2747983116fa044be84fff5bde22c5a6ac4890a2743d67da1a47964407ef6b8ea4a7fe0ff725219a4f1295ae5f7e4cddd2ae6f4b4ab4ce5844ab7ac7e143c03c1765ffd92fab7f7a4401bb0ce7c452a8fda64295b19d76ab2dc18db237d71115026793038f350c4a999bb0c71ff166e155efdcdeb23eeadf6d553b1f2b418c9de1a2734352ef76e4420597ed418b35ebca3793a19f5327e1c038b21a2c2b032e755bac8f41ce8c6ee155b52fe5114fe77877d7df3b6ea93bbab37de95ea5fd7359b33dfbc62a4c0d4671c7117dba0def6c7fccd9858d0280cfb3d1ffc988407d62c3c6676cda03b67a65715ba3ad0008089ffdc5ee"
+		"275211"		"01000000d6f90bd46133185cfaa4bc30ec9cd0adc21f45ee6b9963d8c4ea877e7e68637a14e804369835c9287c13670b91d82647983116fa044be84fff5bde22c5a6ac4890a2743d67da1a47964407ef6b8ea4a7fe0ff725219a4f1295ae5f7e4cddd2ae6f4b4ab4ce5844ab7ac7e143c03c1765ffd92fab7f7a4401bb0ce7c452a8fda64295b19d76ab2dc18db237d71115026793038f350c4a999bb0c71ff166e155efdcdeb23eeadf6d553b1f2b418c9de1a2734352ef76e4420597ed418b35ebca3793a19f5327e1c038b21a2c2b032e755bac8f41ce8c6ee155b52fe5114fe77877d7df3b6ea93bbab37de95ea5fd7359b33dfbc62a4c0d4671c7117dba0def6c7fccd9858d0280cfb3d1ffc988407d62c3c6676cda03b67a65715ba3ad000808f5ceacc5"
+		"287767"		"01000000d6f90bd46133185cfaa4bc30ec9cd0adc21f45ee6b9963d8c4ea9b297e68637a14e804369835c9287c1367181e8d2647983116fa044be84fff5bde22c5a6ac4890a2743d67da1a47964407ef6b8ea4a7fe0ff725219a4f1295ae5f7e4cddd2ae6f4b4ab4ce5844ab7ac7e143c03c1765ffd92fab7f7a4401bb0ce7c452a8fda64295b19d76ab2dc18db237d71115026793038f350c4a999bb8c71ff166e155efdcdeb23eeadf6d553b1f2b418c9de1a2734352ef76e4420597ed418b35ebca3793a19f5327e1c038b21a2c2b032e755bac8f41ce8c6ee155b52fe5114fe77877d7df3b6ea93bbab37de95ea5fd7359b33dfbc62a4c0d4671c7117dba0def6c7fccd9858d0280cfb3d1ffc988407d62c3c6676cda03b67a65715ba3ad0008087490b003"
+		"298469"		"01000000d6f90bd46133185cfaa4bc30ec9cd0adc21f45ee6b9963d8c4ea69c07e68637a14e804369835c9287c1367f000ad2647983116fa044be84fff5bde22c5a6ac4890a2743d67da1a47964407ef6b8ea4a7fe0ff725219a4f1295ae5f7e4cddd2ae6f4b4ab4ce5844ab7ac7e143c03c1765ffd92fab7f7a4401bb0ce7c452a8fda64295b19d76ab2dc18db237d71115026793038f350c4a999bb0c71ff166e155efdcdeb23eeadf6d553b1f2b418c9de1a2734352ef76e4420597ed418b35ebca3793a19f5327e1c038b21a2c2b032e755bac8f41ce8c6ee155b52fe5114fe77877d7df3b6ea93bbab37de95ea5fd7359b33dfbc62a4c0d4671c7117dba0def6c7fccd9858d0280cfb3d1ffc988407d62c3c6676cda03b67a65715ba3ad00080806704702"
+		"300959"		"01000000d6f90bd46133185cfaa4bc30ec9cd0adc21f45ee6b9963d8c4ea13da7e68637a14e804369835c9287c13675e3fa12647983116fa044be84fff5bde22c5a6ac4890a2743d67da1a47964407ef6b8ea4a7fe0ff725219a4f1295ae5f7e4cddd2ae6f4b4ab4ce5844ab7ac7e143c03c1765ffd92fab7f7a4401bb0ce7c452a8fda64295b19d76ab2dc18db237d71115026793038f350c4a999bb0c71ff166e155efdcdeb23eeadf6d553b1f2b418c9de1a2734352ef76e4420597ed418b35ebca3793a19f5327e1c038b21a2c2b032e755bac8f41ce8c6ee155b52fe5114fe77877d7df3b6ea93bbab37de95ea5fd7359b33dfbc62a4c0d4671c7117dba0def6c7fccd9858d0280cfb3d1ffc988407d62c3c6676cda03b67a65715ba3ad00080853443996"
+		"357701"		"01000000d6f90bd46133185cfaa4bc30ec9cd0adc21f45ee6b9963d8c4eac9387f68637a14e804369835c9287c13676f3b3a2147983116fa044be84fff5bde22c5a6ac4890a2743d67da1a47964407ef6b8ea4a7fe0ff725219a4f1295ae5f7e4cddd2ae6f4b4ab4ce5844ab7ac7e143c03c1765ffd92fab7f7a4401bb0ce7c452a8fda64295b19d76ab2dc18db237d71115016093038f350c4a999bb0c71ff166e155efdcdeb23eeadf6d553b1f2b418c9de1a2734352ef76e4420597ed418b35ebca3793a19f5327e1c038b21a2c2b032e755bac8f41ce8c6ee155b52fe5114fe77877d7df3b6ea93bbab37de95ea5fd7359b33dfbc62a4c0d4671c7117dba0def6c7fccd9858d0280cfb3d1ffc988407d62c3c6676cda03b67a65715ba3ad0008084eede564"
+	}
+	"apptickets"
+	{
+		"7"		"3200000004000000fd120200010010010700000049fdfb83016da8c000000000afb2ca5d2f62e65d01000000000000000000af56557b4c09cfe8c8c71f51fac08ac38ac86df1d80fe63ae3db30af30ffb8958757bd8f2ca93b1333baf5dd2c23e37ddd649d2d85b2ebc4d86dd49382c5a1cc30d561bf1db1424e9023a627dd916d9b62f42ec81b45c795ef8ba10326fa5325822f7844b6af31a00ddec44ec5b698a1b176524204354aa67e1c0ecf98926572"
+		"228980"		"3200000004000000fd12020001001001747e030096fcfb833302c20a000000001505c75d95b4e25d010000000000000000008d226d6dc001a24765579c4ec7733922e056175e9406929e70261f30eba658619911b493f07bd0e7602997ca758b3e8e5f57cc4a43bbe94441f70f7a69cc50c1f84d0fd2d4236090ba7aac49b2c923da5a4629ad56ef491105b3495f37eebb2569cacdebc727a925d2b03f05866a6a6590a039963f17e2e332da121e848d5417"
+		"730"		"3800000004000000fd12020001001001da02000096fcfb833302c20a000000001505c75d95b4e25d01000dd300000100b4880900000000006ee1225c48af7a0aaa907816335fdfc3a647a00c9025f7676ca08f793c206aa888a01a7ed2f1dc8d77e047b8ae66e5def0cbe046ab76e0bbfe3637f675a0707241275b79253c837549e3b676568a31dc68dae76f6b5cb2b7b7b05c440646756eba2a5be48975318ad45cb9f168c71c2eb6e8c8461a7171b0dc2eeb6dd36a2b24"
+	}
+	"ParentalSettings"
+	{
+		"settings"		"09fd120200000000004800"
+		"Signature"		"55d03f708700b204eebe3fe328275bf14bc75ab251b0a6f80f94c18ffb332559b322075fcaf4f124723b7f17407a0af580e68a1a76707d717b00e3c76a59b6c3642115e762dc440bf716bcd36b951acd38fcf208f9daf9ab51ac9a59cacfb56d63c868af5ded33ea2f940472a9b020a168076a9c8906e646a62628631c3d41b92bb733358e312b2660c0051e4c9ec49f69ed567a28ca273a19c3c02ace0105627f0555e91d5ee04754dd5e72bab9940def2b641e1a3063563ea38a9b9c8f121aabefde9382a3bce286527cd9b5415fb8177fe28d48ab90f9a550f9aced5e629044d49e56b439e47ca856d3ffbf716236994a376789b69217b7afbae3fc7545c0"
+	}
+	"Offline"
+	{
+		"Ticket"		"8196920ebf75d20f4e77f7cbc53a99b528feb2b3532d2193e7235591e5a1078306"
+		"Signature"		"776184ac3d0c8a39ff2a70d5ad4be5e73bf3c3d21eeac6112f7a8ab31c5a02e0a4a442b90eb83ba4dc71f36d37bcb964c5233120f303bbd1a8a043627ed4139270834209ad352f99f36ebd0b5a6741632e361771438ad296a11a5785f970d74c4eef724e31580e3be899951613045cf74f9899ea44501da3a09fb49e8e1f48c32cd28fffdcef3898f174500e22b6f4772429d075862bc19382ffbab904101b281b5f39b853753782c271b2c3053ddd65d81013bdc8cdccc9b1fd260105f7c545537d4f7b648fe03f438aa762f46e76213dcd39eaefe2e7d4859121aa24fc046d601ff9a5ac9bcab88574e9fbd00ed25617d164e71c4700f64e69e02ff713c481"
+	}
+	"SharedAuth"
+	{
+		"id"		"58198955"
+		"AuthData"		"737d7a02b10e412c1834e7a866ddb15799818a19f3682da9358d425f3158daa5"
+	}
+	"AppInfoChangeNumber"		"7185861"
+	"CloudKey"		"0100000010d5b901937f2d6ed95f2b8bc78748f0713fa53effbc7251369c3a2bccb600d942f7ae63"
+	"CloudKeyCRC"		"586800559"
+	"Software"
+	{
+		"Valve"
+		{
+			"Steam"
+			{
+				"Apps"
+				{
+					"10"
+					{
+						"LastPlayed"		"1544644949"
+						"playTime"		"35"
+					}
+					"20"
+					{
+						"LastPlayed"		"1544638749"
+						"playTime"		"11"
+					}
+					"50"
+					{
+						"LastPlayed"		"1465676645"
+						"playTime"		"238"
+					}
+					"70"
+					{
+						"LastPlayed"		"1526702328"
+						"playTime"		"98"
+					}
+					"130"
+					{
+						"LastPlayed"		"1463678742"
+						"playTime"		"145"
+					}
+					"730"
+					{
+						"LastPlayed"		"1573565546"
+						"BadgeData"		"02000000080a"
+						"DisableUpdatesUntil"		"0"
+						"playTime"		"20002"
+						"Playtime2wks"		"6"
+					}
+					"10180"
+					{
+						"LastPlayed"		"1545101676"
+						"playTime"		"314"
+					}
+					"10190"
+					{
+						"LastPlayed"		"1544925669"
+						"playTime"		"12"
+					}
+					"34900"
+					{
+						"LastPlayed"		"1544817906"
+						"playTime"		"1"
+					}
+					"42700"
+					{
+						"LastPlayed"		"1545160644"
+						"playTime"		"2"
+					}
+					"113400"
+					{
+						"LastPlayed"		"1566317790"
+						"playTime"		"3537"
+					}
+					"231350"
+					{
+						"LastPlayed"		"1565031500"
+						"playTime"		"44"
+					}
+					"236390"
+					{
+						"LastPlayed"		"1552609637"
+						"playTime"		"197"
+					}
+					"259080"
+					{
+						"LastPlayed"		"1464368183"
+						"playTime"		"21"
+					}
+					"292030"
+					{
+						"LastPlayed"		"1544976344"
+						"playTime"		"3"
+					}
+					"373960"
+					{
+						"LastPlayed"		"1494085759"
+						"playTime"		"21"
+					}
+					"444090"
+					{
+						"LastPlayed"		"1494087242"
+						"playTime"		"24"
+					}
+					"1067900"
+					{
+						"LastPlayed"		"1560427012"
+						"playTime"		"27"
+					}
+				}
+				"LastPlayedTimesSyncTime"		"1570450549"
+				"PlayerLevel"		"10"
+			}
+		}
+	}
+	"WebStorage"
+	{
+		"SteamVoiceSettings_135933"		"{\"inputGain\":1,\"outputGain\":1,\"noiseGateLevel\":2,\"noiseCancellation\":true,\"echoCancellation\":true,\"autoGainControl\":true,\"selectedMic\":\"default\",\"selectedOutput\":\"default\",\"pttSoundsEnabled\":true,\"hasResetOpenMicHotKey\":true}"
+		"ChatStorePopupState_135933"		"{\"window_restore_details\":\"1&x=802&y=384&w=740&h=650\",\"bFriendsListVisible\":true,\"always_restore\":false,\"bFriendsListSingleWindow\":false,\"bFriendsListCollapsed\":false}"
+		"FriendStoreLocalPrefs_135933"		"{\"ePersonaState\":1,\"strNonFriendsAllowedToMsg\":\"\"}"
+		"ChatEmbeds_135933"		"{\"1568559087_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":235,\"nDefaultWidth\":318},\"1568562916_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":431,\"nDefaultWidth\":318},\"1568725076_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":282,\"nDefaultWidth\":397},\"1568725973_79942612\":{\"bCollapsed\":false,\"nDesiredWidth\":251,\"nDefaultWidth\":397},\"1568725997_79942612\":{\"bCollapsed\":false,\"nDesiredWidth\":341,\"nDefaultWidth\":397},\"1568726126_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":251,\"nDefaultWidth\":395},\"1568726156_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":201,\"nDefaultWidth\":260},\"1568726612_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":292,\"nDefaultWidth\":397},\"1568726922_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":381,\"nDefaultWidth\":500},\"1568727923_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":377,\"nDefaultWidth\":370},\"1570386914_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":133,\"nDefaultWidth\":141},\"1570387599_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":408,\"nDefaultWidth\":454},\"1570387534_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":493,\"nDefaultWidth\":454},\"1570387666_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":354,\"nDefaultWidth\":454},\"1570387386_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":173,\"nDefaultWidth\":257},\"1570388795_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":552,\"nDefaultWidth\":536},\"1570642978_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":185,\"nDefaultWidth\":290},\"1570643413_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":234,\"nDefaultWidth\":387},\"1570643422_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":217,\"nDefaultWidth\":356},\"1570645148_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":324,\"nDefaultWidth\":604},\"1570657602_79942612\":{\"bCollapsed\":false,\"nDesiredWidth\":324,\"nDefaultWidth\":604},\"1570891844_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":378,\"nDefaultWidth\":494},\"1572400397_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":296,\"nDefaultWidth\":454},\"1572400558_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":350,\"nDefaultWidth\":454},\"1572400585_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":170,\"nDefaultWidth\":454},\"1572400741_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":328,\"nDefaultWidth\":454},\"1572401093_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":212,\"nDefaultWidth\":454},\"1572401067_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":267,\"nDefaultWidth\":454},\"1572403983_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":384,\"nDefaultWidth\":494},\"1572404170_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":265,\"nDefaultWidth\":487},\"1572404245_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":175,\"nDefaultWidth\":270},\"1572404655_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":655,\"nDefaultWidth\":454},\"1572445641_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":181,\"nDefaultWidth\":454},\"1572802983_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":389,\"nDefaultWidth\":454},\"1572804553_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":307,\"nDefaultWidth\":481},\"1572804579_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":323,\"nDefaultWidth\":437},\"1572804611_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":267,\"nDefaultWidth\":415},\"1572804856_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":347,\"nDefaultWidth\":461},\"1572804763_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":228,\"nDefaultWidth\":454},\"1573060426_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":412,\"nDefaultWidth\":524},\"1573061394_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":401,\"nDefaultWidth\":454},\"1573061440_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":230,\"nDefaultWidth\":524},\"1573062435_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":277,\"nDefaultWidth\":513},\"1573081044_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":418,\"nDefaultWidth\":524},\"1573081093_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":382,\"nDefaultWidth\":524},\"1573081237_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":570,\"nDefaultWidth\":516},\"1573081229_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":752,\"nDefaultWidth\":516},\"1573330427_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":357,\"nDefaultWidth\":454},\"1573333125_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":326,\"nDefaultWidth\":454},\"1573333156_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":402,\"nDefaultWidth\":454},\"1573333202_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":392,\"nDefaultWidth\":454},\"1573338069_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":477,\"nDefaultWidth\":454},\"1573413443_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":167,\"nDefaultWidth\":218},\"1573415495_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":294,\"nDefaultWidth\":378},\"1573415579_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":271,\"nDefaultWidth\":370},\"1573497801_135933\":{\"bCollapsed\":false,\"nDesiredWidth\":246,\"nDefaultWidth\":385}}"
+		"UIDisplayPrefs_135933"		"{\"nChatRoomListHeightPx\":26,\"bChatRoomListCollapsed\":true,\"bDontShowVoiceAlert\":false,\"nFriendsListSingleWindowWidthPx\":300,\"bFavoritesHintDismissed\":false,\"nChangeLogDismissed\":0}"
+		"FriendGroupCollapse_135933"		"{\"groups\":{\"offline\":false,\"outgoing\":true}}"
+		"UIStoreLocalState"		"{\"nVersion\":1,\"eGameListView\":1,\"bGroupedByCollection\":true,\"bSortedByRecent\":false,\"mapCollapsedState\":[[\"uncategorized\",false],[\"hidden\",true]],\"currentSelection\":{\"strCollectionId\":\"uncategorized\",\"nAppId\":730},\"collectionFilter\":{\"nFormatVersion\":2,\"strSearchText\":\"\",\"filterGroups\":[{\"rgOptions\":[1],\"bAcceptUnion\":true},{\"rgOptions\":[],\"bAcceptUnion\":false},{\"rgOptions\":[],\"bAcceptUnion\":false},{\"rgOptions\":[],\"bAcceptUnion\":false},{\"rgOptions\":[],\"bAcceptUnion\":false}]}}"
+		"user-collections"		"{}"
+		"CachedCommunityPreferences"		"{\"bBlurAdultContentViolence\":true,\"bBlurAdultContentSex\":true,\"bParenthesizeNicknames\":true}"
+		"friendsactivitystore_storage"		"{\"nVersion\":1,\"cachedFriendsAppsActivity\":{\"trending\":[],\"recent_purchases\":[],\"unowned\":[],\"popular\":[],\"dont_forget\":[],\"being_discussed\":[],\"new_to_group\":[],\"returned_to_group\":[],\"active_friend_count\":27},\"rtCachedFriendsAppsActivityTimeStamp\":1573565052.91}"
+	}
+	"system"
+	{
+		"PushToTalkKey"		"0"
+	}
+	"StartupState.Friends"		"0"
+	"News"
+	{
+		"Messages"
+		{
+			"4188894453856965727"		"1"
+			"3415912692494907319"		"1"
+			"2168035485791192497"		"1"
+			"5207900783502100385"		"1"
+			"3133648345880114149"		"1"
+			"3815230825016478639"		"1"
+			"7585339537494470325"		"1"
+			"2635737277602515579"		"1"
+			"6644028010140389299"		"1"
+			"9219640608566787689"		"1"
+			"254377024408619058"		"1"
+			"8397399950026159757"		"1"
+			"6063741697817393450"		"1"
+			"2873633977105681711"		"1"
+			"7479349822540765555"		"1"
+			"7995298039345957112"		"1"
+			"6735953535479332075"		"1"
+			"4266777585868241101"		"1"
+			"428509531919917185"		"1"
+			"1598150305232084539"		"1"
+			"5855338126676812483"		"1"
+		}
+	}
+	"LastInstallFolderIndex"		"0"
+	"UserAppConfig"
+	{
+		"730"		"00696e7465726e616c00016c616e677561676500656e676c697368000808"
+	}
+	"depots"
+	{
+		"732"
+		{
+			"CDN"
+			{
+				"steampipe.steamcontent.com"
+				{
+					"token"		""
+					"Expires"		"1573928854"
+				}
+			}
+		}
+		"731"
+		{
+			"CDN"
+			{
+				"steampipe.steamcontent.com"
+				{
+					"token"		""
+					"Expires"		"1573928854"
+				}
+			}
+		}
+		"735"
+		{
+			"CDN"
+			{
+				"steampipe.steamcontent.com"
+				{
+					"token"		""
+					"Expires"		"1570737768"
+				}
+			}
+		}
+	}
+	"nettickets"
+	{
+		"730"		"01000000dcf4f251d4f40a80d8ed510b948ce646efa42929852900c31babc6d688cdd28a4e9360ec3a51ca4f494911b123d2a1d538cce9ebcf0529c6eb7ee845c5ef1382308c669364b51221e222423ff4256ba64762dca27f83664d12a6f114930776cd59d00bfe55aae348bf8d9a07535a58008ab150ce3a83f2cbe6404ee4ed96c51d34aaf87302384bb1f4f058a375775c56e76488340449d0ac86f029c0558c07a49887f261a990180b7644863d1eb26b7cc31871f4f065d04f2d373318c050bb43b0b19f72ea82f7997182b53ed545598ae4e926bbc59dd77abdc77056037027792fb672806081fecce299d814cfb29577e5e8c430930e059e2f964d0879eaf41734b7ec1a054b92a22ebfaee6240a13ae8f0e01bf56f9162d19f3899803678dcaab17b068dd7079b19675bd00d795141639655d3bc743dbb68738a04a2da9a4eebaee9cdfdc43f4478e011ab736a99ad71d9d6597d2cec20b58017eff5e72f1e59de2e30f8bb928b3f082a0c5f90937c1db0dc85236d22ee1e975645c5843eee5a52df4e603e4f2938df2199cd82e9185c02a66c8077140c86f204701150c3e8919d89dff117e7191ed22a313af013177d3d05ee6d19496bd870e2964697526688b1e99b6664d931f24370cac5b5e707d1eb9a1ec00b2b896dd"
+	}
+}

@@ -1,0 +1,20 @@
+Mon Oct 07 11:53:35 2019 UTC - GameOverlay process started: pid: 6304
+Mon Oct 07 11:53:35 2019 UTC - GameOverlay process connecting to: pid: 8992
+Mon Oct 07 11:53:35 2019 UTC - BuildID: 1570046470
+Mon Oct 07 11:53:35 2019 UTC - Steam Path: C:\Program Files (x86)\Steam
+Mon Oct 07 11:53:35 2019 UTC - Got gameid on commandline: 730
+Mon Oct 07 11:53:35 2019 UTC - SetScreenSize from (1280, 720) to ( 1920, 1080 )
+Mon Oct 07 11:53:35 2019 UTC - Changing resolution from (1280, 720) to (1920, 1080)
+Mon Oct 07 11:54:26 2019 UTC - Overlay enable requested by game
+Mon Oct 07 11:54:27 2019 UTC - LoadTGA: Only type 2 and 10 targa RGB images supported
+Mon Oct 07 11:54:27 2019 UTC - Overlay disable requested by game
+Mon Oct 07 12:07:52 2019 UTC - Overlay enable requested by game
+Mon Oct 07 12:07:52 2019 UTC - LoadTGA: Only type 2 and 10 targa RGB images supported
+Mon Oct 07 12:07:52 2019 UTC - LoadTGA: Only type 2 and 10 targa RGB images supported
+Mon Oct 07 12:08:03 2019 UTC - Overlay disable requested by game
+Mon Oct 07 12:08:18 2019 UTC - Overlay enable requested by game
+Mon Oct 07 12:08:18 2019 UTC - LoadTGA: Only type 2 and 10 targa RGB images supported
+Mon Oct 07 12:08:19 2019 UTC - LoadTGA: Only type 2 and 10 targa RGB images supported
+Mon Oct 07 12:08:27 2019 UTC - Overlay disable requested by game
+Mon Oct 07 12:15:36 2019 UTC - Game Exit Event signaled.
+Mon Oct 07 12:15:36 2019 UTC - Shutting down overlay

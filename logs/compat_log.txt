@@ -1,0 +1,323 @@
+
+
+[2019-09-15 15:34:41] No local tool list detected at C:\Program Files (x86)\Steam/compatibilitytools.vdf.
+[2019-09-15 15:36:52] Processing tool list from AppID 891390
+[2019-09-15 15:36:52] Registering tool proton_411, AppID 1113280
+[2019-09-15 15:36:52] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-09-15 15:36:52] Registering tool proton_42, AppID 1054830
+[2019-09-15 15:36:52] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-09-15 15:36:52] Registering tool proton_316, AppID 961940
+[2019-09-15 15:36:52] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-09-15 15:36:52] Registering tool proton_37, AppID 858280
+[2019-09-15 15:36:52] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-09-17 13:26:25] No local tool list detected at C:\Program Files (x86)\Steam/compatibilitytools.vdf.
+[2019-09-17 13:26:35] Processing tool list from AppID 891390
+[2019-09-17 13:26:35] Registering tool proton_411, AppID 1113280
+[2019-09-17 13:26:35] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-09-17 13:26:35] Registering tool proton_42, AppID 1054830
+[2019-09-17 13:26:35] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-09-17 13:26:35] Registering tool proton_316, AppID 961940
+[2019-09-17 13:26:35] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-09-17 13:26:35] Registering tool proton_37, AppID 858280
+[2019-09-17 13:26:35] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-09-20 18:47:17] No local tool list detected at C:\Program Files (x86)\Steam/compatibilitytools.vdf.
+[2019-09-20 18:47:22] Processing tool list from AppID 891390
+[2019-09-20 18:47:22] Registering tool proton_411, AppID 1113280
+[2019-09-20 18:47:22] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-09-20 18:47:22] Registering tool proton_42, AppID 1054830
+[2019-09-20 18:47:22] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-09-20 18:47:22] Registering tool proton_316, AppID 961940
+[2019-09-20 18:47:22] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-09-20 18:47:22] Registering tool proton_37, AppID 858280
+[2019-09-20 18:47:22] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-09-23 14:53:19] No local tool list detected at C:\Program Files (x86)\Steam/compatibilitytools.vdf.
+[2019-09-23 14:53:53] Processing tool list from AppID 891390
+[2019-09-23 14:53:53] Registering tool proton_411, AppID 1113280
+[2019-09-23 14:53:53] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-09-23 14:53:53] Registering tool proton_42, AppID 1054830
+[2019-09-23 14:53:53] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-09-23 14:53:53] Registering tool proton_316, AppID 961940
+[2019-09-23 14:53:53] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-09-23 14:53:53] Registering tool proton_37, AppID 858280
+[2019-09-23 14:53:53] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-09-25 23:15:34] No local tool list detected at C:\Program Files (x86)\Steam/compatibilitytools.vdf.
+[2019-09-25 23:15:51] Processing tool list from AppID 891390
+[2019-09-25 23:15:51] Registering tool proton_411, AppID 1113280
+[2019-09-25 23:15:51] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-09-25 23:15:51] Registering tool proton_42, AppID 1054830
+[2019-09-25 23:15:51] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-09-25 23:15:51] Registering tool proton_316, AppID 961940
+[2019-09-25 23:15:51] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-09-25 23:15:51] Registering tool proton_37, AppID 858280
+[2019-09-25 23:15:51] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-09-25 23:16:11] No local tool list detected at C:\Program Files (x86)\Steam/compatibilitytools.vdf.
+[2019-09-25 23:18:13] Processing tool list from AppID 891390
+[2019-09-25 23:18:13] Registering tool proton_411, AppID 1113280
+[2019-09-25 23:18:13] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-09-25 23:18:13] Registering tool proton_42, AppID 1054830
+[2019-09-25 23:18:13] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-09-25 23:18:13] Registering tool proton_316, AppID 961940
+[2019-09-25 23:18:13] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-09-25 23:18:13] Registering tool proton_37, AppID 858280
+[2019-09-25 23:18:13] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-10-01 19:57:14] No local tool list detected at C:\Program Files (x86)\Steam/compatibilitytools.vdf.
+[2019-10-01 19:57:30] Processing tool list from AppID 891390
+[2019-10-01 19:57:30] Registering tool proton_411, AppID 1113280
+[2019-10-01 19:57:30] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-10-01 19:57:30] Registering tool proton_42, AppID 1054830
+[2019-10-01 19:57:30] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-10-01 19:57:30] Registering tool proton_316, AppID 961940
+[2019-10-01 19:57:30] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-10-01 19:57:30] Registering tool proton_37, AppID 858280
+[2019-10-01 19:57:30] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-10-03 20:02:30] No local tool list detected at C:\Program Files (x86)\Steam/compatibilitytools.vdf.
+[2019-10-03 20:02:36] Processing tool list from AppID 891390
+[2019-10-03 20:02:36] Registering tool proton_411, AppID 1113280
+[2019-10-03 20:02:36] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-10-03 20:02:36] Registering tool proton_42, AppID 1054830
+[2019-10-03 20:02:36] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-10-03 20:02:36] Registering tool proton_316, AppID 961940
+[2019-10-03 20:02:36] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-10-03 20:02:36] Registering tool proton_37, AppID 858280
+[2019-10-03 20:02:36] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-10-03 22:11:16] No local tool list detected at C:\Program Files (x86)\Steam/compatibilitytools.vdf.
+[2019-10-03 22:17:49] Processing tool list from AppID 891390
+[2019-10-03 22:17:49] Registering tool proton_411, AppID 1113280
+[2019-10-03 22:17:49] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-10-03 22:17:49] Registering tool proton_42, AppID 1054830
+[2019-10-03 22:17:49] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-10-03 22:17:49] Registering tool proton_316, AppID 961940
+[2019-10-03 22:17:49] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-10-03 22:17:49] Registering tool proton_37, AppID 858280
+[2019-10-03 22:17:49] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-10-06 19:34:11] No local tool list detected at C:\Program Files (x86)\Steam/compatibilitytools.vdf.
+[2019-10-06 19:34:24] Processing tool list from AppID 891390
+[2019-10-06 19:34:24] Registering tool proton_411, AppID 1113280
+[2019-10-06 19:34:24] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-10-06 19:34:24] Registering tool proton_42, AppID 1054830
+[2019-10-06 19:34:24] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-10-06 19:34:24] Registering tool proton_316, AppID 961940
+[2019-10-06 19:34:24] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-10-06 19:34:24] Registering tool proton_37, AppID 858280
+[2019-10-06 19:34:24] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-10-07 11:40:39] No local tool list detected at C:\Program Files (x86)\Steam/compatibilitytools.vdf.
+[2019-10-07 11:40:45] Processing tool list from AppID 891390
+[2019-10-07 11:40:45] Registering tool proton_411, AppID 1113280
+[2019-10-07 11:40:45] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-10-07 11:40:45] Registering tool proton_42, AppID 1054830
+[2019-10-07 11:40:45] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-10-07 11:40:45] Registering tool proton_316, AppID 961940
+[2019-10-07 11:40:45] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-10-07 11:40:45] Registering tool proton_37, AppID 858280
+[2019-10-07 11:40:45] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-10-07 18:10:15] No local tool list detected at C:\Program Files (x86)\Steam/compatibilitytools.vdf.
+[2019-10-07 18:10:25] Processing tool list from AppID 891390
+[2019-10-07 18:10:25] Registering tool proton_411, AppID 1113280
+[2019-10-07 18:10:25] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-10-07 18:10:25] Registering tool proton_42, AppID 1054830
+[2019-10-07 18:10:25] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-10-07 18:10:25] Registering tool proton_316, AppID 961940
+[2019-10-07 18:10:25] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-10-07 18:10:25] Registering tool proton_37, AppID 858280
+[2019-10-07 18:10:25] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-10-09 18:39:33] No local tool list detected at C:\Program Files (x86)\Steam/compatibilitytools.vdf.
+[2019-10-09 18:39:44] Processing tool list from AppID 891390
+[2019-10-09 18:39:44] Registering tool proton_411, AppID 1113280
+[2019-10-09 18:39:44] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-10-09 18:39:44] Registering tool proton_42, AppID 1054830
+[2019-10-09 18:39:44] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-10-09 18:39:44] Registering tool proton_316, AppID 961940
+[2019-10-09 18:39:44] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-10-09 18:39:44] Registering tool proton_37, AppID 858280
+[2019-10-09 18:39:44] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-10-11 17:59:37] No local tool list detected at C:\Program Files (x86)\Steam/compatibilitytools.vdf.
+[2019-10-11 18:00:03] Processing tool list from AppID 891390
+[2019-10-11 18:00:03] Registering tool proton_411, AppID 1113280
+[2019-10-11 18:00:03] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-10-11 18:00:03] Registering tool proton_42, AppID 1054830
+[2019-10-11 18:00:03] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-10-11 18:00:03] Registering tool proton_316, AppID 961940
+[2019-10-11 18:00:03] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-10-11 18:00:03] Registering tool proton_37, AppID 858280
+[2019-10-11 18:00:03] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-10-12 15:25:29] No local tool list detected at C:\Program Files (x86)\Steam/compatibilitytools.vdf.
+[2019-10-12 15:25:34] Processing tool list from AppID 891390
+[2019-10-12 15:25:34] Registering tool proton_411, AppID 1113280
+[2019-10-12 15:25:34] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-10-12 15:25:34] Registering tool proton_42, AppID 1054830
+[2019-10-12 15:25:34] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-10-12 15:25:34] Registering tool proton_316, AppID 961940
+[2019-10-12 15:25:34] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-10-12 15:25:34] Registering tool proton_37, AppID 858280
+[2019-10-12 15:25:34] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-10-13 17:04:52] No local tool list detected at C:\Program Files (x86)\Steam/compatibilitytools.vdf.
+[2019-10-13 17:05:30] Processing tool list from AppID 891390
+[2019-10-13 17:05:30] Registering tool proton_411, AppID 1113280
+[2019-10-13 17:05:30] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-10-13 17:05:30] Registering tool proton_42, AppID 1054830
+[2019-10-13 17:05:30] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-10-13 17:05:30] Registering tool proton_316, AppID 961940
+[2019-10-13 17:05:30] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-10-13 17:05:30] Registering tool proton_37, AppID 858280
+[2019-10-13 17:05:30] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-10-30 00:03:37] No local tool list detected at C:\Program Files (x86)\Steam/compatibilitytools.vdf.
+[2019-10-30 00:03:43] Processing tool list from AppID 891390
+[2019-10-30 00:03:43] Registering tool proton_411, AppID 1113280
+[2019-10-30 00:03:43] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-10-30 00:03:43] Registering tool proton_42, AppID 1054830
+[2019-10-30 00:03:43] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-10-30 00:03:43] Registering tool proton_316, AppID 961940
+[2019-10-30 00:03:43] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-10-30 00:03:43] Registering tool proton_37, AppID 858280
+[2019-10-30 00:03:43] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-10-30 14:21:08] No local tool list detected at C:\Program Files (x86)\Steam/compatibilitytools.vdf.
+[2019-10-30 14:21:25] Processing tool list from AppID 891390
+[2019-10-30 14:21:25] Registering tool steamlinuxruntime, AppID 1070560
+[2019-10-30 14:21:25] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2019-10-30 14:21:25] Registering tool proton_411, AppID 1113280
+[2019-10-30 14:21:25] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-10-30 14:21:25] Registering tool proton_42, AppID 1054830
+[2019-10-30 14:21:25] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-10-30 14:21:25] Registering tool proton_316, AppID 961940
+[2019-10-30 14:21:25] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-10-30 14:21:25] Registering tool proton_37, AppID 858280
+[2019-10-30 14:21:25] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-11-03 17:33:46] Processing tool list from AppID 891390
+[2019-11-03 17:33:46] Registering tool proton_411, AppID 1113280
+[2019-11-03 17:33:46] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-11-03 17:33:46] Registering tool proton_42, AppID 1054830
+[2019-11-03 17:33:46] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-11-03 17:33:46] Registering tool proton_316, AppID 961940
+[2019-11-03 17:33:46] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-11-03 17:33:46] Registering tool proton_37, AppID 858280
+[2019-11-03 17:33:46] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-11-06 17:12:12] Processing tool list from AppID 891390
+[2019-11-06 17:12:12] Registering tool proton_411, AppID 1113280
+[2019-11-06 17:12:12] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-11-06 17:12:12] Registering tool proton_42, AppID 1054830
+[2019-11-06 17:12:12] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-11-06 17:12:12] Registering tool proton_316, AppID 961940
+[2019-11-06 17:12:12] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-11-06 17:12:12] Registering tool proton_37, AppID 858280
+[2019-11-06 17:12:12] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-11-06 23:38:51] Processing tool list from AppID 891390
+[2019-11-06 23:38:51] Registering tool proton_411, AppID 1113280
+[2019-11-06 23:38:51] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-11-06 23:38:51] Registering tool proton_42, AppID 1054830
+[2019-11-06 23:38:51] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-11-06 23:38:51] Registering tool proton_316, AppID 961940
+[2019-11-06 23:38:51] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-11-06 23:38:51] Registering tool proton_37, AppID 858280
+[2019-11-06 23:38:51] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-11-09 18:26:44] Processing tool list from AppID 891390
+[2019-11-09 18:26:44] Registering tool proton_411, AppID 1113280
+[2019-11-09 18:26:44] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-11-09 18:26:44] Registering tool proton_42, AppID 1054830
+[2019-11-09 18:26:44] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-11-09 18:26:44] Registering tool proton_316, AppID 961940
+[2019-11-09 18:26:44] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-11-09 18:26:44] Registering tool proton_37, AppID 858280
+[2019-11-09 18:26:44] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-11-09 18:36:29] Processing tool list from AppID 891390
+[2019-11-09 18:36:29] Registering tool proton_411, AppID 1113280
+[2019-11-09 18:36:29] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-11-09 18:36:29] Registering tool proton_42, AppID 1054830
+[2019-11-09 18:36:29] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-11-09 18:36:29] Registering tool proton_316, AppID 961940
+[2019-11-09 18:36:29] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-11-09 18:36:29] Registering tool proton_37, AppID 858280
+[2019-11-09 18:36:29] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-11-10 16:49:10] Processing tool list from AppID 891390
+[2019-11-10 16:49:10] Registering tool proton_411, AppID 1113280
+[2019-11-10 16:49:10] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-11-10 16:49:10] Registering tool proton_42, AppID 1054830
+[2019-11-10 16:49:10] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-11-10 16:49:10] Registering tool proton_316, AppID 961940
+[2019-11-10 16:49:10] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-11-10 16:49:10] Registering tool proton_37, AppID 858280
+[2019-11-10 16:49:10] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-11-11 17:29:51] Processing tool list from AppID 891390
+[2019-11-11 17:29:51] Registering tool steamlinuxruntime, AppID 1070560
+[2019-11-11 17:29:51] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2019-11-11 17:29:51] Registering tool proton_411, AppID 1113280
+[2019-11-11 17:29:51] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-11-11 17:29:51] Registering tool proton_42, AppID 1054830
+[2019-11-11 17:29:51] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-11-11 17:29:51] Registering tool proton_316, AppID 961940
+[2019-11-11 17:29:51] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-11-11 17:29:51] Registering tool proton_37, AppID 858280
+[2019-11-11 17:29:51] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-11-12 13:24:09] Processing tool list from AppID 891390
+[2019-11-12 13:24:09] Registering tool steamlinuxruntime, AppID 1070560
+[2019-11-12 13:24:09] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2019-11-12 13:24:09] Registering tool proton_411, AppID 1113280
+[2019-11-12 13:24:09] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-11-12 13:24:09] Registering tool proton_42, AppID 1054830
+[2019-11-12 13:24:09] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-11-12 13:24:09] Registering tool proton_316, AppID 961940
+[2019-11-12 13:24:09] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-11-12 13:24:09] Registering tool proton_37, AppID 858280
+[2019-11-12 13:24:09] Ignoring tool proton_37 as it's for a different target platform linux.
+
+
+[2019-11-12 13:35:31] Processing tool list from AppID 891390
+[2019-11-12 13:35:31] Registering tool steamlinuxruntime, AppID 1070560
+[2019-11-12 13:35:31] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2019-11-12 13:35:31] Registering tool proton_411, AppID 1113280
+[2019-11-12 13:35:31] Ignoring tool proton_411 as it's for a different target platform linux.
+[2019-11-12 13:35:31] Registering tool proton_42, AppID 1054830
+[2019-11-12 13:35:31] Ignoring tool proton_42 as it's for a different target platform linux.
+[2019-11-12 13:35:31] Registering tool proton_316, AppID 961940
+[2019-11-12 13:35:31] Ignoring tool proton_316 as it's for a different target platform linux.
+[2019-11-12 13:35:31] Registering tool proton_37, AppID 858280
+[2019-11-12 13:35:31] Ignoring tool proton_37 as it's for a different target platform linux.
