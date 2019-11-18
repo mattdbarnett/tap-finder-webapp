@@ -1,0 +1,16 @@
+#30cfbf
+
+White Contrast:
+#00a798
+#008578
+
+Gray Contrast:
+#636363
+#4a4a4a
+
+Variation Contrast:
+#007064
+#005438
+
+Font:
+https://fonts.google.com/specimen/Alata
