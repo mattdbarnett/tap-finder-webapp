@@ -26,3 +26,39 @@ img {
 }
 
 /* End of CSS Reset */
+
+html {
+  background-color: #30cfbf;
+}
+
+header {
+  background-color: #008578;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .24), 0 1px 2px rgba(0, 0, 0, .36);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+main {
+  margin: 70px 10px 20px 10px;
+}
+
+h1, h2, h3, h4, p {
+  font-family: 'Alata', sans-serif;
+}
+
+#site-name {
+  color: #f1e6e6;
+  padding-bottom: 5px;
+}
+
+section {
+    border-radius: 7px;
+    margin: 0 0 20px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+    text-align: center;
+    background-color: #f3f3f3;
+    padding: 20px 20px 20px 20px;
+}
