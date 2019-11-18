@@ -1,9 +1,0 @@
-{
-	"asset": "FossilizeApplicationInfoFilter",
-	"version": 1,
-	"engineFilters": {
-		"DXVK": {
-			"minimumEngineVersion": 4202497
-		}
-	}
-}

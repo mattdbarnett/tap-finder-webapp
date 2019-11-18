@@ -1,5 +1,0 @@
-09/25/19 23:33:32 [AppID 252950] Exit Code (0) :  "C:\Program Files (x86)\Steam\steamapps\common\Steamworks Shared\_CommonRedist\vcredist\2010\vcredist_x86.exe" /quiet /norestart GLE 0
-09/25/19 23:33:37 [AppID 252950] Exit Code (0) :  "C:\Program Files (x86)\Steam\steamapps\common\Steamworks Shared\_CommonRedist\vcredist\2010\vcredist_x64.exe" /quiet /norestart GLE 0
-09/25/19 23:33:38 [AppID 252950] Exit Code (1638) :  "C:\Program Files (x86)\Steam\steamapps\common\Steamworks Shared\_CommonRedist\vcredist\2015\Microsoft Visual C++ 2015 x86.cmd"  GLE 0
-09/25/19 23:33:39 [AppID 252950] Exit Code (1638) :  "C:\Program Files (x86)\Steam\steamapps\common\Steamworks Shared\_CommonRedist\vcredist\2015\Microsoft Visual C++ 2015 x64.cmd"  GLE 0
-09/25/19 23:33:43 [AppID 252950] Exit Code (0) :  "msiexec" /i "C:\Program Files (x86)\Steam\steamapps\common\Steamworks Shared\_CommonRedist\PhysX\9.14.0702\PhysX-9.14.0702-SystemSoftware.msi" /quiet /norestart GLE 0
