@@ -1,5 +1,8 @@
 #30cfbf
 
+Site Background:
+#d6eae8
+
 White Contrast:
 #00a798
 #008578
