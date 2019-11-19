@@ -11,4 +11,4 @@ app.register_blueprint(UI_Home)
 
 #Start Web Application -- Allow Threading and Debugging
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=80, threaded=True)
+    app.run(host='127.0.0.0', port=80, threaded=True)

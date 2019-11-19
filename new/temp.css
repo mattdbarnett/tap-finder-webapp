@@ -39,6 +39,8 @@ nav{
   color: black;
   display: inline-block;
   text-align: center;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
   margin: 2px;
 }
 
@@ -58,6 +60,7 @@ iframe{
 /* Map End */
 
 /* Fade In Start */
+/* Modifed and changed from refference: https://codepen.io/fr33co/pen/xOBXGy */
 
 .container {position: inline-block}
 
@@ -81,4 +84,19 @@ iframe{
   animation-duration:0.3s;
 }
 
+/* Refference End */
 /* Fade In End */
+
+.btnSubmit {
+  border: 2px solid black;
+  font-size: medium;
+  background-color: white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  padding: 10px;
+}
+
+.btnSubmit:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
