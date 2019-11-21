@@ -1,21 +1,7 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
 
-<head>
-  <link rel = "stylesheet" type = "text/css" href = "temp.css"> </link>
-</head>
-
-<body class="fade-in">
-
-  <h1> The Water Web </h1>
-
-  <nav>
-    <div class="navbar">
-      <a href="home.html" class="active">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact Us</a>
-      <a href="map.html">Map</a>
-    </div>
-  </nav>
-
+{% block content %}
   <p> Please contact us here. </p>
 
   <form id= "contactForm" method = "get" onsubmit= "return validate()">
@@ -36,7 +22,6 @@
     <textarea id = "comments" rows = "5" cols = "50" name = "text"> Please enter your description here. 200 chars max. </textarea> <br><br>
 
     <input type="submit" name = "Submit" value = "Submit" class = "btnSubmit"><br>
-    
-  </form>
 
-</body>
+  </form>
+{% endblock %}
