@@ -4,24 +4,24 @@
 {% block content %}
   <p> Please contact us here. </p>
 
-  <form id= "contactForm" method = "get" onsubmit= "return validate()">
-    <label for ="Name"> Full Name: * </label>
-      <input id = "Name" type = "text" name = "Name"><br><br>
+  <form id="contactForm" method="get" onsubmit="return validate()">
+    <label for="Name"> Full Name: * </label>
+      <input id="Name" type="text" name="Name"><br><br>
 
-    <label for = "email">Email Address: *</label>
-      <input id = "email" type = "text" name = "emailAddress"><br><br>
+    <label for ="email">Email Address: *</label>
+      <input id="email" type="text" name="emailAddress"><br><br>
 
-    <label for ="Lat."> Latitude: * </label>
-      <input id = "Name" type = "text" name = "Lat"><br><br>
+    <label for="Lat."> Latitude: * </label>
+      <input id="Name" type="text" name="Lat"><br><br>
 
-    <label for ="Long."> Longitude: * </label>
-      <input id = "Name" type = "text" name = "Long"><br><br>
+    <label for="Long."> Longitude: * </label>
+      <input id="Name" type="text" name="Long"><br><br>
 
     <p> Description: </p>
 
-    <textarea id = "comments" rows = "5" cols = "50" name = "text"> Please enter your description here. 200 chars max. </textarea> <br><br>
+    <textarea id="comments" rows="5" cols="50" name="text"> Please enter your description here. 200 chars max. </textarea> <br><br>
 
-    <input type="submit" name = "Submit" value = "Submit" class = "btnSubmit"><br>
+    <input type="submit" name="Submit" value="Submit" class="btnSubmit"><br>
 
   </form>
 {% endblock %}

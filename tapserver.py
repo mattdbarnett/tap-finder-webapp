@@ -19,5 +19,9 @@ def contactPage():
 def mapPage():
     return render_template("map.html")
 
+@app.route("/login")
+def loginPage():
+    return render_template("login.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
