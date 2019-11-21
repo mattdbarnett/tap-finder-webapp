@@ -2,7 +2,74 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <iframe width="100%" height="75%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-  src="http://umap.openstreetmap.fr/en/map/temporary-tap-map_389834?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"
-  style="border: 1px solid black"></iframe><br/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7/leaflet.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	
+	
+	<style>
+		body {
+			padding: 0;
+			margin: 0;
+		}
+		html, body, #leaflet-map, #leaflet-container {
+			height: 100%;
+			width: 100%;
+		}
+		
+		testBtn{
+			pointer-events:auto;
+			z-index:600;
+			position:fixed;
+			bottom:0;
+			border:none;
+			color:black;
+			background-color:#4CAF50;
+			width:100%;
+			padding:18px 0px 18px 0px;
+			font-size:100%;
+			border-radius:15px 15px 0px 0px;
+			border:2px solid black;
+			background-color:white;
+			outline:none;
+			transition:0.5s;
+			background-image: linear-gradient(to right, #F09819 0%, #EDDE5D 51%, #F09819 100%);
+			
+		}
+		
+		testBtn:hover{
+			background-position: right center;
+		}
+    </style>
+	
+	<img src = "static/resources/map-init-icon.png" id="down-button" height="50" width="50">
+	<div id="leaflet-container">
+		<div id="leaflet-map"></div>
+		<div class = "leaflet-bottom leaflet-left">
+				<input type = "button" id="testBtn" value="Update Location" onclick="console.log('w')" class="btnStyle span3" style="pointer-events:auto; z-index:600; position:fixed; bottom:0;border:none; color:black; background-color:#4CAF50;width:100%;padding:18px 0px 18px 0px;font-size:100%;border-radius:15px 15px 0px 0px;border:2px solid black;background-color:white;outline:none;transition:0.5s;background-image: linear-gradient(to right, #F09819 0%, #EDDE5D 51%, #F09819 100%)">
+		</div>
+	</div>
+	<script src="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7/leaflet.js"></script>
+	<script>
+        var map = L.map('leaflet-map').setView([-41.2858, 174.78682], 15);
+		
+        mapLink = 
+            '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+        L.tileLayer(
+            'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; ' + mapLink + ' Contributors',
+            maxZoom: 18,
+            }).addTo(map);
+	</script>
+	<script>
+		$(window).on('beforeunload', function() {
+			$(window).scrollTop(0); 
+		});
+		$("#testBtn").hide();
+		document.getElementById("down-button").addEventListener("click",function(){
+			document.getElementById("leaflet-map").scrollIntoView({behavior:"smooth"});
+			$("#testBtn").fadeIn();
+		});
+	</script>
+		
 {% endblock %}
