@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <head>
   <link rel="stylesheet" type="text/css" href="./static/temp.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body class="fade-in">
 
   <h1> The Water Web </h1>
 
-  <nav>
-    <div class="navbar">
-      <a href="home" class="active">Home</a>
-      <a href="about">About</a>
-      <a href="contact">Contact Us</a>
-      <a href="map">Map</a>
-    </div>
-  </nav>
+  <center>
+    <nav>
+      <div class="navbar">
+        <a href="home" class="active">Home</a>
+        <a href="about">About</a>
+        <a href="contact">Contact Us</a>
+        <a href="map">Map</a>
+        {% block logout %}{% endblock %}
+      </div>
+    </nav>
+</center>
 
   {% block content %} {% endblock %}
 
