@@ -49,6 +49,11 @@ nav{
   background-color: #5DADE2;
 }
 
+#loginbutton:hover{
+  color: white;
+  background-color: #4CAF50;
+}
+
 /* Navigation End */
 
 /* Map Start */
