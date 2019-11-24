@@ -1,7 +1,10 @@
-import os
-from flask import Flask, render_template
+import sqlite3
+from flask import Flask, render_template, request, session, redirect, url_for
+
+tapDB = 'tapDatabase.db'
 
 app = Flask(__name__)
+app.config["SECRET_KEY"] = "arjT3S6tTdiC0Dq5cbvifA"
 
 @app.route("/home")
 def homePage():
