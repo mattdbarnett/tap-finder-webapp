@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+{% block logout %}
+<a href="logout">Logout</a>
+{% endblock %}
+
+{% block content %}
+  <p>{{ request.cookies.get("name") }} ({{ email }})</p>
+{% endblock %}
