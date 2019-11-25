@@ -53,8 +53,11 @@ nav{
 
 
 #loginbutton:hover{
-  color: white;
   background-color: #4CAF50;
+}
+
+#logoutbutton:hover{
+  background-color: #E74C3C;
 }
 
 /* Navigation End */
