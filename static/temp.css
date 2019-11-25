@@ -40,14 +40,13 @@ nav{
   display: inline-block;
   text-align: center;
   margin: 2px;
-  -webkit-transition: padding 0.1s;
+  -webkit-transition: padding 0.1s, background-colour 0.4s;
 }
 
 .navbar a:hover{
-  color: white;
+  -webkit-transition: background-color 0.4s, padding-left 0.4s, padding-right 0.4s;
   background-color: #5DADE2;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
+  color: white;
   padding-left: 40px;
   padding-right: 40px;
 }
