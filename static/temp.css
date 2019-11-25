@@ -10,14 +10,28 @@
   text-align: center;
 }
 
+body{
+  background-color: #CAE6F7;
+}
+
 h1 {
   font-size: 60px;
+}
+
+input{
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+textarea{
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 /* Navigation Start */
 
 nav{
-  background-color: white;
+  background-color: transparent;
   overflow: hidden;
   text-align: center;
 }
@@ -30,11 +44,13 @@ nav{
 }
 
 .navbar a{
+  border: 2px solid black;
+  border-radius: 5px;
   text-decoration: none;
+  background-color: white;
   float: left;
   margin: 2px;
   padding: 10px;
-  border: 2px solid black;
   font-size: 16px;
   color: black;
   display: inline-block;
@@ -100,6 +116,7 @@ iframe{
 
 .btnSubmit {
   border: 2px solid black;
+  border-radius: 5px;
   font-size: medium;
   background-color: white;
   padding: 10px;
