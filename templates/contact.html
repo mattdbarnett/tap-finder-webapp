@@ -4,18 +4,18 @@
 {% block content %}
   <p> Please contact us here. </p>
 
-  <form id="contactForm" method="get" onsubmit="return validate()">
+  <form id="tapForm" name="tapForm" method="get" onsubmit="return validate()">
     <label for="Name"> Full Name: * </label>
-      <input id="Name" type="text" name="Name"><br><br>
+      <input id="Name" type="text" name="name"><br><br>
 
     <label for ="email">Email Address: *</label>
       <input id="email" type="text" name="emailAddress"><br><br>
 
     <label for="Lat."> Latitude: * </label>
-      <input id="Name" type="text" name="Lat"><br><br>
+      <input id="Lat" type="text" name="lat"><br><br>
 
     <label for="Long."> Longitude: * </label>
-      <input id="Name" type="text" name="Long"><br><br>
+      <input id="Long" type="text" name="long"><br><br>
 
     <p> Description: </p>
 
@@ -24,4 +24,44 @@
     <input type="submit" name="Submit" value="Submit" class="btnSubmit"><br>
 
   </form>
+
+  <script>
+    function validate() {
+
+      if( document.tapForm.name.value == "" ) {
+          alert( "Please enter your name." );
+          document.tapForm.name.focus() ;
+          return false;
+          break;
+          }
+
+      if( document.tapForm.emailAddress.value == "" ) {
+          alert( "Please enter your email address." );
+          document.tapForm.emailAddress.focus() ;
+          return false;
+          break;
+          }
+
+      if( document.tapForm.lat.value == "" ) {
+          alert( "Please enter the latitude of your tap." );
+          document.tapForm.lat.focus() ;
+          return false;
+          break;
+          }
+
+      if( document.tapForm.long.value == "" ) {
+          alert( "Please enter the longitude of your tap." );
+          document.tapForm.long.focus() ;
+          return false;
+          break;
+          }
+
+      return submit()
+
+    }
+
+    function submit() {
+
+    }
+  </script>
 {% endblock %}
