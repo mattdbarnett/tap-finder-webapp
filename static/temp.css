@@ -5,13 +5,17 @@
 *{
   padding:0px;
   margin:0px;
-  margin-top: 20px;
   font-family: 'Alata', sans-serif;
   text-align: center;
+  margin-top: 20px;
+}
+
+br{
+  display: none;
 }
 
 body{
-  background-color: #CAE6F7;
+  background-color: #F8F9F9 ;
 }
 
 h1 {
@@ -49,11 +53,51 @@ nav{
   display: inline-block;
 }
 
+/* Web Version of Website Start */
+@media screen and (min-width : 700px){
+  *{
+    margin-top: 0px;
+  }
+
+  /* Ensures some things are still spaced, while the nav bar is lowered from the top */
+  .fadeIn{margin-top: 20px;}
+  .btnSubmit {margin-top: 20px;}
+  textarea {margin-top: 20px;}
+  input {margin-top: 20px;}
+  p {margin-top: 20px;}
+  hr {margin-top: 20px;}
+
+  br{
+    display: inline;
+  }
+
+  h1{
+    margin-left: 20px;
+    float:left
+  }
+
+  .navbar{
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right
+  }
+
+  .headerbar{
+    margin-top: 0px;
+    position: fixed;
+    float: right
+    top: 0;
+    width: 100%;
+    background-color: #CAE6F7;
+  }
+
+}
+/* Web Version of Website Closed */
+
 .navbar a{
   border: 2px solid black;
   border-radius: 5px;
   text-decoration: none;
-  background-color: white;
   float: left;
   margin: 2px;
   padding: 10px;
@@ -61,7 +105,7 @@ nav{
   color: black;
   display: inline-block;
   text-align: center;
-  margin: 2px;
+  background-color: white;
   -webkit-transition: padding 0.1s, background-colour 0.4s;
 }
 
@@ -75,7 +119,7 @@ nav{
 
 
 #loginbutton:hover{
-  background-color: #4CAF50;
+  background-color: #75CF79
 }
 
 #logoutbutton:hover{
@@ -131,6 +175,6 @@ iframe{
 .btnSubmit:hover {
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50;
   color: white;
 }
