@@ -9,32 +9,7 @@
 
   <br>
   <hr>
-
-  <p> If you wish to contact us about a tap you've found and want to be added to the map, please fill out the form below: </p>
-
-  <form id="tapForm" name="tapForm" method="get" onsubmit="return tapValidate()">
-    <label for="Name"> Full Name: * </label>
-      <input id="Name" type="text" name="name"><br><br>
-
-    <label for ="email">Email Address: *</label>
-      <input id="email" type="text" name="emailAddress"><br><br>
-
-    <label for="Lat."> Latitude: * </label>
-      <input id="Lat" type="text" name="lat"><br><br>
-
-    <label for="Long."> Longitude: * </label>
-      <input id="Long" type="text" name="long"><br><br>
-
-    <p> Description: </p>
-
-    <textarea id="comments" rows="5" cols="50" name="text"> Please enter your description here. </textarea> <br><br>
-
-    <input type="submit" name="Submit" value="Submit" class="btnSubmit"><br>
-
-  </form>
-
-  <hr>
-
+  
   <p> If you wish to contact us with a query about the website, please fill out the form below: </p>
 
   <form id="contactForm" name="contactForm" method="get" onsubmit="return contactValidate()">
@@ -57,35 +32,6 @@
   <p> </p>
 
   <script>
-    function tapValidate() {
-
-      if( document.tapForm.name.value == "" ) {
-          alert( "Please enter your name." );
-          document.tapForm.name.focus() ;
-          return false;
-          }
-
-      if( document.tapForm.emailAddress.value == "" ) {
-          alert( "Please enter your email address." );
-          document.tapForm.emailAddress.focus() ;
-          return false;
-          }
-
-      if( document.tapForm.lat.value == "" ) {
-          alert( "Please enter the latitude of your tap." );
-          document.tapForm.lat.focus() ;
-          return false;
-          }
-
-      if( document.tapForm.long.value == "" ) {
-          alert( "Please enter the longitude of your tap." );
-          document.tapForm.long.focus() ;
-          return false;
-          }
-
-      return tapSubmit()
-
-    }
 
     function contactValidate() {
 
@@ -102,10 +48,6 @@
           }
 
       return contactSubmit()
-
-    }
-
-    function tapSubmit() {
 
     }
 
