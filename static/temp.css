@@ -28,6 +28,12 @@ textarea{
   border-radius: 5px;
 }
 
+hr{
+  display: inline-block;
+  width: 30%;
+  border: 1px solid black;
+}
+
 /* Navigation Start */
 
 nav{
