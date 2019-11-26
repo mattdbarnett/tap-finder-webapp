@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 {% extends "base.html" %}
 
+{% block logout %}
+<a href="login" id="loginbutton">Login</a>
+{% endblock %}
+
 {% block content %}
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7/leaflet.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	
-	
+
+
 	<style>
 		body {
 			padding: 0;
@@ -16,7 +20,7 @@
 			height: 100%;
 			width: 100%;
 		}
-		
+
 		testBtn{
 			pointer-events:auto;
 			z-index:600;
@@ -34,14 +38,14 @@
 			outline:none;
 			transition:0.5s;
 			background-image: linear-gradient(to right, #F09819 0%, #EDDE5D 51%, #F09819 100%);
-			
+
 		}
-		
+
 		testBtn:hover{
 			background-position: right center;
 		}
     </style>
-	
+
 	<img src = "static/resources/map-init-icon.png" id="down-button" height="50" width="50">
 	<div id="leaflet-container">
 		<div id="leaflet-map"></div>
@@ -52,8 +56,8 @@
 	<script src="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7/leaflet.js"></script>
 	<script>
         var map = L.map('leaflet-map').setView([-41.2858, 174.78682], 15);
-		
-        mapLink = 
+
+        mapLink =
             '<a href="http://openstreetmap.org">OpenStreetMap</a>';
         L.tileLayer(
             'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -63,7 +67,7 @@
 	</script>
 	<script>
 		$(window).on('beforeunload', function() {
-			$(window).scrollTop(0); 
+			$(window).scrollTop(0);
 		});
 		$("#testBtn").hide();
 		document.getElementById("down-button").addEventListener("click",function(){
@@ -71,5 +75,5 @@
 			$("#testBtn").fadeIn();
 		});
 	</script>
-		
+
 {% endblock %}

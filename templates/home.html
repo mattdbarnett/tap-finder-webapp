@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 {% extends "base.html" %}
 
+{% block logout %}
+<a href="login" id="loginbutton">Login</a>
+{% endblock %}
+
   {% block content %}
   <p> Hello and welcome to our water-finding website! </p>
   {% endblock %}
