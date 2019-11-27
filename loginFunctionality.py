@@ -72,6 +72,38 @@ def check_session(sessionID):
                 return render_template("admin.html")
             # Else they must be a standard user
             else:
-                resp = make_response(render_template("profile.html", email=email))
-                resp.set_cookie('name', name)
-                return resp
+                return render_template("profile.html", email=email)
+
+# Function to revoke a sessionID
+def revoke_session(sessionID):
+    session.clear()
+    conn = sqlite3.connect(tapDB)
+    cur = conn.cursor()
+    cur.execute("DELETE FROM Sessions WHERE sessionID=?", [sessionID])
+    conn.commit()
+    conn.close()
+
+# Function to log a user out dependent on their IP address
+def logout(IP):
+    # Try revoking the session if the user has a sessionID set in cookies
+    try:
+        sessionID = session["sessionID"]
+        revoke_session(session["sessionID"])
+        return("Logged Out.")
+    # If a sessionID is not set in cookies a KeyError is returned
+    # Therefore remove any associated sessions from the database that matches the users'
+    # IP address
+    except KeyError:
+        conn = sqlite3.connect(tapDB)
+        cur = conn.cursor()
+        conn.execute("SELECT * FROM Sessions WHERE IP=?", [IP])
+        result = cur.fetchone()
+        # If no sessions are associated with the IP addess, no users must be logged in
+        if result is None:
+            return("No user logged in.")
+        # Else remove the session from tapDB
+        else:
+            cur.execute("DELETE FROM Sessions WHERE IP=?", [IP])
+            conn.commit()
+            conn.close()
+            return("Logged Out.")
