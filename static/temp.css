@@ -178,3 +178,15 @@ iframe{
   background-color: #4CAF50;
   color: white;
 }
+
+/* Flash Message Categories Start */
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+/* Flash Message Categories End */
