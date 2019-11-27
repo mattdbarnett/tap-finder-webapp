@@ -36,15 +36,20 @@ def profilePage():
 @app.route("/login", methods=["GET", "POST"])
 def loginPage():
     if request.method == "POST":
+        # Gather login data from login form
         login = request.form
         email = login.get("Email")
         password = login.get("Password")
+        # Query the database to check whether there is a user associated to the input email
         conn = sqlite3.connect(tapDB)
         cur = conn.cursor()
         cur.execute("SELECT hashedPW FROM Users WHERE email=?;", [email])
         result = cur.fetchone()
+        # If the inputted email does return a user
         if result != None:
+            # Retrieve the stored_hashedPW
             hashedPW = result[0]
+            # If the user has input the correct password
             if check_password(hashedPW, password) is True:
                 IP = str(request.environ['REMOTE_ADDR'])
                 session_status = check_for_session(IP)
@@ -62,8 +67,13 @@ def loginPage():
                 conn.commit()
                 conn.close()
                 return redirect(url_for("profilePage"))
-
-        return("Error")
+            # If the user has input an incorrect password
+            else:
+                flash(u"Error: Incorrect Password", "error")
+                return redirect(url_for("loginPage"))
+        # If the inputted email does not return a user
+        flash(u"Error: No User found", "error")
+        return redirect(url_for("loginPage"))
 
     return render_template("login.html")
 
