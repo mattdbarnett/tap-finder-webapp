@@ -100,7 +100,7 @@ def logout(IP):
         result = cur.fetchone()
         # If no sessions are associated with the IP addess, no users must be logged in
         if result is None:
-            return("No user logged in.")
+            return("No user logged in. Therefore cannot logout.")
         # Else remove the session from tapDB
         else:
             cur.execute("DELETE FROM Sessions WHERE IP=?", [IP])
