@@ -22,6 +22,11 @@ h1 {
   font-size: 60px;
 }
 
+p.heading {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
 input{
   border: 2px solid black;
   border-radius: 5px;
