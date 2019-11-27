@@ -67,5 +67,14 @@ def loginPage():
 
     return render_template("login.html")
 
+@app.route("/logout")
+def logoutRoute():
+    IP = request.environ['REMOTE_ADDR']
+    result = logout(IP)
+    if result == "Logged Out.":
+        return("Logged Out.")
+    else:
+        return(result)
+
 if __name__ == "__main__":
     app.run(debug=True)
