@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="./static/signup-form.css">
+{% endblock %}
+
+{% block content %}
+  <p class="heading"> Sign Up </p>
+    <section class="form-centered">
+      <center>
+      <form id="signupForm" method="POST">
+        <label for="FirstName" class="inl_grid_inp">
+            First name*
+            <input id="FirstName" type="text" name="FirstName" required>
+          </label>
+          <label for="LastName" class="inl_grid_inp">
+            Last name*
+            <input id="LastName" type="text" name="LastName" required>
+          </label>
+          <label for="Email">
+            Email*
+            <input type="text" name="Email" required>
+          </label>
+          <label for="Password">
+            Password
+            <input type="password" name="Password" placeholder="Suitable password: I9adjsi*">
+          </label>
+          <label for="Password2">
+            Password
+            <input type="password" name="Password2" placeholder="Please repeat password.">
+          </label>
+          <input type="submit" value="Lets Go!">
+      </form>
+    </center>
+  </section>
+{% endblock %}
