@@ -54,7 +54,7 @@ nav{
 }
 
 /* Web Version of Website Start */
-@media screen and (min-width : 700px){
+@media screen and (min-width : 1000px){
   *{
     margin-top: 0px;
   }
@@ -73,12 +73,11 @@ nav{
 
   h1{
     margin-left: 20px;
-    float:left
+    float: left
   }
 
   .navbar{
-    margin-top: 20px;
-    margin-right: 20px;
+    padding: 20px 20px 0px 20px;
     float: right
   }
 
@@ -89,6 +88,10 @@ nav{
     top: 0;
     width: 100%;
     background-color: #CAE6F7;
+  }
+
+  section.main-content {
+    padding-top: 90px;
   }
 
 }
