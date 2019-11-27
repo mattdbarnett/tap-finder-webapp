@@ -96,7 +96,7 @@ nav{
   }
 
   section.main-content {
-    padding-top: 90px;
+    padding-top: 82px;
   }
 
 }
@@ -190,11 +190,17 @@ iframe{
 /* Flash Message Categories Start */
 
 .error {
-  color: red;
+  color: #e61f1f;
+  background-color: #e6f4fd;
+  padding: 5px;
+  margin-top: 0px;
 }
 
 .success {
   color: green;
+  background-color: #e6f4fd;
+  padding: 5px;
+  margin-top: 0px;
 }
 
 /* Flash Message Categories End */
