@@ -81,9 +81,11 @@ def loginPage():
 def logoutRoute():
     IP = request.environ['REMOTE_ADDR']
     result = logout(IP)
+    # If user is logged out successfully flash an appropriate message
     if result == "Logged Out.":
         flash("Logged Out Successfully!", "success")
         return redirect(url_for("homePage"))
+    # Else flash the appropriate error
     else:
         flash(str(result), "error")
         return redirect(url_for("homePage"))
