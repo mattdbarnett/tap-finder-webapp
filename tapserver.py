@@ -1,5 +1,5 @@
 import sqlite3
-from flask import Flask, render_template, request, session, redirect, url_for
+from flask import Flask, flash, render_template, request, session, redirect, url_for
 
 import loginFunctionality
 from loginFunctionality import *
@@ -72,9 +72,11 @@ def logoutRoute():
     IP = request.environ['REMOTE_ADDR']
     result = logout(IP)
     if result == "Logged Out.":
-        return("Logged Out.")
+        flash("Logged Out Successfully!", "success")
+        return redirect(url_for("homePage"))
     else:
-        return(result)
+        flash(str(result), "error")
+        return redirect(url_for("homePage"))
 
 if __name__ == "__main__":
     app.run(debug=True)
