@@ -69,10 +69,10 @@ def loginPage():
                 return redirect(url_for("profilePage"))
             # If the user has input an incorrect password
             else:
-                flash(u"Error: Incorrect Password", "error")
+                flash(u"Incorrect Password. Please try again.", "error")
                 return redirect(url_for("loginPage"))
         # If the inputted email does not return a user
-        flash(u"Error: No User found", "error")
+        flash(u"No user registered with that email address.", "error")
         return redirect(url_for("loginPage"))
 
     return render_template("login.html")
