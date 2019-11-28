@@ -10,10 +10,6 @@
   margin-top: 20px;
 }
 
-br{
-  display: none;
-}
-
 body{
   background-color: #F8F9F9 ;
 }
@@ -72,10 +68,6 @@ nav{
   p {margin-top: 20px;}
   hr {margin-top: 20px;}
 
-  br{
-    display: inline;
-  }
-
   h1{
     margin-left: 20px;
     float: left
@@ -121,8 +113,8 @@ nav{
   -webkit-transition: background-color 0.4s, padding-left 0.4s, padding-right 0.4s;
   background-color: #5DADE2;
   color: white;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 
