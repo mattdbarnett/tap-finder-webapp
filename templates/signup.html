@@ -9,7 +9,7 @@
   <p class="heading"> Sign Up </p>
     <section class="form-centered">
       <center>
-      <form id="signupForm" method="POST">
+      <form id="signupForm" method="POST" onsubmit="return validateSignupForm()">
         <label for="FirstName" class="inl_grid_inp">
             First name*
             <input id="FirstName" type="text" name="FirstName" required>
@@ -22,9 +22,9 @@
             Email*
             <input type="text" name="Email" required>
           </label>
-          <label for="Password">
+          <label for="Password1">
             Password
-            <input type="password" name="Password" placeholder="Suitable password: I9adjsi*">
+            <input type="password" name="Password1" placeholder="Suitable password: I9adjsi*">
           </label>
           <label for="Password2">
             Password
@@ -34,4 +34,5 @@
       </form>
     </center>
   </section>
+  <script src="./static/javascript/signup_validation.js"></script>
 {% endblock %}
