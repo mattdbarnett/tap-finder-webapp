@@ -90,8 +90,17 @@ def logoutRoute():
         flash(str(result), "error")
         return redirect(url_for("homePage"))
 
-@app.route("/signup")
+@app.route("/signup", methods=["GET", "POST"])
 def signupPage():
+    if request.method == "POST":
+        signup = request.form
+        firstName = signup.get("FirstName")
+        lastName = signup.get("LastName")
+        email = signup.get("Email")
+        password_1 = signup.get("Password1")
+        password_2 = signup.get("Password2")
+        return(f"{firstName} {lastName} {email}")
+
     return render_template("signup.html")
 
 if __name__ == "__main__":
