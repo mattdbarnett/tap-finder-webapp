@@ -1,0 +1,48 @@
+/* Site-wide Styling for Forms */
+
+form {
+    padding: 0px 20px 20px 20px;
+    display: block;
+}
+
+label,
+input,
+textarea {
+    display: grid;
+    margin: 13px 0px 10px 0px;
+}
+
+input {
+   padding: 5px;
+}
+
+input:focus{
+  background-color: #f7f7f7;
+  outline: none;
+  border: solid 2px #CAE6F7
+}
+
+.inl_grid_inp {
+  display: inline-grid;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+input[type=submit] {
+    display: inline-block;
+    background-color: #CAE6F7;
+    padding: 5px 10px 5px 10px;
+}
+
+.form-centered {
+  text-align: center;
+  margin: 0px 20px 0px 20px;
+  max-width: 700px;
+  display: inline-block;
+}
+
+.link {
+  color: #90CBEE;
+}
+
+/* End of styling for Forms */
