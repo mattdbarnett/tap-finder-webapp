@@ -8,4 +8,23 @@
 {% block content %}
   <p class="heading">Help</p>
   <p> Here you will recieve assistance in how to use this website. </p>
+
+  <link rel="stylesheet" type="text/css" href="./static/help.css">
+
+  <hr>
+  <br>
+
+  <nav class="navbar" id="center">
+    <a type="helpcontent" name="navbutton" onclick="contentreset(1)">Navigation</a>
+    <a type="helpcontent" name="addptapbutton" onclick="contentreset(2)">Adding Taps</a>
+    <a type="helpcontent" name="viewtapbutton" onclick="contentreset(3)">Viewing Taps</a>
+  </nav>
+
+  <br>
+  <hr>
+
+  <p id="helpcontent">No Content</p>
+
+  <script src="./static/javascript/help_content.js"></script>
+
 {% endblock %}
