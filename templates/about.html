@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 {% extends "base.html" %}
 
-{% block logout %}
-<a href="login" id="loginbutton">Login</a>
+{% block login_logout %}
+  <a href="{{ url_for('signinPage')}}" id="loginbutton">Sign In/Register</a>
 {% endblock %}
 
 {% block content %}
+  <p class="heading">About Us</p>
   <p> Here you can learn about our cause. </p>
 {% endblock %}
