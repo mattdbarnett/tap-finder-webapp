@@ -2,7 +2,7 @@
 {% extends "base.html" %}
 
 {% block login_logout %}
-<a href="login" id="loginbutton">Sign In/Register</a>
+<a href="{{ url_for('signinPage') }}" id="loginbutton">Sign In/Register</a>
 {% endblock %}
 
 {% block content %}
