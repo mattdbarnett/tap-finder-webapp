@@ -33,8 +33,8 @@ def mapPage():
 def profilePage():
     return(check_session(session.get("sessionID")))
 
-@app.route("/login", methods=["GET", "POST"])
-def loginPage():
+@app.route("/signin", methods=["GET", "POST"])
+def signinPage():
     if request.method == "POST":
         # Gather login data from login form
         login = request.form
@@ -70,12 +70,12 @@ def loginPage():
             # If the user has input an incorrect password
             else:
                 flash(u"Incorrect Password. Please try again.", "error")
-                return redirect(url_for("loginPage"))
+                return redirect(url_for("signinPage"))
         # If the inputted email does not return a user
         flash(u"No user registered with that email address.", "error")
-        return redirect(url_for("loginPage"))
+        return redirect(url_for("signinPage"))
 
-    return render_template("login.html")
+    return render_template("signin.html")
 
 @app.route("/logout")
 def logoutRoute():
