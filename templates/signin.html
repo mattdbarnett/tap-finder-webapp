@@ -2,7 +2,11 @@
 {% extends "base.html" %}
 
 {% block head %}
-<link rel="stylesheet" type="text/css" href="./static/signup-form.css">
+  <link rel="stylesheet" type="text/css" href="./static/forms.css">
+{% endblock %}
+
+{% block login_logout %}
+  <a href="{{ url_for('signinPage')}}" id="loginbutton">Sign In/Register</a>
 {% endblock %}
 
 {% block content %}
