@@ -17,6 +17,10 @@ def homePage():
 def aboutPage():
     return render_template("about.html")
 
+@app.route("/help")
+def helpPage():
+    return render_template("help.html")
+
 @app.route("/addatap")
 def addatapPage():
     return render_template("addatap.html")
