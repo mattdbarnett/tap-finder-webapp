@@ -38,7 +38,7 @@ def check_session(sessionID):
     Local_IP = str(request.environ['REMOTE_ADDR'])
     result = check_for_session(Local_IP)
     if result is False:
-        return redirect(url_for("loginPage"))
+        return redirect(url_for("siginPage"))
     else:
         # Unpack results from check_for_session(Local_IP)
         stored_sessionID, email = result[0], result[1]
@@ -52,14 +52,14 @@ def check_session(sessionID):
             cur.execute("DELETE FROM Sessions WHERE sessionID=?", [sessionID])
             conn.commit()
             conn.close()
-            return redirect(url_for("loginPage"))
+            return redirect(url_for("signinPage"))
         # If the clients' sessionID does not match the tapDB.Sessions sessionID
         elif (sessionID != stored_sessionID):
             session.clear()
             cur.execute("DELETE FROM Sessions WHERE IP=?", [Local_IP])
             conn.commit()
             conn.close()
-            return redirect(url_for("loginPage"))
+            return redirect(url_for("signinPage"))
         # If there is a valid session
         else:
             # Check the accessLevel of the user and retrieve their full name in the same query
