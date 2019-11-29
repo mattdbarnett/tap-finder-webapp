@@ -2,11 +2,15 @@
 {% extends "base.html" %}
 
 {% block head %}
-<link rel="stylesheet" type="text/css" href="./static/signup-form.css">
+  <link rel="stylesheet" type="text/css" href="./static/forms.css">
+{% endblock %}
+
+{% block login_logout %}
+  <a href="{{ url_for('signinPage')}}" id="loginbutton">Sign In/Register</a>
 {% endblock %}
 
 {% block content %}
-  <p class="heading"> Sign Up </p>
+    <p class="heading"> Sign Up </p>
     <section class="form-centered">
       <center>
       <form id="signupForm" method="POST" onsubmit="return validateSignupForm()">
@@ -20,15 +24,15 @@
           </label>
           <label for="Email">
             Email*
-            <input type="text" name="Email" required>
+            <input id="Email" type="email" name="Email" required>
           </label>
           <label for="Password1">
             Password
-            <input type="password" name="Password1" placeholder="Suitable password: I9adjsi*">
+            <input id="Password1" type="password" name="Password1" placeholder="Suitable password: I9adjsi*" required>
           </label>
           <label for="Password2">
-            Password
-            <input type="password" name="Password2" placeholder="Please repeat password.">
+            Repeated Password
+            <input id="Password2" type="password" name="Password2" placeholder="Please repeat password." required>
           </label>
           <input type="submit" value="Lets Go!">
       </form>
