@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 {% extends "base.html" %}
 
-{% block logout %}
-<a href="login" id="loginbutton">Login</a>
+{% block head %}
+  <link rel="stylesheet" type="text/css" href="./static/forms.css">
+{% endblock %}
+
+{% block login_logout %}
+  <a href="{{ url_for('signinPage')}}" id="loginbutton">Sign In/Register</a>
 {% endblock %}
 
 {% block content %}
-
-  <br>
-  <hr>
-
+  <p class="heading">Add a tap</p>
   <p> If you wish to contact us about a tap you've found and want to be added to the map, please fill out the form below: </p>
-
-  <form id="tapForm" name="tapForm" method="get" onsubmit="return tapValidate()">
-
-    <label for ="email">Email Address: *</label>
-      <input id="email" type="text" name="emailAddress"><br><br>
-
-    <label for="Lat."> Latitude: * </label>
-      <input id="Lat" type="text" name="lat"><br><br>
-
-    <label for="Long."> Longitude: * </label>
-      <input id="Long" type="text" name="long"><br><br>
-
-    <p> Description: </p>
-
-    <textarea id="comments" rows="5" cols="50" name="text"> Please enter your description here. </textarea> <br><br>
-
+  <br>
+  <section class="form-centered">
+    <center>
+    <form id="tapForm" name="tapForm" method="get" onsubmit="return tapValidate()">
+      <label for="email">
+        Email Address:
+        <input id="email" type="text" name="emailAddress" required>
+      </label>
+      <label for="Lat.">
+        Lattitude:
+        <input id="Lat" type="text" name="lat" required>
+      </label>
+      <label for="Long.">
+        Longitude:
+        <input id="Long" type="text" name="long" required>
+      </label>
+      <label for="Description">
+        Description:
+        <textarea id="comments" rows="5" cols="50" name="text"> Please enter your description here. </textarea>
+      </label>
     <input type="submit" name="Submit" value="Submit" class="btnSubmit"><br>
-
   </form>
 
-  <hr>
-
   <script>
-    
+
     function tapValidate() {
 
       if( document.tapForm.emailAddress.value == "" ) {

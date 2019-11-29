@@ -1,59 +1,61 @@
 <!DOCTYPE html>
 {% extends "base.html" %}
 
-{% block logout %}
-<a href="login" id="loginbutton">Login</a>
+{% block head %}
+  <link rel="stylesheet" type="text/css" href="./static/forms.css">
+{% endblock %}
+
+{% block login_logout %}
+  <a href="{{ url_for('signinPage')}}" id="loginbutton">Sign In/Register</a>
 {% endblock %}
 
 {% block content %}
 
-  <br>
-  <hr>
-  
-  <p> If you wish to contact us with a query about the website, please fill out the form below: </p>
+<p class="heading">Contact Us</p>
+<p> If you wish to contact us with a query about the website, please fill out the form below: </p>
+<br>
+<section class="form-centered">
+  <center>
+    <form id="contactForm" name="contactForm" method="get" onsubmit="return contactValidate()">
+      <label for="Name">
+        Full Name:
+        <input id="Name" type="text" name="name" required>
+      </label>
+      <label for="Email">
+        Email:
+        <input id="Email" type="email" name="emailAddress" required>
+      </label>
+      <label for="Query">
+        Your Query:
+        <textarea id="comments" rows="5" cols="50" name="text" placeholder="Please enter your query here."></textarea>
+      </label>
+      <input type="submit" name="Submit" value="Submit" class="btnSubmit"><br>
+    </form>
+  </center>
+</section>
 
-  <form id="contactForm" name="contactForm" method="get" onsubmit="return contactValidate()">
-    <label for="Name"> Full Name: * </label>
-      <input id="Name" type="text" name="name"><br><br>
+<script>
+function contactValidate() {
 
-    <label for ="email">Email Address: *</label>
-      <input id="email" type="text" name="emailAddress"><br><br>
+  if( document.contactForm.name.value == "" ) {
+    alert( "Please enter your name." );
+    document.contactForm.name.focus() ;
+    return false;
+  }
 
-    <p> Description: </p>
+  if( document.contactForm.emailAddress.value == "" ) {
+    alert( "Please enter your email address." );
+    document.contactForm.emailAddress.focus() ;
+    return false;
+  }
 
-    <textarea id="comments" rows="5" cols="50" name="text"> Please enter your query here. </textarea> <br><br>
+  return contactSubmit()
 
-    <input type="submit" name="Submit" value="Submit" class="btnSubmit"><br>
+}
 
-  </form>
+function contactSubmit() {
 
-  <hr>
-
-  <p> </p>
-
-  <script>
-
-    function contactValidate() {
-
-      if( document.contactForm.name.value == "" ) {
-          alert( "Please enter your name." );
-          document.contactForm.name.focus() ;
-          return false;
-          }
-
-      if( document.contactForm.emailAddress.value == "" ) {
-          alert( "Please enter your email address." );
-          document.contactForm.emailAddress.focus() ;
-          return false;
-          }
-
-      return contactSubmit()
-
-    }
-
-    function contactSubmit() {
-
-    }
-  </script>
+}
+</script>
 
 {% endblock %}
