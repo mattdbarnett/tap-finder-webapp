@@ -14,13 +14,19 @@ body{
   background-color: #F8F9F9 ;
 }
 
+#main-content {
+  padding: 0px 20px 40px 20px;
+}
+
 h1 {
   font-size: 60px;
 }
 
 p.heading {
   font-size: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: solid 2px black;
+  margin-bottom: 20px;
 }
 
 input{
@@ -79,16 +85,23 @@ nav{
   }
 
   .headerbar{
+    z-index: 1;
     margin-top: 0px;
     position: fixed;
-    float: right
-    top: 0;
+    float: right;
+    top: 0px;
     width: 100%;
     background-color: #CAE6F7;
   }
 
-  section.main-content {
+  #main-content {
+    padding: 114px 20px 40px 20px;
+  }
+
+  #messages {
     padding-top: 82px;
+    position: fixed;
+    width: 100%;
   }
 
 }
@@ -181,18 +194,43 @@ iframe{
 
 /* Flash Message Categories Start */
 
-.error {
-  color: #e61f1f;
-  background-color: #e6f4fd;
+.message {
   padding: 5px;
   margin-top: 0px;
+  background-color: #e6f4fd;
+  -webkit-animation: fadeInOut cubic-bezier(0.63,-0.01, 0.12, 1.01) 20s forwards;
+  animation: fadeInOut cubic-bezier(0.63,-0.01, 0.12, 1.01) 20s forwards;
+}
+
+/* Message Animation Start */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* Message Animation End */
+
+.error {
+  color: #e61f1f;
 }
 
 .success {
   color: green;
-  background-color: #e6f4fd;
-  padding: 5px;
-  margin-top: 0px;
 }
 
 /* Flash Message Categories End */
+
+/* Home Link Styling Start */
+
+.neutral, .neutral:hover, .neutral:visited {
+  text-decoration: none;
+  color: black;
+}
+
+/* End of Home Link Styling Start */
