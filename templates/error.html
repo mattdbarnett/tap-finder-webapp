@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+{% block login_logout %}
+  <a href="{{ url_for('signinPage') }}" id="logoutbutton">Sign In/Register</a>
+{% endblock %}
+
+{% block content %}
+  <p class="heading">{{ error }}</p>
+  <p>{{ desc }}</p>
+  <br>
+  <nav class="navbar" id="center">
+    <a href="{{ url_for('homePage') }}">Home</a>
+    <a onclick="window.history.back();">Back</a>
+  </nav>
+{% endblock %}
