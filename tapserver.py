@@ -1,5 +1,5 @@
 import sqlite3
-from flask import Flask, flash, render_template, request, session, redirect, url_for
+from flask import Flask, flash, render_template, request, session, redirect, url_for, abort
 
 import loginFunctionality
 from loginFunctionality import *
@@ -9,7 +9,40 @@ tapDB = 'db/tapDatabase.db'
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "arjT3S6tTdiC0Dq5cbvifA"
 
-@app.route("/home")
+# Client HTTP Error Handling
+# Use abort(error_number) to call
+
+# 404 - Not Found
+@app.errorhandler(404)
+def error404(error):
+    HTTPError = str(error).split(":")
+    flash(f"'{request.path}' produced the following error:", "error")
+    return render_template("error.html", error=HTTPError[0], desc=HTTPError[1]), 404
+
+# 403 - Forbidden
+@app.errorhandler(403)
+def error403(error):
+    HTTPError = str(error).split(":")
+    flash(f"'{request.path}' produced the following error:", "error")
+    return render_template("error.html", error=HTTPError[0], desc=HTTPError[1]), 403
+
+# 401 - Unauthorized
+@app.errorhandler(401)
+def error401(error):
+    HTTPError = str(error).split(":")
+    flash(f"'{request.path}' produced the following error:", "error")
+    return render_template("error.html", error=HTTPError[0], desc=HTTPError[1]), 401
+
+# 405 - Method Not Allowed
+@app.errorhandler(405)
+def error405(error):
+    HTTPError = str(error).split(":")
+    flash(f"'{request.path}' produced the following error:", "error")
+    return render_template("error.html", error=HTTPError[0], desc=HTTPError[1]), 405
+
+# End of Client Error Handling
+
+@app.route("/")
 def homePage():
     return render_template("home.html")
 
