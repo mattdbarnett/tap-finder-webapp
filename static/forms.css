@@ -1,6 +1,7 @@
 /* Site-wide Styling for Forms */
 
 form {
+    margin-top: 20px;
     padding: 0px 20px 20px 20px;
     display: block;
 }
@@ -30,8 +31,9 @@ input:focus{
 
 input[type=submit] {
     display: inline-block;
-    background-color: #CAE6F7;
+    background-color: #ebedef;
     padding: 5px 10px 5px 10px;
+    cursor: pointer;
 }
 
 .form-centered {
@@ -42,7 +44,7 @@ input[type=submit] {
 }
 
 .link {
-  color: #90CBEE;
+  color: #1a237e;
 }
 
 /* End of styling for Forms */
