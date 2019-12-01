@@ -3,25 +3,36 @@
 <head>
   <link rel="stylesheet" type="text/css" href="./static/temp.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Head Block to allow extended pages to add to the head -->
   {% block head %}{% endblock %}
+  <!-- End of Head Block -->
 </head>
 
 <body class="fade-in">
 
 <header class="headerbar">
+  <!-- Site Name links to the home page -->
   <a class="neutral" href="{{ url_for('homePage') }}">
     <h1> The Water Web </h1>
   </a>
+  <!-- End of link -->
+  <!-- Site-Wide Header NavBar -->
   <nav>
     <div class="navbar">
-      <a href="{{ url_for('aboutPage') }}">About Us</a>
-      <a href="{{ url_for('contactPage') }}">Contact Us</a>
-      <a href="{{ url_for('mapPage') }}">Map</a>
-      {% block login_logout %}{% endblock %}
+      <a id="{{ url_for('aboutPage')[1:] }}" href="{{ url_for('aboutPage') }}">About Us</a>
+      <a id="{{ url_for('contactPage')[1:] }}" href="{{ url_for('contactPage') }}">Contact Us</a>
+      <a id="{{ url_for('mapPage')[1:] }}" href="{{ url_for('mapPage') }}">Map</a>
+      {% if session["sessionID"]|length > 0 %}
+      <a id="profile" href="{{ url_for('profilePage') }}">Profile</a>
+      <a href="{{ url_for('logoutRoute') }}">Logout</a>
+      {% else %}
+      <a id="{{ url_for('signinPage')[1:] }}" href="{{ url_for('signinPage') }}">Sign In/Register</a>
+      {% endif %}
     </div>
   </nav>
+  <!-- End of Site-Wide Header NavBar -->
 </header>
-
+<!-- Section for Flask Flash Messages -->
 <section id="messages">
   {% with messages = get_flashed_messages(with_categories=true) %}
     {% if messages %}
@@ -31,8 +42,15 @@
     {% endif %}
   {% endwith %}
 </section>
+<!-- End of Section for Flask Flash Messages -->
+<!-- Main Content Section -->
 <section id="main-content">
     {% block content %} {% endblock %}
 </section>
-
+<!-- End of Main Content Section -->
+<!-- Script to change the color of header navbar buttons when pages are active -->
+<script>
+  document.getElementById("{{ request.path[1:] }}").style.backgroundColor = "#b1d0ec";
+</script>
+<!-- End of Script -->
 </body>
