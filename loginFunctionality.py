@@ -1,7 +1,7 @@
 import os, base64
 import sqlite3
 from datetime import datetime, timedelta
-from flask import Flask, render_template, request, session, redirect, url_for, make_response
+from flask import Flask, flash, render_template, request, session, redirect, url_for, make_response
 from flask_bcrypt import Bcrypt
 
 bcrypt = Bcrypt()
@@ -67,12 +67,14 @@ def check_session(sessionID):
             result = cur.fetchone()
             # Unpack the query result into appropriate variables
             accessLevel, name = result[0], (f"{result[1]} {result[2]}")
+            # Welcome the user
+            flash(f"Welcome Back { result[1] }!", "success")
             # If the user in an admin
             if accessLevel == "Admin":
-                return render_template("admin.html")
+                return render_template("admin.html", email=email, name=name)
             # Else they must be a standard user
             else:
-                return render_template("profile.html", email=email)
+                return render_template("profile.html", email=email, name=name)
 
 # Function to revoke a sessionID
 def revoke_session(sessionID):
