@@ -2,19 +2,18 @@
 {% extends "base.html" %}
 
 {% block head %}
-  <link rel="stylesheet" type="text/css" href="./static/forms.css">
-{% endblock %}
-
-{% block login_logout %}
-  <a href="{{ url_for('signinPage')}}" id="loginbutton">Sign In/Register</a>
+<link rel="stylesheet" type="text/css" href="./static/forms.css">
 {% endblock %}
 
 {% block content %}
-  <p class="heading"> Sign In </p>
+<p class="heading"> Have an account? </p>
+<section class="container">
+  <section class="inner-container">
+    <p class="heading">Sign In</p>
     <section class="form-centered">
       <center>
-      <form id="loginForm" method="POST">
-        <label for="Email">
+        <form id="loginForm" method="POST">
+          <label for="Email">
             Email
             <input id="Email" type="text" name="Email" required>
           </label>
@@ -23,8 +22,24 @@
             <input id="Password" type="password" name="Password" required>
           </label>
           <input type="submit" name="Submit" value="Lets Go!">
-      </form>
-      <p>Not registered? Signup <a href="{{ url_for('signupPage') }}" class="link">here</a></p>
-    </center>
+        </form>
+        <p>Not registered? Signup <a href="{{ url_for('signupPage') }}" class="link">here</a></p>
+      </center>
+    </section>
   </section>
+  <section class="inner-container">
+    <p class="heading">Not Registered?</p>
+    <p>You can use the majority of this site as a guest but we recommend becoming a member.
+      <br><br>
+      Here are the benefits:
+    </p>
+    <ul>
+      <li>Benefit 1</li>
+      <li>Benefit 2</li>
+      <li>Benefit 3</li>
+    </ul>
+    <p>Convinced?</p>
+    <button onclick="window.location.href = '/signup';">Yes, get me signed up!</button>
+  </section>
+</section>
 {% endblock %}

@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 {% extends "base.html" %}
 
-{% block logout %}
-<a href="logout" id="logoutbutton">Logout</a>
-{% endblock %}
-
 {% block content %}
-  <p> Admin </p>
+  <p class="heading">Admin Panel</p>
+  <section class="container">
+    <section class="inner-container">
+      <p class="heading">{{ name }} (<strong>ADMIN</strong>)</p>
+      <p>Email: {{ email }}</p>
+    </section>
+    <section class="inner-container">
+      <p class="heading">Site Statistics</p>
+      <p>More coming soon</p>
+    </section>
+  </section>
 {% endblock %}

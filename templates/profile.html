@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 {% extends "base.html" %}
 
-{% block login_logout %}
-  <a href="{{ url_for('logoutRoute') }}" id="logoutbutton">Logout</a>
-{% endblock %}
-
 {% block content %}
-  <p>{{ request.cookies.get("name") }} ({{ email }})</p>
+  <section class="container">
+    <section class="inner-container">
+      <p class="heading">{{ name }} ({{ email }})</p>
+      <p>More coming soon</p>
+    </section>
+  </section>
 {% endblock %}

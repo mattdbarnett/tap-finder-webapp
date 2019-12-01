@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 {% extends "base.html" %}
 
-{% block login_logout %}
-  <a href="{{ url_for('signinPage')}}" id="loginbutton">Sign In/Register</a>
+{% block content %}
+<p class="heading">Welcome to our water-finding website!</p>
+<section class="container">
+  <section class="inner-container">
+    <p class="heading">Add a tap</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius mauris ac sem dictum, non venenatis sapien facilisis. Nulla ultricies pharetra malesuada. Aliquam interdum lectus eget nisl lobortis, in aliquet sem semper. Duis non pharetra neque. Nulla facilisi.
+    </p>
+  </section>
+  <section class="inner-container">
+    <p class="heading">Coming Soon</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius mauris ac sem dictum, non venenatis sapien facilisis. Nulla ultricies pharetra malesuada. Aliquam interdum lectus eget nisl lobortis, in aliquet sem semper. Duis non pharetra neque. Nulla facilisi.
+    </p>
+  </section>
+</section>
+<section class="container">
+  <section class="inner-container">
+    <p class="heading">Coming Soon</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius mauris ac sem dictum, non venenatis sapien facilisis. Nulla ultricies pharetra malesuada. Aliquam interdum lectus eget nisl lobortis, in aliquet sem semper. Duis non pharetra neque. Nulla facilisi.
+    </p>
+  </section>
+</section>
 {% endblock %}
-
-  {% block content %}
-  <p class="heading">Welcome</p>
-  <p> Hello and welcome to our water-finding website! </p>
-  {% endblock %}

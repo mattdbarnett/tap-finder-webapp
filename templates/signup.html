@@ -2,19 +2,18 @@
 {% extends "base.html" %}
 
 {% block head %}
-  <link rel="stylesheet" type="text/css" href="./static/forms.css">
-{% endblock %}
-
-{% block login_logout %}
-  <a href="{{ url_for('signinPage')}}" id="loginbutton">Sign In/Register</a>
+<link rel="stylesheet" type="text/css" href="./static/forms.css">
 {% endblock %}
 
 {% block content %}
-    <p class="heading"> Sign Up </p>
+<p class="heading"> Lets get you signed up! </p>
+<section class="container">
+  <section class="inner-container">
+    <p class="heading">Go ahead and complete the form!</p>
     <section class="form-centered">
       <center>
-      <form id="signupForm" method="POST" onsubmit="return validateSignupForm()">
-        <label for="FirstName" class="inl_grid_inp">
+        <form id="signupForm" method="POST" onsubmit="return validateSignupForm()">
+          <label for="FirstName" class="inl_grid_inp">
             First name*
             <input id="FirstName" type="text" name="FirstName" required>
           </label>
@@ -35,8 +34,10 @@
             <input id="Password2" type="password" name="Password2" placeholder="Please repeat password." required>
           </label>
           <input type="submit" value="Lets Go!">
-      </form>
-    </center>
+        </form>
+      </center>
+    </section>
   </section>
-  <script src="./static/javascript/signup_validation.js"></script>
+</section>
+<script src="./static/javascript/signup_validation.js"></script>
 {% endblock %}
