@@ -18,7 +18,8 @@
   <!-- End of link -->
   <!-- Site-Wide Header NavBar -->
   <nav>
-    <div class="navbar">
+    <div class="navbar" id="mainnavfloat">
+      <a id="{{ url_for('helpPage')[1:] }}" href="{{ url_for('helpPage') }}">Help</a>
       <a id="{{ url_for('aboutPage')[1:] }}" href="{{ url_for('aboutPage') }}">About Us</a>
       <a id="{{ url_for('contactPage')[1:] }}" href="{{ url_for('contactPage') }}">Contact Us</a>
       <a id="{{ url_for('mapPage')[1:] }}" href="{{ url_for('mapPage') }}">Map</a>

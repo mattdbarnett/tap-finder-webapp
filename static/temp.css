@@ -141,7 +141,10 @@ nav{
 
   .navbar{
     padding: 20px 20px 0px 20px;
-    float: right
+  }
+
+  #mainnavfloat{
+    float:right;
   }
 
   .headerbar{
