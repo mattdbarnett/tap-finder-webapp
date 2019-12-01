@@ -2,36 +2,37 @@
 {% extends "base.html" %}
 
 {% block head %}
-  <link rel="stylesheet" type="text/css" href="./static/forms.css">
-{% endblock %}
-
-{% block login_logout %}
-  <a href="{{ url_for('signinPage')}}" id="loginbutton">Sign In/Register</a>
+<link rel="stylesheet" type="text/css" href="./static/forms.css">
 {% endblock %}
 
 {% block content %}
 
-<p class="heading">Contact Us</p>
-<p> If you wish to contact us with a query about the website, please fill out the form below: </p>
-<br>
-<section class="form-centered">
-  <center>
-    <form id="contactForm" name="contactForm" method="get" onsubmit="return contactValidate()">
-      <label for="Name">
-        Full Name:
-        <input id="Name" type="text" name="name" required>
-      </label>
-      <label for="Email">
-        Email:
-        <input id="Email" type="email" name="emailAddress" required>
-      </label>
-      <label for="Query">
-        Your Query:
-        <textarea id="comments" rows="5" cols="50" name="text" placeholder="Please enter your query here."></textarea>
-      </label>
-      <input type="submit" name="Submit" value="Submit" class="btnSubmit"><br>
-    </form>
-  </center>
+<p class="heading">Get in touch!</p>
+<section class="container">
+  <section class="inner-container">
+    <p class="heading">Drop us a message!</p>
+    <p> If you wish to contact us with a query about the website, please fill out the form below: </p>
+    <br>
+    <section class="form-centered">
+      <center>
+        <form id="contactForm" name="contactForm" method="get" onsubmit="return contactValidate()">
+          <label for="Name">
+            Full Name:
+            <input id="Name" type="text" name="name" required>
+          </label>
+          <label for="Email">
+            Email:
+            <input id="Email" type="email" name="emailAddress" required>
+          </label>
+          <label for="Query">
+            Your Query:
+            <textarea id="comments" rows="5" cols="50" name="text" placeholder="Please enter your query here."></textarea>
+          </label>
+          <input type="submit" name="Submit" value="Submit" class="btnSubmit"><br>
+        </form>
+      </center>
+    </section>
+  </section>
 </section>
 
 <script>
