@@ -7,7 +7,7 @@ function contentreset(contenttoshow) {
 }
 
 function navigationcontent() {
-  var contenttoshow = "Nav Content"
+  var contenttoshow = "To navigation to the home page, please click on the title (The Water Web) located on the top left of every page."
   document.getElementById("helpcontent").innerHTML = contenttoshow
   document.getElementById('helpcontent').style.opacity = '1';
 }
