@@ -56,7 +56,10 @@ def helpPage():
 
 @app.route("/addatap")
 def addatapPage():
-    return render_template("addatap.html")
+    if check_session(session.get("sessionID"), True) is True:
+        return(check_session(session.get("sessionID"), "addatap"))
+    else:
+        return render_template("addatap.html", user="a guest")
 
 @app.route("/contact")
 def contactPage():
@@ -131,14 +134,25 @@ def logoutRoute():
 def signupPage():
     if request.method == "POST":
         signup = request.form
-        firstName = signup.get("FirstName")
-        lastName = signup.get("LastName")
-        email = signup.get("Email")
-        password_1 = signup.get("Password1")
-        password_2 = signup.get("Password2")
-        return(f"{firstName} {lastName} {email}")
+        values = []
+        values.append(signup.get("FirstName"))
+        values.append(signup.get("LastName"))
+        values.append(signup.get("Email"))
+        values.append(signup.get("Password1"))
+        values.append(signup.get("Password2"))
+        result = validate_new_user(values)
+        if result is True:
+            return redirect(url_for("signinPage"))
+        elif result == "Reset":
+            return redirect(url_for("resetpwPage"))
+        else:
+            return redirect(url_for("signupPage"))
 
     return render_template("signup.html")
+
+@app.route("/resetpw", methods=["GET", "POST"])
+def resetpwPage():
+    return render_template("reset.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
