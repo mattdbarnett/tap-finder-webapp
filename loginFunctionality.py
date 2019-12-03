@@ -116,29 +116,36 @@ def logout(IP):
             return("Logged Out.")
 
 
+# Function to check whether a string contains a number
 def hasNumbers(inputString):
  return any(char.isdigit() for char in inputString)
 
 
+# Signup form server-side validation
 def validate_new_user(values):
     # Check the FirstName and LastName do not contain numbers
     if (hasNumbers(str(values[0])) is True) or (hasNumbers(str(values[1])) is True):
+        flash(u"Names cannot contain numbers", "error")
         return False
     # Check that email is valid
     if not re.match(r"[^@]+@[^@]+\.[^@]+", values[2]):
+        flash(u"Invalid email address", "error")
         return False
     # Check that password is at least 8 characters in length
     elif len(str(values[3])) < 8:
+        flash(u"Password must be at least 8 characters in length", "error")
         return False
     # Check that password contains at least one number
     elif (hasNumbers(str(values[3])) is False):
-        print(re.findall('[^A-Za-z0-9]', str(values[3])))
+        flash(u"Password must contain at least one number", "error")
         return False
     # Check that password contains at least one special character
     elif not (re.findall('[^A-Za-z0-9]', str(values[3]))):
+        flash(u"Password must contain at least one special character", "error")
         return False
     # Check that password1 and password2 (repeated password) match
     elif values[3] != values[4]:
+        flash(u"Passwords do not match.", "error")
         return False
     else:
         conn = sqlite3.connect(tapDB)

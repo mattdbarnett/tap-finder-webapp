@@ -15,40 +15,50 @@
 		html, body, #leaflet-map, #leaflet-container {
 			height: 1000px;
 			width: 100%;
+			margin: 0 0 0 0;
 		}
-
-		testBtn{
-			pointer-events:auto;
-			z-index:600;
-			position:fixed;
+		
+		#down-button{
+			transition: all .2s ease-in-out;
+		}
+		#down-button:hover{
+			transform: scale(1.1);
+		}
+		
+		#testBtn:hover{	
+			text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+			-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+			-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+			transition: all 0.4s ease 0s;
+		}
+		
+		#testBtn{
+			width:96.8%;
 			bottom:0;
-			border:none;
-			color:black;
-			background-color:#4CAF50;
-			width:100%;
-			padding:18px 0px 18px 0px;
-			font-size:100%;
-			border-radius:15px 15px 0px 0px;
-			border:2px solid black;
-			background-color:white;
-			outline:none;
-			transition:0.5s;
-			background-image: linear-gradient(to right, #F09819 0%, #EDDE5D 51%, #F09819 100%);
-		}
-
-		testBtn:hover{
-			background-position: right center;
+			position:fixed;
+			z-indx:600;
+			pointer-events:auto;
+			text-align:center;
+			color: #fff !important;
+			text-transform: uppercase;
+			text-decoration: none;
+			background: #60a3bc;
+			padding: 20px;
+			border-radius: 50px;
+			display: inline-block;
+			border: none;
+			transition: all 0.4s ease 0s;
 		}
     </style>
 
 	<br>
 
-	<section id="map">
-	<img src = "static/resources/map-init-icon.png" id="down-button" height="50" width="50">
+	<section id="section-map">
+	<img src = "static/resources/map-init-icon.png" id="down-button" height="50" width="50"><br><br>
 	<div id="leaflet-container">
 		<div id="leaflet-map"></div>
-		<div class = "leaflet-bottom leaflet-left">
-				<input type = "button" id="testBtn" value="Update Location" onclick="console.log('w')" class="btnStyle span3" style="pointer-events:auto; z-index:600; position:fixed; bottom:0;border:none; color:black; background-color:#4CAF50;width:100%;padding:18px 0px 18px 0px;font-size:100%;border-radius:15px 15px 0px 0px;border:2px solid black;background-color:white;outline:none;transition:0.5s;background-image: linear-gradient(to right, #F09819 0%, #EDDE5D 51%, #F09819 100%)">
+		<div class = "leaflet-bottom">
+				<input type = "button" id="testBtn" value="Update Location" onclick="navigator.geolocation.getCurrentPosition(setCurrentPosition);" class="btnStyle span3">
 		</div>
 	</div>
 	</section>
@@ -56,21 +66,44 @@
 	<script src="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7/leaflet.js"></script>
 
 	<script>
+		var geojson = {
+	  "type": "FeatureCollection",
+	  "features": [
+		{
+		  "type": "Feature",
+		  "properties": {},
+		  "geometry": {
+			"type": "Point",
+			"coordinates": [
+			  -3.178567,
+			  51.488507
+			]
+		  }
+		}
+	  ]
+	}
+		
         var map = L.map('leaflet-map').setView([1, 1], 15);
+
+				var redmarker = L.icon({
+					iconUrl: "./static/resources/red-marker.png",
+					iconSize: [30, 50],
+					iconAnchor: [10, 10]
+				});
 
 				navigator.geolocation.getCurrentPosition(setCurrentPosition);
 
 				function setCurrentPosition(position) {
 				  var lat = position.coords.latitude;
 				  var long = position.coords.longitude;
-					alert(lat)
-					alert(long)
 					map.panTo(new L.LatLng(lat, long));
+					// {icon: redmarker}
 					var currentlocation = L.marker([lat, long]).addTo(map);
 					currentlocation.bindPopup("<b>Your Current<br>Location</b>").openPopup();
 				}
 
-				addMarkers()
+				addMarkers();
+				ourMarkers = [[51.488507, -3.178567],[51.589751, -2.998235]];
 
 				function addMarkers(){
 					var tap1 = L.marker([51.488507, -3.178567]).addTo(map);
