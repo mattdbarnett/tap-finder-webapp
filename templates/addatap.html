@@ -9,24 +9,35 @@
 <p class="heading">Want to add a tap?</p>
 <section class="container">
   <section class="inner-container">
-    <p class="heading">Adding tap as {{ user }}!</p>
-    <p> If you wish to contact us about a tap you've found and want to be added to the map, please fill out the form below: </p>
+    <p class="heading">Adding tap as {{ name }}!</p>
+    <p>Want to add a tap you've found? Well this is the place to do it.<br>
+       Either submit as a guest by providing your email or login to submit using an existing account.
+    </p>
     <br>
     <section class="form-centered">
       <center>
         <form id="tapForm" name="tapForm" method="get" onsubmit="return tapValidate()">
+          {% if session["sessionID"]|length > 0 %}
+          <label for="email">
+            Email Address:
+            <input id="email" type="text" name="emailAddress" value="{{ email }}" required>
+          </label>
+          {% else %}
           <label for="email">
             Email Address:
             <input id="email" type="text" name="emailAddress" required>
           </label>
+          {% endif %}
+          <p class="form-subheading">Manual submission:</p>
           <label for="Lat.">
             Lattitude:
-            <input id="Lat" type="text" name="lat" required>
+            <input id="Lat" type="text" name="lat">
           </label>
           <label for="Long.">
             Longitude:
-            <input id="Long" type="text" name="long" required>
+            <input id="Long" type="text" name="long">
           </label>
+          <p class="form-subheading">Automatic Submission:</p>
           <label for="Photo">
             <input type='file'/>
           </label>
@@ -34,7 +45,7 @@
             Description:
             <textarea id="comments" rows="5" cols="50" name="text" placeholder="Please enter your description here."></textarea>
           </label>
-          <input type="submit" name="Submit" value="Submit" class="btnSubmit"><br>
+          <input type="submit" name="Submit" value="Add Tap!" class="btnSubmit"><br>
         </form>
       </section>
     </section>

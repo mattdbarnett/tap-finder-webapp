@@ -77,7 +77,7 @@ def check_session(sessionID, otherpage=None):
                 else:
                     return render_template("profile.html", email=email, name=name)
             elif otherpage == "addatap":
-                return render_template("addatap.html", user=name)
+                return render_template("addatap.html", email=email, name=name)
             else:
                 return True
 

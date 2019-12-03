@@ -47,6 +47,12 @@ input[type=submit] {
   font-size: small;
   padding-bottom: 20px;
 }
+
+.form-subheading {
+  text-align: left;
+  padding-bottom: 5px;
+  border-bottom: solid 1px black;
+}
 .link {
   color: #1a237e;
 }
