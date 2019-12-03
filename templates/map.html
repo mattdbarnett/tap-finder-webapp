@@ -66,8 +66,18 @@
 					alert(lat)
 					alert(long)
 					map.panTo(new L.LatLng(lat, long));
+					var currentlocation = L.marker([lat, long]).addTo(map);
+					currentlocation.bindPopup("<b>Your Current<br>Location</b>").openPopup();
 				}
 
+				addMarkers()
+
+				function addMarkers(){
+					var tap1 = L.marker([51.488507, -3.178567]).addTo(map);
+					tap1.bindPopup("<b>Costa Coffee<br></b>")
+					var tap2 = L.marker([51.589751, -2.998235]).addTo(map);
+					tap2.bindPopup("<b>National Software<br>Academy</b>")
+				}
         mapLink =
             '<a href="http://openstreetmap.org">OpenStreetMap</a>';
         L.tileLayer(
