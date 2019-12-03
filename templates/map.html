@@ -66,6 +66,23 @@
 	<script src="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7/leaflet.js"></script>
 
 	<script>
+		var geojson = {
+	  "type": "FeatureCollection",
+	  "features": [
+		{
+		  "type": "Feature",
+		  "properties": {},
+		  "geometry": {
+			"type": "Point",
+			"coordinates": [
+			  -3.178567,
+			  51.488507
+			]
+		  }
+		}
+	  ]
+	}
+		
         var map = L.map('leaflet-map').setView([1, 1], 15);
 
 				var redmarker = L.icon({
@@ -85,7 +102,8 @@
 					currentlocation.bindPopup("<b>Your Current<br>Location</b>").openPopup();
 				}
 
-				addMarkers()
+				addMarkers();
+				ourMarkers = [[51.488507, -3.178567],[51.589751, -2.998235]];
 
 				function addMarkers(){
 					var tap1 = L.marker([51.488507, -3.178567]).addTo(map);
