@@ -1,13 +1,24 @@
+import os
 import sqlite3
 from flask import Flask, flash, render_template, request, session, redirect, url_for, abort
+from werkzeug.utils import secure_filename
 
 import loginFunctionality
 from loginFunctionality import *
 
+import uploadFunctionality
+from uploadFunctionality import *
+
 tapDB = 'db/tapDatabase.db'
 
+# Application Configuration Variables
+UPLOAD_FOLDER = 'SubmittedImages'
+ALLOWED_EXTENSIONS = {'jpg'}
+
+# Application Configuration
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "arjT3S6tTdiC0Dq5cbvifA"
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # Client HTTP Error Handling
 # Use abort(error_number) to call
@@ -54,10 +65,33 @@ def aboutPage():
 def helpPage():
     return render_template("help.html")
 
-@app.route("/addatap")
+@app.route("/addatap", methods=["GET", "POST"])
 def addatapPage():
-    if check_session(session.get("sessionID"), True) is True:
+    if request.method == "POST":
+        tapdata = request.form
+        name = tapdata.get("Name")
+        image = request.files['image']
+        # If no image is submitted check for manually inputted coordinates
+        if image.filename == '':
+            latitude = tapdata.get("lat")
+            longitude = tapdata.get("long")
+            return (f"GPS: {latitude}, {longitude}")
+        # Else if an image has been submitted
+        else:
+            filename = secure_filename(image.filename)
+            # Validate that the file is of the correct filetype
+            if str(filename.split(".")[1]).lower() not in ALLOWED_EXTENSIONS:
+                flash(u"Invalid file type.", "error")
+                return redirect(url_for("addatapPage"))
+            # If the file is of the correct filetype upload it to the server for further checks
+            else:
+                image.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+                return(analyse_image((UPLOAD_FOLDER+"/"+filename), name))
+
+    # If there is a user logged in
+    elif check_session(session.get("sessionID"), True) is True:
         return(check_session(session.get("sessionID"), "addatap"))
+    # If the user is a guest
     else:
         return render_template("addatap.html", user="a guest")
 
@@ -141,10 +175,13 @@ def signupPage():
         values.append(signup.get("Password1"))
         values.append(signup.get("Password2"))
         result = validate_new_user(values)
+        # If new user is valid redirect to sign in page
         if result is True:
             return redirect(url_for("signinPage"))
+        # If email is already in use redirect to reset password page
         elif result == "Reset":
             return redirect(url_for("resetpwPage"))
+        # Else if user is invalid redirect to signup page
         else:
             return redirect(url_for("signupPage"))
 
