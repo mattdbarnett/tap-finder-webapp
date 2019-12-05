@@ -9,14 +9,14 @@
 <p class="heading">Want to add a tap?</p>
 <section class="container">
   <section class="inner-container">
-    <p class="heading">Adding tap as {{ name }}!</p>
+    <p class="heading">Adding tap as {{ user }}!</p>
     <p>Want to add a tap you've found? Well this is the place to do it.<br>
        Either submit as a guest by providing your email or login to submit using an existing account.
     </p>
     <br>
     <section class="form-centered">
       <center>
-        <form id="tapForm" name="tapForm" method="get" onsubmit="return tapValidate()">
+        <form id="tapForm" name="tapForm" method="POST" enctype=multipart/form-data>
           {% if session["sessionID"]|length > 0 %}
           <label for="email">
             Email Address:
@@ -28,6 +28,11 @@
             <input id="email" type="text" name="emailAddress" required>
           </label>
           {% endif %}
+          <p class="form-subheading">Give the tap a name!</p>
+          <label for="Name">
+            Name:
+            <input id="Name" type="text" name="Name">
+          </label>
           <p class="form-subheading">Manual submission:</p>
           <label for="Lat.">
             Lattitude:
@@ -39,7 +44,7 @@
           </label>
           <p class="form-subheading">Automatic Submission:</p>
           <label for="Photo">
-            <input type='file'/>
+            <input id="image" type='file' name="image"/>
           </label>
           <label for="Description">
             Description:
