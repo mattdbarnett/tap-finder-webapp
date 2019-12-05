@@ -6,36 +6,6 @@ form {
     display: block;
 }
 
-label,
-input,
-textarea {
-    display: grid;
-    margin: 13px 0px 10px 0px;
-}
-
-input {
-   padding: 5px;
-}
-
-input:focus{
-  background-color: #f7f7f7;
-  outline: none;
-  border: solid 2px #CAE6F7
-}
-
-.inl_grid_inp {
-  display: inline-grid;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-input[type=submit] {
-    display: inline-block;
-    background-color: #ebedef;
-    padding: 5px 10px 5px 10px;
-    cursor: pointer;
-}
-
 .form-centered {
   text-align: center;
   margin: 0px 20px 0px 20px;
@@ -53,8 +23,51 @@ input[type=submit] {
   padding-bottom: 5px;
   border-bottom: solid 1px black;
 }
-.link {
-  color: #1a237e;
+
+label,
+input,
+textarea {
+    display: grid;
+    margin: 13px 0px 10px 0px;
+}
+
+input,
+textarea {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #f7f7f7;
+  outline: none;
+  border: solid 2px #88c7ed;
+}
+
+.inl_grid_inp {
+  display: inline-grid;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+input[type=submit] {
+    display: inline-block;
+    background-color: #ebedef;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  background-color: #4CAF50;
+  color: white;
+}
+
+input[type=file] {
+padding:10px;
+background:white;
 }
 
 /* End of styling for Forms */

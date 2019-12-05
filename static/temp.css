@@ -2,7 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
 
-*{
+/* CSS Reset */
+
+* {
   padding:0px;
   margin:0px;
   font-family: 'Alata', sans-serif;
@@ -10,9 +12,64 @@
   margin-top: 20px;
 }
 
+/* End of CSS Reset */
+
 body{
   background-color: #F8F9F9 ;
 }
+
+.link {
+  color: #1a237e;
+}
+
+/* Flash Messages Start */
+
+.message {
+  padding: 5px;
+  margin-top: 0px;
+  background-color: #e6f4fd;
+  -webkit-animation: fadeInOut cubic-bezier(0.63,-0.01, 0.12, 1.01) 20s forwards;
+  animation: fadeInOut cubic-bezier(0.63,-0.01, 0.12, 1.01) 20s forwards;
+}
+
+/* Message Animation Start */
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Message Animation End */
+
+.error {
+  color: #e61f1f;
+}
+
+.success {
+  color: green;
+}
+
+/* Flash Message Categories End */
+
+/* Home Link Styling Start */
+
+.neutral,
+.neutral:hover,
+.neutral:visited {
+  text-decoration: none;
+  color: black;
+}
+
+/* End of Home Link Styling Start */
+
+/* Mobile Version Styling */
 
 #main-content {
   padding: 0px 20px 40px 20px;
@@ -80,34 +137,17 @@ p.heading {
   /* margin-bottom: 20px; */
 }
 
-input{
-  border: 2px solid black;
-  border-radius: 5px;
-}
-
-textarea{
-  border: 2px solid black;
-  border-radius: 5px;
-}
-
-hr{
+hr {
   display: inline-block;
   width: 30%;
   border: 1px solid black;
 }
 
-img{
-  max-width:180px;
-}
-
-input[type=file]{
-padding:10px;
-background:white;
-}
-
 /* Navigation Start */
 
-nav{
+/* Navigation Bar Start */
+
+nav {
   background-color: transparent;
   overflow: hidden;
   text-align: center;
@@ -119,66 +159,6 @@ nav{
   font-size: medium;
   display: inline-block;
 }
-
-#center {
-  float: none;
-}
-
-#center a {
-  padding: 5px 20px;
-  cursor: pointer;
-}
-
-/* Web Version of Website Start */
-@media screen and (min-width : 1100px){
-  *{
-    margin-top: 0px;
-  }
-
-  /* Ensures some things are still spaced, while the nav bar is lowered from the top */
-  .fadeIn{margin-top: 20px;}
-  .btnSubmit {margin-top: 20px;}
-  textarea {margin-top: 20px;}
-  input {margin-top: 20px;}
-  p {margin-top: 20px;}
-  hr {margin-top: 20px;}
-
-  h1{
-    margin-left: 20px;
-    float: left
-  }
-
-  .navbar{
-    padding: 20px 20px 0px 20px;
-  }
-
-  #mainnavfloat{
-    float:right;
-  }
-
-  .headerbar{
-    z-index: 1;
-    margin-top: 0px;
-    position: fixed;
-    float: right;
-    top: 0px;
-    width: 100%;
-    background-color: #CAE6F7;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  }
-
-  #main-content {
-    padding: 114px 20px 40px 20px;
-  }
-
-  #messages {
-    padding-top: 82px;
-    position: fixed;
-    width: 100%;
-  }
-
-}
-/* Web Version of Website Closed */
 
 .navbar a{
   border: 2px solid black;
@@ -212,7 +192,83 @@ nav{
   background-color: #E74C3C;
 }
 
+#center {
+  float: none;
+}
+
+#center a {
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
 /* Navigation End */
+
+/* Desktop Version of Website Start */
+/* When screen width exceeds 1100px */
+
+@media screen and (min-width : 1100px) {
+  /* CSS Reset */
+
+  * {
+    margin-top: 0px;
+  }
+
+  /* Ensures some things are still spaced, while the nav bar is lowered from the top */
+
+  .fadeIn {margin-top: 20px;}
+  .btnSubmit {margin-top: 20px;}
+  textarea {margin-top: 20px;}
+  input {margin-top: 20px;}
+  p {margin-top: 20px;}
+  hr {margin-top: 20px;}
+
+  /* End of CSS Reset */
+
+  /* Repositon Header Bar Elements */
+
+  .headerbar{
+    z-index: 1;
+    margin-top: 0px;
+    position: fixed;
+    float: right;
+    top: 0px;
+    width: 100%;
+    background-color: #CAE6F7;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+
+  h1 {
+    margin-left: 20px;
+    float: left
+  }
+
+  .navbar{
+    padding: 20px 20px 0px 20px;
+  }
+
+  #mainnavfloat{
+    float: right;
+  }
+
+  /* End of repositioning Header Bar Elements */
+
+  /* Reposition Main Content and Message Sections */
+
+  #main-content {
+    padding: 114px 20px 40px 20px;
+  }
+
+  #messages {
+    padding-top: 82px;
+    position: fixed;
+    width: 100%;
+  }
+
+  /* End of repostioning Main Content and Message Sections */
+}
+
+/* Desktop Version of Website Closed */
+
 
 /* Map Start */
 
@@ -223,7 +279,7 @@ iframe{
 /* Map End */
 
 /* Fade In Start */
-/* Modifed and changed from refference: https://codepen.io/fr33co/pen/xOBXGy */
+/* Modifed and changed from reference: https://codepen.io/fr33co/pen/xOBXGy */
 
 .container {position: inline-block}
 
@@ -247,63 +303,5 @@ iframe{
   animation-duration:0.3s;
 }
 
-/* Refference End */
+/* Reference End */
 /* Fade In End */
-
-.btnSubmit {
-  border: 2px solid black;
-  border-radius: 5px;
-  font-size: medium;
-  background-color: white;
-  padding: 10px;
-}
-
-.btnSubmit:hover {
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  background-color: #4CAF50;
-  color: white;
-}
-
-/* Flash Message Categories Start */
-
-.message {
-  padding: 5px;
-  margin-top: 0px;
-  background-color: #e6f4fd;
-  -webkit-animation: fadeInOut cubic-bezier(0.63,-0.01, 0.12, 1.01) 20s forwards;
-  animation: fadeInOut cubic-bezier(0.63,-0.01, 0.12, 1.01) 20s forwards;
-}
-
-/* Message Animation Start */
-@keyframes fadeInOut {
-  0% {
-    opacity: 0;
-  }
-  10% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-/* Message Animation End */
-
-.error {
-  color: #e61f1f;
-}
-
-.success {
-  color: green;
-}
-
-/* Flash Message Categories End */
-
-/* Home Link Styling Start */
-
-.neutral, .neutral:hover, .neutral:visited {
-  text-decoration: none;
-  color: black;
-}
-
-/* End of Home Link Styling Start */
