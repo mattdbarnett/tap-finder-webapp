@@ -98,7 +98,7 @@
 					tap1.bindPopup("<b>Costa Coffee<br></b>")
 					var tap2 = L.marker([51.589751, -2.998235]).addTo(map);
 					tap2.bindPopup("<b>National Software<br>Academy</b>")
-					*/
+					
 					$.getJSON("/static/resources/markers.json"), function(data){
 						function onEachFeature(feature,layer){
 							layer.bindPopup("<b>"+feature.properties.name+"<br>");
@@ -110,9 +110,10 @@
 						onEachFeature: onEachFeature
 					});
 					geojson.addTo(map);
+					*/
 					
-					//var geojsonFile = new L.GeoJSON.AJAX("/static/resources/markers.json")
-					//geojsonFile.addTo(map);
+					var geojsonFile = new L.GeoJSON.AJAX("/static/resources/markers.json")
+					geojsonFile.addTo(map);
 				}
         mapLink =
             '<a href="http://openstreetmap.org">OpenStreetMap</a>';
