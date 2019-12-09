@@ -23,8 +23,9 @@ CREATE TABLE 'Users' (
 'firstName' VARCHAR(20) NOT NULL,
 'lastName' VARCHAR(20) NOT NULL,
 'email' VARCHAR(255) NOT NULL UNIQUE,
-'hashedPW' CHAR(60) NOT NULL UNIQUE
+'hashedPW' CHAR(60) NOT NULL UNIQUE,
+'joinDate' DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 )
 
-INSERT INTO "main"."Users" ("userID", "accessLevel", "firstName", "lastName", "email", "hashedPW") VALUES ('1', 'Admin', 'Daniel', 'Sparrow', 'sparrowD@cardiff.ac.uk', '$2b$12$0I.qmNymrZNHbWs9OnmZXekiB1eLR9OZYXTv9k.6T63OX6WfyZyOm');
+INSERT INTO "main"."Users" ("userID", "accessLevel", "firstName", "lastName", "email", "hashedPW") VALUES ('1', 'Admin', 'Daniel', 'Sparrow', 'sparrowD@cardiff.ac.uk', '$2b$12$0I.qmNymrZNHbWs9OnmZXekiB1eLR9OZYXTv9k.6T63OX6WfyZyOm', );
 INSERT INTO "main"."Users" ("userID", "accessLevel", "firstName", "lastName", "email", "hashedPW") VALUES ('2', 'Standard', 'Matthew', 'Barnett', 'BarnettMD@cardiff.ac.uk', '$2b$12$.mVYrAaN7kJt4QJE2n/QjeS6zWxXcEhV.5ESaxKq2b.Aph/RfwgTa');
