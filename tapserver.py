@@ -20,7 +20,7 @@ UPLOAD_FOLDER = 'SubmittedImages'
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
 #SENDER_EMAIL = THE TAP EMAIL (WILL BE ADDED)
-#TAPEMAIL_PW = 
+#TAPEMAIL_PW =
 ALLOWED_EXTENSIONS = {'jpg'}
 
 # Application Configuration
@@ -108,9 +108,35 @@ def addatapPage():
     else:
         return render_template("addatap.html", user="a guest")
 
-@app.route("/contact")
+@app.route("/contact", methods=["GET", "POST"])
 def contactPage():
-    return render_template("contact.html")
+    if request.method == "POST":
+        contactdata = request.form
+        name = contactdata.get("name")
+        email = contactdata.get("emailAddress")
+        query = contactdata.get("text")
+
+        try:
+            subject = "A new query from " + name + " (" + email + ")"
+            username = "nsatapapp@gmail.com"
+            password = "NSAtap1234"
+            smtp_server = "smtp.gmail.com:587"
+            email_from = "nsatapapp@gmail.com"
+            email_to = "nsatapapp@gmail.com"
+            email_body = 'Subject:{}\n\n{}'.format(subject, query)
+
+            server = smtplib.SMTP(smtp_server)
+            server.starttls()
+            server.login(username, password)
+            server.sendmail(email_from, email_to, email_body)
+            server.quit()
+            flash("Query Sent Successfully!", "success")
+        except:
+            flash("Process Was Not Successful", "error")
+
+        return render_template("contact.html")
+    else:
+        return render_template("contact.html")
 
 @app.route("/map")
 def mapPage():
