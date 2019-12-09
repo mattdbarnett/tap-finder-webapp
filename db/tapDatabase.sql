@@ -1,6 +1,16 @@
+CREATE TABLE "UnverifiedLocations" (
+	"LocationID"	INTEGER,
+	"UserID"	INTEGER,
+	"Name"	TEXT,
+	"Latitude"	NUMERIC,
+	"Longitude"	NUMERIC,
+	PRIMARY KEY("LocationID")
+)
+
 CREATE TABLE "Locations" (
 	"LocationID"	INTEGER,
 	"UserID"	INTEGER,
+	"Name"	TEXT,
 	"Latitude"	NUMERIC,
 	"Longitude"	NUMERIC,
 	"Rating"	INTEGER,

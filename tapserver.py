@@ -1,5 +1,6 @@
 import os
 import sqlite3
+import hashlib
 from flask import Flask, flash, render_template, request, session, redirect, url_for, abort
 from werkzeug.utils import secure_filename
 
@@ -70,12 +71,15 @@ def addatapPage():
     if request.method == "POST":
         tapdata = request.form
         name = tapdata.get("Name")
+        lat = tapdata.get("lat")
+        long = tapdata.get("long")
+        email = tapdata.get("emailAddress")
         image = request.files['image']
         # If no image is submitted check for manually inputted coordinates
         if image.filename == '':
             latitude = tapdata.get("lat")
             longitude = tapdata.get("long")
-            return (f"GPS: {latitude}, {longitude}")
+            print(f"GPS: {latitude}, {longitude}")
         # Else if an image has been submitted
         else:
             filename = secure_filename(image.filename)
@@ -88,12 +92,69 @@ def addatapPage():
                 image.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
                 return(analyse_image((UPLOAD_FOLDER+"/"+filename), name))
 
+        locationID = name + lat + long
+
+        userID = hashlib.md5(str(email).encode('utf-8')).hexdigest()
+        locationID = hashlib.md5(str(locationID).encode('utf-8')).hexdigest()
+
+        msg = "Empty"
+
+        try:
+            conn = sqlite3.connect('db/tapDatabase.db')
+            cur = conn.cursor()
+            cur.execute("INSERT INTO UnverifiedLocations ('LocationID', 'UserID', 'Name', 'Latitude', 'Longitude') VALUES (?,?,?,?,?)",(locationID, userID, name, lat, long))
+            conn.commit()
+            msg = "Record successfully added"
+        except:
+            conn.rollback()
+            msg = "Error in Operation - Insertion May Have Still Occured!"
+        finally:
+            conn = sqlite3.connect('db/tapDatabase.db')
+            cur = conn.cursor()
+            return msg
+            conn.close()
+
     # If there is a user logged in
     elif check_session(session.get("sessionID"), True) is True:
         return(check_session(session.get("sessionID"), "addatap"))
     # If the user is a guest
     else:
         return render_template("addatap.html", user="a guest")
+
+@app.route("/AddFurniture", methods = ['POST'])
+def addFurniture():
+    if request.method == 'GET':
+        return render_template('addCustomer.html')
+    elif request.method == 'POST':
+          ID = random.randint(1,1000)
+          range = request.form.get('range', default="Error")
+          model = request.form.get('model', default="Error")
+          price = request.form.get('price', default="Error")
+          msg = "Empty"
+
+          try:
+              conn = sqlite3.connect(DATABASE)
+              cur = conn.cursor()
+              cur.execute("INSERT INTO FurnitureItems ('ID', 'Range', 'Model', 'Price') VALUES (?,?,?,?)",(ID, range, model, price))
+              conn.commit()
+              msg = "Record successfully added"
+          except:
+              conn.rollback()
+              msg = "Error in Operation - Insertion May Have Still Occured!"
+          finally:
+              conn = sqlite3.connect(DATABASE)
+              cur = conn.cursor()
+              cur.execute("SELECT Price FROM FurnitureItems")
+              allprices = cur.fetchall()
+
+              x = 0
+              print(allprices)
+              for priceofitem in allprices:
+                x += int(priceofitem[0])
+
+              print("Total price is: " + str(x))
+              return msg
+              conn.close()
 
 @app.route("/contact")
 def contactPage():
