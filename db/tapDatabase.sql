@@ -1,21 +1,13 @@
-CREATE TABLE "UnverifiedLocations" (
-	"LocationID"	INTEGER,
-	"UserID"	INTEGER,
-	"Name"	TEXT,
-	"Latitude"	NUMERIC,
-	"Longitude"	NUMERIC,
-	PRIMARY KEY("LocationID")
-)
-
 CREATE TABLE "Locations" (
-	"LocationID"	INTEGER,
-	"UserID"	INTEGER,
-	"Name"	TEXT,
-	"Latitude"	NUMERIC,
-	"Longitude"	NUMERIC,
-	"Rating"	INTEGER,
-	PRIMARY KEY("LocationID")
-)
+	"LocationID"	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	"Email"	TEXT NOT NULL,
+	"TapName"	TEXT NOT NULL DEFAULT 'New Location',
+	"Latitude"	INTEGER NOT NULL,
+	"Longitude"	INTEGER NOT NULL,
+	"IMG"	TEXT,
+	"Approved"	BOOL NOT NULL DEFAULT 0,
+	CONSTRAINT UniqueCoordinates UNIQUE (Latitude, Longitude)
+);
 
 CREATE TABLE "Sessions" (
 	"sessionID"	VARCHAR(43) NOT NULL UNIQUE,
