@@ -1,6 +1,5 @@
 import os
 import sqlite3
-import hashlib
 from flask import Flask, flash, render_template, request, session, redirect, url_for, abort
 from werkzeug.utils import secure_filename
 
@@ -9,6 +8,9 @@ from loginFunctionality import *
 
 import uploadFunctionality
 from uploadFunctionality import *
+
+import adminFunctionality
+from adminFunctionality import *
 
 tapDB = 'db/tapDatabase.db'
 
@@ -70,16 +72,18 @@ def helpPage():
 def addatapPage():
     if request.method == "POST":
         tapdata = request.form
-        name = tapdata.get("Name")
-        lat = tapdata.get("lat")
-        long = tapdata.get("long")
         email = tapdata.get("emailAddress")
+        # IP = str(request.environ['REMOTE_ADDR'])
+        # session_info = check_for_session(IP)
+        # if session_info is not False:
+        #     email = session_info[1]
+        tapname = tapdata.get("Name")
         image = request.files['image']
         # If no image is submitted check for manually inputted coordinates
         if image.filename == '':
             latitude = tapdata.get("lat")
             longitude = tapdata.get("long")
-            print(f"GPS: {latitude}, {longitude}")
+            return(submitTap(email, tapname, latitude, longitude))
         # Else if an image has been submitted
         else:
             filename = secure_filename(image.filename)
@@ -90,29 +94,7 @@ def addatapPage():
             # If the file is of the correct filetype upload it to the server for further checks
             else:
                 image.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-                return(analyse_image((UPLOAD_FOLDER+"/"+filename), name))
-
-        locationID = name + lat + long
-
-        userID = hashlib.md5(str(email).encode('utf-8')).hexdigest()
-        locationID = hashlib.md5(str(locationID).encode('utf-8')).hexdigest()
-
-        msg = "Empty"
-
-        try:
-            conn = sqlite3.connect('db/tapDatabase.db')
-            cur = conn.cursor()
-            cur.execute("INSERT INTO UnverifiedLocations ('LocationID', 'UserID', 'Name', 'Latitude', 'Longitude') VALUES (?,?,?,?,?)",(locationID, userID, name, lat, long))
-            conn.commit()
-            flash("Record Successfully Added!", "success")
-        except:
-            conn.rollback()
-            flash("Error in Operation!", "error")
-        finally:
-            conn = sqlite3.connect('db/tapDatabase.db')
-            cur = conn.cursor()
-            return redirect(url_for("addatapPage"))
-            conn.close()
+                return(analyse_image((UPLOAD_FOLDER+"/"+filename), email, filename, tapname))
 
     # If there is a user logged in
     elif check_session(session.get("sessionID"), True) is True:

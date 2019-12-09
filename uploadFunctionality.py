@@ -53,13 +53,37 @@ def get_coordinates(geotags):
 
 # END OF REFERENCE
 
-def analyse_image(image, tapname="New Tap"):
+# Function to add the tap to the DB
+def submitTap(email, tapname, lat, long, filename="default.jpg"):
+    # Try inserting the tap into the DB without raising an error
+    try:
+        conn = sqlite3.connect(tapDB)
+        cur = conn.cursor()
+        cur.execute("INSERT INTO Locations ('Email', 'TapName', 'Latitude', 'Longitude', 'IMG') VALUES (?,?,?,?,?);", [email, tapname, lat, long, filename])
+        conn.commit()
+        conn.close()
+        flash("Added tap successfully. Pending Admin Approval.", "success")
+        return render_template("tapadded.html", latitude=lat, longitude=long, tapname=tapname)
+    # If an error is raised handle the error is an user-friendly way
+    except sqlite3.Error as e:
+        # If the specified location is already in the DB produce and error
+        # stating the tap has already been added to the DB
+        if str(e) == "UNIQUE constraint failed: Locations.Latitude, Locations.Longitude":
+            description = "Unfortunately the location you tried to add already features on our map."
+            flash("Tap was not added. Location already added.", "error")
+            return render_template("error.html", error="Location already added!", desc=description)
+        else:
+            return(str(e))
+
+# Function to verify that submitted image is valid
+def analyse_image(image, email, filename, tapname="New Tap"):
     try:
         exif = get_exif(image)
         geotags = get_geotagging(exif)
-        flash("Added tap successfully. Pending Admin Approval.", "success")
-        # Need to add DB submission here
-        return render_template("tapadded.html", coordinates=get_coordinates(geotags), tapname=tapname)
+        coordinates = get_coordinates(geotags)
+        lat, long = coordinates[0], coordinates[1]
+        return(submitTap(email, tapname, lat, long, filename))
+
     # If the image does not contain geotagging data
     except ValueError:
         flash(u"Image is missing neccessary geotagging data.", "error")
