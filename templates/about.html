@@ -2,15 +2,27 @@
 {% extends "base.html" %}
 
 {% block content %}
-<p class="heading">Who are we?</p>
-<section class="container">
-  <section class="inner-container">
-    <p class="heading">Learn more</p>
-    <p> Across the world access to water is often seen as a essential human neccessity, but in some places water is may be considered a luxury. Water shouldn't be seen as a commercialised product, this includes water scarcity and how clean water is vital to every single individual. Economic, environmental, social and even political reasons can come between many of the population and this basic human right. We aim to provide clean and accessible water for everyone and which by no-ridiculous means by cost. Our focus is strongly within Churches in East Wales and Herefordshire which supply free tap-water. Our website will list the location of every Church residing in East Wales and Herefordshire to make sure you don't have to pay for something that should be free. </p>
-  </section>
+  <p class="heading">About Us</p>
 
-  <section class="inner-container">
-    <img width="180px" height="auto" id="pictureofwater" src="./static/resources/picture-of-water.jpg" alt="picture of water">
-  </section>
-</section>
+    <p> Here you can find out information about the purpose of the site. </p>
+
+    <link rel="stylesheet" type="text/css" href="./static/dynamic.css">
+
+    <hr>
+    <br>
+
+    <nav class="navbar" id="helpnavbar">
+      <a type="aboutcontent" name="whybutton" onclick="contentreset(1)">Why?</a>
+      <a type="aboutcontent" name="whobutton" onclick="contentreset(2)">Who?</a>
+      <a type="aboutcontent" name="howbutton" onclick="contentreset(3)">How?</a>
+      <a type="aboutcontent" name="whatbutton" onclick="contentreset(4)">What?</a>
+    </nav>
+
+    <br>
+    <hr>
+
+    <p id="aboutcontent" class="inner-container">No Content</p>
+
+<script src="./static/javascript/about_content.js"></script>
+
 {% endblock %}
