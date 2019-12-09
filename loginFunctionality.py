@@ -8,6 +8,9 @@ bcrypt = Bcrypt()
 
 tapDB = 'db/tapDatabase.db'
 
+import adminFunctionality
+from adminFunctionality import *
+
 # Functions to handle hashing and 'un-hashing' passwords
 def hash_password(Pw):
     return(bcrypt.generate_password_hash(Pw).decode('utf-8'))
@@ -72,7 +75,7 @@ def check_session(sessionID, otherpage=None):
                 flash(f"Welcome Back { result[1] }!", "success")
                 # If the user in an admin
                 if accessLevel == "Admin":
-                    return render_template("admin.html", email=email, name=name)
+                    return render_template("admin.html", email=email, name=name, unapproved_taps=retrieveTaps(False))
                     # Else they must be a standard user
                 else:
                     return render_template("profile.html", email=email, name=name)
