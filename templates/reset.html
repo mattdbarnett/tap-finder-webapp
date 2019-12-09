@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 {% extends "base.html" %}
 
+{% block head %}
+<link rel="stylesheet" type="text/css" href="./static/forms.css">
+{% endblock %}
+
 {% block content %}
   <p class="heading">Reset Password</p>
   <section class="container">
     <section class="inner-container">
-      <p class="heading">Enter you email!</p>
-      <p>blah blah blah</p>
+      <p class="heading">Enter your email</p>
+		<section class="form-centered">
+		  <center>
+			<form id="resetPwForm" method="POST">
+			  <label for="Email">
+				Email
+				<input id="Email" type="text" name="Email" required>
+			  </label>
+			  <input type="submit" name="Submit" value="Send Password Reset Email">
+			</form>
     </section>
   </section>
 {% endblock %}
