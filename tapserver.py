@@ -104,14 +104,14 @@ def addatapPage():
             cur = conn.cursor()
             cur.execute("INSERT INTO UnverifiedLocations ('LocationID', 'UserID', 'Name', 'Latitude', 'Longitude') VALUES (?,?,?,?,?)",(locationID, userID, name, lat, long))
             conn.commit()
-            msg = "Record successfully added"
+            flash("Record Successfully Added!", "success")
         except:
             conn.rollback()
-            msg = "Error in Operation - Insertion May Have Still Occured!"
+            flash("Error in Operation!", "error")
         finally:
             conn = sqlite3.connect('db/tapDatabase.db')
             cur = conn.cursor()
-            return msg
+            return redirect(url_for("addatapPage"))
             conn.close()
 
     # If there is a user logged in
