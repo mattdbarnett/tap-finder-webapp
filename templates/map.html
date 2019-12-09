@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7/leaflet.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 
 
 	<style>
@@ -97,8 +99,20 @@
 					var tap2 = L.marker([51.589751, -2.998235]).addTo(map);
 					tap2.bindPopup("<b>National Software<br>Academy</b>")
 					*/
-					var geojsonFile = new L.GeoJSON.AJAX("/static/resources/markers.json");       
-					geojsonFile.addTo(map);
+					$.getJSON("/static/resources/markers.json"), function(data){
+						function onEachFeature(feature,layer){
+							layer.bindPopup("<b>"+feature.properties.name+"<br>");
+							
+						}
+					
+					
+					var geojson = L.geojson(data,{
+						onEachFeature: onEachFeature
+					});
+					geojson.addTo(map);
+					
+					//var geojsonFile = new L.GeoJSON.AJAX("/static/resources/markers.json")
+					//geojsonFile.addTo(map);
 				}
         mapLink =
             '<a href="http://openstreetmap.org">OpenStreetMap</a>';
