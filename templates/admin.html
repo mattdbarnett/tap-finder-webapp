@@ -1,7 +1,32 @@
 <!DOCTYPE html>
 {% extends "base.html" %}
 
+{% block head %}
+<link rel="stylesheet" type="text/css" href="./static/tables.css">
+<link rel="stylesheet" href="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7/leaflet.css" />
+{% endblock %}
+
 {% block content %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<style>
+  #leaflet-map,
+  #leaflet-container {
+    height: 500px;
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+
+  .leaflet-map-pane,
+  .leaflet-tile-pane,
+  .leaflet-layer,
+  .leaflet-top,
+  .leaflet-left,
+  .leaflet-control-zoom-in,
+  .leaflet-control-zoom-out {
+    margin-top: 0px;
+  }
+  </style>
   <p class="heading">Admin Panel</p>
   <section class="container">
     <section class="inner-container">
@@ -9,8 +34,76 @@
       <p>Email: {{ email }}</p>
     </section>
     <section class="inner-container">
-      <p class="heading">Site Statistics</p>
-      <p>More coming soon</p>
+      <p class="heading">Taps Needing Approval</p>
+      <table>
+        <thead>
+          <tr>
+            <th align='left' data-title='Email'>Email</th>
+            <th align='left' data-title='Tap Name'>Tap Name</th>
+            <th align='left' data-title='Coordinates'>Coordinates</th>
+            <th align='left' data-title='Approve?'>Approve?</th>
+          </tr>
+        </thead>
+        {% for tap in unapproved_taps %}
+          <tr>
+            <td data-title='Email'>{{ tap[1] }}</td>
+            <td data-title='Tap Name' id="{{ tap[3] }}, {{ tap[4] }}">{{ tap[2] }}</td>
+            <td data-title='Coordinates'>{{ tap[3] }}, {{ tap[4] }}</td>
+            <td data-title='Approve?'>
+              <button class="table-button">Yes</button>
+              <button class="table-button">No</button>
+              <button class="table-button" onclick="setCurrentPosition('{{ tap[3] }}, {{ tap[4] }}')" style="float: right">View Tap</button>
+            </td>
+          </tr>
+        {% endfor %}
+        </table>
+      <p class="subheading">Tap Preview:</p>
+      <div id="leaflet-map"></div>
     </section>
   </section>
+
+  <script src="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7/leaflet.js"></script>
+
+  <script>
+
+        var map = L.map('leaflet-map').setView([1, 1], 15);
+
+        var redmarker = L.icon({
+          iconUrl: "./static/resources/red-marker.png",
+          iconSize: [30, 50],
+          iconAnchor: [10, 10]
+        });
+
+        navigator.geolocation.getCurrentPosition(setCurrentPosition);
+
+        function setCurrentPosition(position) {
+          var res = position.split(", ");
+          var lat = res[0];
+          var long = res[1];
+          var tapname = document.getElementById(position).innerText;
+          console.log(tapname)
+          map.panTo(new L.LatLng(lat, long));
+          // {icon: redmarker}
+          var currentlocation = L.marker([lat, long]).addTo(map);
+          currentlocation.bindPopup("<b>"+tapname+"</b><br><br><img width='100px' src='./static/resources/picture-of-water.jpg'>").openPopup();
+        }
+
+        // function setCurrentPosition(coordinates) {
+        //   var lat = coordinates[0];
+        //   var long = coordinates[1];
+        //   map.panTo(new L.LatLng(lat, long));
+        //   // {icon: redmarker}
+        //   var currentlocation = L.marker([lat, long]).addTo(map);
+        //   currentlocation.bindPopup("<b>Dan's Tap</b>").openPopup();
+        // }
+
+
+        mapLink =
+            '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+        L.tileLayer(
+            'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; ' + mapLink + ' Contributors',
+            maxZoom: 18,
+            }).addTo(map);
+  </script>
 {% endblock %}
