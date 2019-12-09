@@ -1,0 +1,85 @@
+table {
+ position: relative;
+ margin: 32px auto;
+ width: calc(100% - 64px);
+ font-family: Oswald;
+ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+ border-collapse: collapse;
+}
+th {
+ text-align: left;
+ background-color: rgb(170, 213, 234);
+ border-bottom: solid 1px black;
+ font-size: 18px;
+ color: black;
+ font-weight: normal;
+ padding: 8px 16px 8px 16px;
+}
+td {
+ color: #4e4646;
+ background-color: rgb(170, 213, 234);
+ text-align: left;
+ min-height: 50px;
+ margin-top: 0px;
+ padding: 13px 16px 13px 16px;
+}
+table th,
+table td {
+ box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+ table {
+ box-shadow: none;
+ background: none;
+ margin: 0;
+ width: 100%;
+ }
+ table th {
+ display: none;
+ }
+ table th.title {
+ margin-top: 20px;
+ margin-bottom: 20px;
+ margin-left: 16px;
+ }
+ table th.buttons {
+ float: right;
+ margin-right: 16px;
+ margin-top: 20px;
+ }
+ table th.title,
+ th.buttons {
+ display: inline-flex;
+ }
+ table tbody tr {
+ display: block;
+ margin: 0px 16px 10px 16px;
+ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+ border: none;
+ }
+ table tbody tr th,
+ table tbody tr td {
+ display: inline-flex;
+ width: 100%;
+ text-align: left;
+ padding-right: 40px;
+ }
+ table tbody tr th:before,
+ table tbody tr td:before {
+ content: attr(data-title);
+ background: rgba(0, 0, 0, 0.6);
+ float: left;
+ text-align: left;
+ box-shadow: 0 6px 6px rgba(0, 0, 0, 0.23);
+ font-size: 18px;
+ color: #DADADA;
+ font-weight: normal;
+ margin: -5px 10px -5px -16px;
+ padding: 4px 8px 4px 8px;
+ }
+ img.link {
+ position: absolute;
+ right: 28px;
+ }
+}
