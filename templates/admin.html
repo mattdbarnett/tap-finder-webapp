@@ -31,7 +31,29 @@
   <section class="container">
     <section class="inner-container">
       <p class="heading">{{ name }} (<strong>ADMIN</strong>)</p>
-      <p>Email: {{ email }}</p>
+      <section class="stat-container">
+        <article class="stat-flex">
+          <p><strong>Name:</strong> {{ name }}</p>
+        </article>
+        <article class="stat-flex">
+          <p><strong>Email:</strong> {{ email }}</p>
+        </article>
+        <article class="stat-flex">
+          <p><strong>Joined:</strong> test</p>
+        </article>
+      </section>
+      <p class="subheading">Tap Stats (<strong>{{ tap_count[0] }}</strong> of <strong>{{ tap_count[1] }}</strong> taps need approval)</p>
+      <article class="stat">
+        <p><strong>Submitted Locations:</strong> {{ tap_count[0] }}</p>
+      </article>
+      <article class="stat">
+        <p><strong>Locations Needing Approval:</strong> {{ tap_count[1] }}</p>
+      </article>
+      <p class="subheading">User Stats</p>
+      <article class="stat">
+        <p><strong>Registered Users (All Time):</strong> 2 </p>
+        <p><strong>Registered Users (Past 24Hrs):</strong> 2 </p>
+      </article>
     </section>
     <section class="inner-container">
       <p class="heading">Taps Needing Approval</p>

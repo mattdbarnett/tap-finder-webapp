@@ -15,3 +15,13 @@ def retrieveTaps(approved):
     result = cur.fetchall()
     conn.close()
     return(result)
+
+def countTaps():
+    conn = sqlite3.connect(tapDB)
+    cur = conn.cursor()
+    cur.execute("SELECT COUNT(*) FROM Locations WHERE Approved=0;")
+    unapproved = cur.fetchone()[0]
+    cur.execute("SELECT COUNT(*) FROM Locations;")
+    total = cur.fetchone()[0]
+    conn.close()
+    return([unapproved, total])
