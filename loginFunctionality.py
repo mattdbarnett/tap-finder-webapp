@@ -75,7 +75,7 @@ def check_session(sessionID, otherpage=None):
                 flash(f"Welcome Back { result[1] }!", "success")
                 # If the user in an admin
                 if accessLevel == "Admin":
-                    return render_template("admin.html", email=email, name=name, unapproved_taps=retrieveTaps(False))
+                    return render_template("admin.html", email=email, name=name, unapproved_taps=retrieveTaps(False), tap_count=countTaps())
                     # Else they must be a standard user
                 else:
                     return render_template("profile.html", email=email, name=name)
