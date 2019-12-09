@@ -2,6 +2,7 @@ import os
 import sqlite3
 from flask import Flask, flash, render_template, request, session, redirect, url_for, abort
 from werkzeug.utils import secure_filename
+import smtplib, ssl
 
 import loginFunctionality
 from loginFunctionality import *
@@ -16,6 +17,10 @@ tapDB = 'db/tapDatabase.db'
 
 # Application Configuration Variables
 UPLOAD_FOLDER = 'SubmittedImages'
+SMTP_SERVER = 'smtp.gmail.com'
+SMTP_PORT = 587
+#SENDER_EMAIL = THE TAP EMAIL (WILL BE ADDED)
+#TAPEMAIL_PW = 
 ALLOWED_EXTENSIONS = {'jpg'}
 
 # Application Configuration
@@ -197,6 +202,22 @@ def signupPage():
 
 @app.route("/resetpw", methods=["GET", "POST"])
 def resetpwPage():
+    if request.method == "POST":
+        #code for reset password email send
+        email_toreset = request.form["Email"]
+        context = ssl.create_default_context()
+        try:
+            server = smtplib.SMTP(SMTP_SERVER,SMTP_PORT)
+            server.ehlo()
+            server.startttls(context=context)
+            server.ehlo()
+            server.login(SENDER_EMAIL,TAPEMAIL_PW)
+            #send an email here
+        except Exception as e:
+            print(e) #print any errors that may occur during email sending
+        finally:
+            server.quit() #end mail instance
+            return("printed")
     return render_template("reset.html")
 
 if __name__ == "__main__":
