@@ -34,7 +34,7 @@
 <p class="heading">You've added a tap!</p>
 <section class="container">
   <section class="inner-container">
-    <p class="heading">{{ tapname }} ({{ coordinates[0] }}, {{ coordinates[1] }})</p>
+    <p class="heading">{{ tapname }} ({{ latitude }}, {{ longitude }})</p>
     <p>An administrator will approve your submission shortly.</p><br>
     <div id="leaflet-map"></div>
   </section>
@@ -55,8 +55,8 @@
       navigator.geolocation.getCurrentPosition(setCurrentPosition);
 
       function setCurrentPosition(position) {
-        var lat = {{ coordinates[0] }};
-        var long = {{ coordinates[1] }};
+        var lat = {{ latitude }};
+        var long = {{ longitude }};
         map.panTo(new L.LatLng(lat, long));
         // {icon: redmarker}
         var currentlocation = L.marker([lat, long]).addTo(map);
