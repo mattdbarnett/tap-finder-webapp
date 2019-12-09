@@ -116,23 +116,21 @@ def contactPage():
         email = contactdata.get("emailAddress")
         query = contactdata.get("text")
 
-        try:
-            subject = "A new query from " + name + " (" + email + ")"
-            username = "nsatapapp@gmail.com"
-            password = "NSAtap1234"
-            smtp_server = "smtp.gmail.com:587"
-            email_from = "nsatapapp@gmail.com"
-            email_to = "nsatapapp@gmail.com"
-            email_body = 'Subject:{}\n\n{}'.format(subject, query)
+        subject = "A new query from " + name + " (" + email + ")"
+        username = "nsatapapp@gmail.com"
+        password = "NSAtap1234"
+        smtp_server = "smtp.gmail.com:587"
+        email_from = "nsatapapp@gmail.com"
+        email_to = "nsatapapp@gmail.com"
+        email_body = 'Subject:{}\n\n{}'.format(subject, query)
 
-            server = smtplib.SMTP(smtp_server)
-            server.starttls()
-            server.login(username, password)
-            server.sendmail(email_from, email_to, email_body)
-            server.quit()
-            flash("Query Sent Successfully!", "success")
-        except:
-            flash("Process Was Not Successful", "error")
+        server = smtplib.SMTP(smtp_server)
+        server.starttls()
+        server.login(username, password)
+        server.sendmail(email_from, email_to, email_body)
+        server.quit()
+        flash("Query Sent Successfully!", "success")
+        flash("Process Was Not Successful", "error")
 
         return render_template("contact.html")
     else:
