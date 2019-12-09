@@ -121,41 +121,6 @@ def addatapPage():
     else:
         return render_template("addatap.html", user="a guest")
 
-@app.route("/AddFurniture", methods = ['POST'])
-def addFurniture():
-    if request.method == 'GET':
-        return render_template('addCustomer.html')
-    elif request.method == 'POST':
-          ID = random.randint(1,1000)
-          range = request.form.get('range', default="Error")
-          model = request.form.get('model', default="Error")
-          price = request.form.get('price', default="Error")
-          msg = "Empty"
-
-          try:
-              conn = sqlite3.connect(DATABASE)
-              cur = conn.cursor()
-              cur.execute("INSERT INTO FurnitureItems ('ID', 'Range', 'Model', 'Price') VALUES (?,?,?,?)",(ID, range, model, price))
-              conn.commit()
-              msg = "Record successfully added"
-          except:
-              conn.rollback()
-              msg = "Error in Operation - Insertion May Have Still Occured!"
-          finally:
-              conn = sqlite3.connect(DATABASE)
-              cur = conn.cursor()
-              cur.execute("SELECT Price FROM FurnitureItems")
-              allprices = cur.fetchall()
-
-              x = 0
-              print(allprices)
-              for priceofitem in allprices:
-                x += int(priceofitem[0])
-
-              print("Total price is: " + str(x))
-              return msg
-              conn.close()
-
 @app.route("/contact")
 def contactPage():
     return render_template("contact.html")
