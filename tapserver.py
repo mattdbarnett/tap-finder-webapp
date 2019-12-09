@@ -233,11 +233,11 @@ def resetpwPage():
         email_toreset = request.form["Email"]
         context = ssl.create_default_context()
         try:
-            server = smtplib.SMTP(SMTP_SERVER,SMTP_PORT)
+            server = smtplib.SMTP(smtp_server)
             server.ehlo()
             server.startttls(context=context)
             server.ehlo()
-            server.login(SENDER_EMAIL,TAPEMAIL_PW)
+            server.login("nsatapapp@gmail.com","NSAtap1234")
             #send an email here
         except Exception as e:
             print(e) #print any errors that may occur during email sending
