@@ -244,5 +244,16 @@ def resetpwPage():
             return("printed")
     return render_template("reset.html")
 
+@app.route("/submitfeedback", methods=["POST"])
+def feedbacksubmit():
+    if request.method == "POST":
+        submit = request.form
+        rating = submit.get("rating")
+        print("A user rated the website: " + rating + " out of 10")
+        return render_template("home.html")
+    else:
+        return render_template("home.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True)
