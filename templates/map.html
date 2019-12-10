@@ -92,24 +92,24 @@
 				//ourMarkers = [[51.488507, -3.178567],[51.589751, -2.998235]];
 
 				function addMarkers(){
-				/*
-					var tap1 = L.marker([51.488507, -3.178567]).addTo(map);
-					tap1.bindPopup("<b>Costa Coffee<br></b>")
-					var tap2 = L.marker([51.589751, -2.998235]).addTo(map);
-					tap2.bindPopup("<b>National Software<br>Academy</b>")
-
-					$.getJSON("/static/resources/markers.json"), function(data){
-						function onEachFeature(feature,layer){
-							layer.bindPopup("<b>"+feature.properties.name+"<br>");
-
-						}
-
-
-					var geojson = L.geojson(data,{
-						onEachFeature: onEachFeature
-					});
-					geojson.addTo(map);
-					*/
+				// /*
+				// 	var tap1 = L.marker([51.488507, -3.178567]).addTo(map);
+				// 	tap1.bindPopup("<b>Costa Coffee<br></b>")
+				// 	var tap2 = L.marker([51.589751, -2.998235]).addTo(map);
+				// 	tap2.bindPopup("<b>National Software<br>Academy</b>")
+				//
+				// 	$.getJSON("/static/resources/markers.json"), function(data){
+				// 		function onEachFeature(feature,layer){
+				// 			layer.bindPopup("<b>"+feature.properties.name+"<br>");
+				//
+				// 		}
+				//
+				//
+				// 	var geojson = L.geojson(data,{
+				// 		onEachFeature: onEachFeature
+				// 	});
+				// 	geojson.addTo(map);
+				// 	*/
 
 					var geojsonFile = new L.GeoJSON.AJAX("/static/resources/markers.json")
 					geojsonFile.addTo(map);

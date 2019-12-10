@@ -44,10 +44,10 @@
       </section>
       <p class="subheading">Tap Stats (<strong>{{ tap_count[0] }}</strong> of <strong>{{ tap_count[1] }}</strong> taps need approval)</p>
       <article class="stat">
-        <p><strong>Submitted Locations:</strong> {{ tap_count[0] }}</p>
+        <p><strong>Submitted Locations:</strong> {{ tap_count[1] }}</p>
       </article>
       <article class="stat">
-        <p><strong>Locations Needing Approval:</strong> {{ tap_count[1] }}</p>
+        <p><strong>Locations Needing Approval:</strong> {{ tap_count[0] }}</p>
       </article>
       <p class="subheading">User Stats</p>
       <article class="stat">
@@ -136,7 +136,7 @@
               xhttp.onreadystatechange = function() {
                 if (xhttp.readyState === 4 && xhttp.status === 200) {
                   console.log(xhttp.responseText);
-                  document.getElementById('messages').innerHTML = '<p class="error message">'+xhttp.responseText+'</p>';
+                  document.getElementById('messages').innerHTML = '<p class="success message">'+xhttp.responseText+'</p>';
                 } else {
                   console.error(xhttp.statusText);
                 }
