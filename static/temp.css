@@ -98,10 +98,14 @@ table, th, td {
 /* Home Link Styling Start */
 
 .neutral,
-.neutral:hover,
 .neutral:visited {
   text-decoration: none;
   color: black;
+  transition:0.2s;
+}
+
+.neutral:hover{
+	opacity:0.6;
 }
 
 /* End of Home Link Styling Start */

@@ -57,6 +57,23 @@
 </body>
 <footer>
 	<div class = "footerbar"><hr>
-		<p>Made by Mattstar, Dansparrow and Ronan. Maintained by Sanj.</p>
+		<p>Made by Matt, Dansparrow and Ronan. Maintained by Sanj.</p>
+    <button id="modalstartbut" class="modalfeedbackbut">Feedback</button>
+
+    <div id="ratingModal" class="modal">
+      <center>
+      <div class="modal-content">
+        <span class="close">&times;</span>
+          <form id="feedbackForm" name="feedbackForm" method="POST" action="/submitfeedback">
+            <input type="number" id="modalnumber" name="rating" min="1" max="10">
+            <p> Please submit a rating for how you feel about the website on a scale of one to ten (one being terrible, ten being amazing).</p>
+            <input type="submit" name="modalSubmit" value="Submit" class="modalfeedbackbut" id="modalsubmit">
+          </form>
+      </div>
+      </center>
+    </div>
 	</div>
 </footer>
+
+<link rel="stylesheet" type="text/css" href="./static/modal.css">
+<script src="./static/javascript/feedback_modal.js"></script>

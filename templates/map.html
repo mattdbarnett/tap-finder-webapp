@@ -8,7 +8,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 
-
 	<style>
 		body {
 			padding: 0;
@@ -19,21 +18,21 @@
 			width: 100%;
 			margin: 0 0 0 0;
 		}
-		
+
 		#down-button{
 			transition: all .2s ease-in-out;
 		}
 		#down-button:hover{
 			transform: scale(1.1);
 		}
-		
-		#testBtn:hover{	
+
+		#testBtn:hover{
 			text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
 			-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 			-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 			transition: all 0.4s ease 0s;
 		}
-		
+
 		#testBtn{
 			width:96.8%;
 			bottom:0;
@@ -68,7 +67,7 @@
 	<script src="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7/leaflet.js"></script>
 
 	<script src="/static/javascript/leaflet-0.7.2/leaflet.ajax.min.js"></script>
-	
+
 	<script>
         var map = L.map('leaflet-map').setView([1, 1], 15);
 
@@ -98,20 +97,20 @@
 					tap1.bindPopup("<b>Costa Coffee<br></b>")
 					var tap2 = L.marker([51.589751, -2.998235]).addTo(map);
 					tap2.bindPopup("<b>National Software<br>Academy</b>")
-					
+
 					$.getJSON("/static/resources/markers.json"), function(data){
 						function onEachFeature(feature,layer){
 							layer.bindPopup("<b>"+feature.properties.name+"<br>");
-							
+
 						}
-					
-					
+
+
 					var geojson = L.geojson(data,{
 						onEachFeature: onEachFeature
 					});
 					geojson.addTo(map);
 					*/
-					
+
 					var geojsonFile = new L.GeoJSON.AJAX("/static/resources/markers.json")
 					geojsonFile.addTo(map);
 				}

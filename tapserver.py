@@ -108,6 +108,7 @@ def addatapPage():
     else:
         return render_template("addatap.html", user="a guest")
 
+<<<<<<< HEAD
 @app.route("/ApproveTap", methods=["POST", "DELETE"])
 def approveTapPage():
     if request.method == "POST":
@@ -119,8 +120,35 @@ def approveTapPage():
 
 
 @app.route("/contact")
+=======
+@app.route("/contact", methods=["GET", "POST"])
+>>>>>>> 3a56ed77fd179ffbe72094f00f27172d0887a0d8
 def contactPage():
-    return render_template("contact.html")
+    if request.method == "POST":
+        contactdata = request.form
+        name = contactdata.get("name")
+        email = contactdata.get("emailAddress")
+        query = contactdata.get("text")
+
+        subject = "A new query from " + name + " (" + email + ")"
+        username = "nsatapapp@gmail.com"
+        password = "NSAtap1234"
+        smtp_server = "smtp.gmail.com:587"
+        email_from = "nsatapapp@gmail.com"
+        email_to = "nsatapapp@gmail.com"
+        email_body = 'Subject:{}\n\n{}'.format(subject, query)
+
+        server = smtplib.SMTP(smtp_server)
+        server.starttls()
+        server.login(username, password)
+        server.sendmail(email_from, email_to, email_body)
+        server.quit()
+        flash("Query Sent Successfully!", "success")
+        flash("Process Was Not Successful", "error")
+
+        return render_template("contact.html")
+    else:
+        return render_template("contact.html")
 
 @app.route("/map")
 def mapPage():
@@ -217,11 +245,11 @@ def resetpwPage():
         email_toreset = request.form["Email"]
         context = ssl.create_default_context()
         try:
-            server = smtplib.SMTP(SMTP_SERVER,SMTP_PORT)
+            server = smtplib.SMTP(smtp_server)
             server.ehlo()
             server.startttls(context=context)
             server.ehlo()
-            server.login(SENDER_EMAIL,TAPEMAIL_PW)
+            server.login("nsatapapp@gmail.com","NSAtap1234")
             #send an email here
         except Exception as e:
             print(e) #print any errors that may occur during email sending
@@ -229,6 +257,17 @@ def resetpwPage():
             server.quit() #end mail instance
             return("printed")
     return render_template("reset.html")
+
+@app.route("/submitfeedback", methods=["POST"])
+def feedbacksubmit():
+    if request.method == "POST":
+        submit = request.form
+        rating = submit.get("rating")
+        print("A user rated the website: " + rating + " out of 10")
+        return render_template("home.html")
+    else:
+        return render_template("home.html")
+
 
 if __name__ == "__main__":
     app.run(debug=True)

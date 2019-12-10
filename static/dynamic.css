@@ -1,0 +1,13 @@
+#helpcontent {
+  opacity: 0;
+  transition: 0.5s opacity;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#aboutcontent {
+  opacity: 0;
+  transition: 0.5s opacity;
+  margin-left: 20%;
+  margin-right: 20%;
+}
