@@ -25,3 +25,29 @@ def countTaps():
     total = cur.fetchone()[0]
     conn.close()
     return([unapproved, total])
+
+def approveTap(coordinates):
+    coordinates_list = coordinates.split(", ")
+    try:
+        conn = sqlite3.connect(tapDB)
+        cur = conn.cursor()
+        cur.execute("UPDATE Locations SET Approved=1 WHERE Latitude=? AND Longitude=?;",[coordinates_list[0],coordinates_list[1]])
+        conn.commit()
+        conn.close()
+        return("Successful")
+
+    except sqlite3.Error as e:
+        return(str(e))
+
+def removeTap(coordinates):
+    coordinates_list = coordinates.split(", ")
+    try:
+        conn = sqlite3.connect(tapDB)
+        cur = conn.cursor()
+        cur.execute("DELETE FROM Locations WHERE Latitude=? AND Longitude=?;",[coordinates_list[0],coordinates_list[1]])
+        conn.commit()
+        conn.close()
+        return("Successfully removed tap.")
+
+    except sqlite3.Error as e:
+        return(str(e))
