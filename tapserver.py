@@ -20,7 +20,7 @@ UPLOAD_FOLDER = 'SubmittedImages'
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
 #SENDER_EMAIL = THE TAP EMAIL (WILL BE ADDED)
-#TAPEMAIL_PW = 
+#TAPEMAIL_PW =
 ALLOWED_EXTENSIONS = {'jpg'}
 
 # Application Configuration
@@ -107,6 +107,16 @@ def addatapPage():
     # If the user is a guest
     else:
         return render_template("addatap.html", user="a guest")
+
+@app.route("/ApproveTap", methods=["POST", "DELETE"])
+def approveTapPage():
+    if request.method == "POST":
+        coordinates = request.form['coordinates']
+        return(approveTap(coordinates))
+    elif request.method == "DELETE":
+        coordinates = request.form['coordinates']
+        return(removeTap(coordinates))
+
 
 @app.route("/contact")
 def contactPage():

@@ -66,16 +66,16 @@ def check_session(sessionID, otherpage=None):
         # If there is a valid session
         else:
             # Check the accessLevel of the user and retrieve their full name in the same query
-            cur.execute("SELECT accessLevel, firstName, lastName FROM Users WHERE email=?", [email])
+            cur.execute("SELECT accessLevel, firstName, lastName, joinDate FROM Users WHERE email=?", [email])
             result = cur.fetchone()
             # Unpack the query result into appropriate variables
-            accessLevel, name = result[0], (f"{result[1]} {result[2]}")
+            accessLevel, name, dateJoined = result[0], (f"{result[1]} {result[2]}"), result[3]
             if otherpage is None:
                 # Welcome the user
                 flash(f"Welcome Back { result[1] }!", "success")
                 # If the user in an admin
                 if accessLevel == "Admin":
-                    return render_template("admin.html", email=email, name=name, unapproved_taps=retrieveTaps(False), tap_count=countTaps())
+                    return render_template("admin.html", email=email, name=name, joined=dateJoined, unapproved_taps=retrieveTaps(False), tap_count=countTaps())
                     # Else they must be a standard user
                 else:
                     return render_template("profile.html", email=email, name=name)

@@ -39,7 +39,7 @@
           <p><strong>Email:</strong> {{ email }}</p>
         </article>
         <article class="stat-flex">
-          <p><strong>Joined:</strong> test</p>
+          <p><strong>Joined:</strong> {{ joined }}</p>
         </article>
       </section>
       <p class="subheading">Tap Stats (<strong>{{ tap_count[0] }}</strong> of <strong>{{ tap_count[1] }}</strong> taps need approval)</p>
@@ -72,14 +72,14 @@
             <td data-title='Tap Name' id="{{ tap[3] }}, {{ tap[4] }}">{{ tap[2] }}</td>
             <td data-title='Coordinates'>{{ tap[3] }}, {{ tap[4] }}</td>
             <td data-title='Approve?'>
-              <button class="table-button">Yes</button>
-              <button class="table-button">No</button>
+              <button class="table-button" onclick="approveTap('{{ tap[3] }}, {{ tap[4] }}')">Yes</button>
+              <button class="table-button" onclick="removeTap('{{ tap[3] }}, {{ tap[4] }}')">No</button>
               <button class="table-button" onclick="setCurrentPosition('{{ tap[3] }}, {{ tap[4] }}')" style="float: right">View Tap</button>
             </td>
           </tr>
         {% endfor %}
         </table>
-      <p class="subheading">Tap Preview:</p>
+      <p class="subheading">Tap Preview (Click 'View Tap' to preview its location):</p>
       <div id="leaflet-map"></div>
     </section>
   </section>
@@ -127,5 +127,39 @@
             attribution: '&copy; ' + mapLink + ' Contributors',
             maxZoom: 18,
             }).addTo(map);
+
+            function approveTap(coordinates) {
+              params = 'coordinates='+coordinates;
+              var xhttp = new XMLHttpRequest();
+              xhttp.open("POST", '/ApproveTap', true); // true is asynchronous
+              xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+              xhttp.onreadystatechange = function() {
+                if (xhttp.readyState === 4 && xhttp.status === 200) {
+                  console.log(xhttp.responseText);
+                  document.getElementById('messages').innerHTML = '<p class="error message">'+xhttp.responseText+'</p>';
+                } else {
+                  console.error(xhttp.statusText);
+                }
+              };
+              xhttp.send(params);
+              return false;
+            }
+
+            function removeTap(coordinates) {
+              params = 'coordinates='+coordinates;
+              var xhttp = new XMLHttpRequest();
+              xhttp.open("DELETE", '/ApproveTap', true); // true is asynchronous
+              xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+              xhttp.onreadystatechange = function() {
+                if (xhttp.readyState === 4 && xhttp.status === 200) {
+                  console.log(xhttp.responseText);
+                  document.getElementById('messages').innerHTML = '<p class="success message">'+xhttp.responseText+'</p>';
+                } else {
+                  console.error(xhttp.statusText);
+                }
+              };
+              xhttp.send(params);
+              return false;
+            }
   </script>
 {% endblock %}
