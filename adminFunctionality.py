@@ -34,7 +34,7 @@ def approveTap(coordinates):
         cur.execute("UPDATE Locations SET Approved=1 WHERE Latitude=? AND Longitude=?;",[coordinates_list[0],coordinates_list[1]])
         conn.commit()
         conn.close()
-        return("Successful")
+        return("Successfully Approved Tap.")
 
     except sqlite3.Error as e:
         return(str(e))
@@ -47,7 +47,7 @@ def removeTap(coordinates):
         cur.execute("DELETE FROM Locations WHERE Latitude=? AND Longitude=?;",[coordinates_list[0],coordinates_list[1]])
         conn.commit()
         conn.close()
-        return("Successfully removed tap.")
+        return("Successfully Removed Tap.")
 
     except sqlite3.Error as e:
         return(str(e))

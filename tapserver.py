@@ -117,7 +117,8 @@ def approveTapPage():
         coordinates = request.form['coordinates']
         return(removeTap(coordinates))
 
-@app.route("/contact", methods=["GET", "POST"])
+
+@app.route("/contact", methods=["GET","POST"])
 def contactPage():
     if request.method == "POST":
         contactdata = request.form
@@ -139,7 +140,6 @@ def contactPage():
         server.sendmail(email_from, email_to, email_body)
         server.quit()
         flash("Query Sent Successfully!", "success")
-        flash("Process Was Not Successful", "error")
 
         return render_template("contact.html")
     else:
