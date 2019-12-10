@@ -108,7 +108,6 @@ def addatapPage():
     else:
         return render_template("addatap.html", user="a guest")
 
-<<<<<<< HEAD
 @app.route("/ApproveTap", methods=["POST", "DELETE"])
 def approveTapPage():
     if request.method == "POST":
@@ -118,11 +117,7 @@ def approveTapPage():
         coordinates = request.form['coordinates']
         return(removeTap(coordinates))
 
-
-@app.route("/contact")
-=======
 @app.route("/contact", methods=["GET", "POST"])
->>>>>>> 3a56ed77fd179ffbe72094f00f27172d0887a0d8
 def contactPage():
     if request.method == "POST":
         contactdata = request.form
